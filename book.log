@@ -1,0 +1,3684 @@
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.8.26)  12 NOV 2014 10:24
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**book.tex
+(./book.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(./LSP/langsci.cls
+
+LaTeX Warning: You have requested document class `LSP/langsci',
+               but the document class provides `langsci'.
+
+Document Class: langsci 2014/03/03 Language Science Press
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrbook.cls
+Document Class: scrbook 2013/12/19 v3.12 KOMA-Script document class (book)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2013/12/19 v3.12 KOMA-Script package (loading files)
+
+Package scrlfile, 2013/12/19 v3.12 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) (/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2013/12/19 v3.12 KOMA-Script package (handling toc-files)
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 117.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 118.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 119.
+Package tocbasic Info: defining new hook before heading of `' on input line 111
+8.
+Class scrbook Info: File `scrsize11pt.clo' used to setup font sizes on input li
+ne 1655.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2013/12/19 v3.12 KOMA-Script font size class option (11pt
+)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2013/12/19 v3.12 KOMA-Script package (type area)
+
+Package typearea, 2013/12/19 v3.12 KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip41
+\ta@div=\count80
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+\footheight=\skip45
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 47.2316pt
+(typearea)              \oddsidemargin  = -12.5192pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1330.
+)
+\c@part=\count81
+\c@chapter=\count82
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@subparagraph=\count87
+\abovecaptionskip=\skip46
+\belowcaptionskip=\skip47
+\c@pti@nb@sid@b@x=\box26
+\c@figure=\count88
+\c@table=\count89
+\bibindent=\dimen102
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count90
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count91
+\Gm@cntv=\count92
+\c@Gm@tempcnt=\count93
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/textpos/textpos.sty
+Package: textpos 2012/11/13 v1.7i
+
+Package: textpos 2012/11/13 1.7i, absolute positioning of text on the page
+(/usr/local/texlive/2013/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)
+\TP@textbox=\box27
+\TP@holdbox=\box28
+\TPHorizModule=\dimen111
+\TPVertModule=\dimen112
+\TP@margin=\dimen113
+\TP@absmargin=\dimen114
+
+Grid set 16 x 16 = 30.23105pt x 42.67912pt
+\TPboxrulesize=\dimen115
+\TP@ox=\dimen116
+\TP@oy=\dimen117
+\TP@tbargs=\toks16
+\TP@prevdepth=\dimen118
+TextBlockOrigin set to 0pt x 0pt
+)
+TextBlockOrigin set to 0mm x 0mm
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pbox/pbox.sty
+Package: pbox 2011/12/07 v1.2 Dynamic parboxes
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count94
+\calc@Bcount=\count95
+\calc@Adimen=\dimen119
+\calc@Bdimen=\dimen120
+\calc@Askip=\skip48
+\calc@Bskip=\skip49
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count96
+\calc@Cskip=\skip50
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\pb@xlen=\skip51
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2013/05/20 v2.3c Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3names.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3bootstrap.sty
+Package: l3bootstrap 2013/01/08 v4420 L3 Experimental bootstrap code
+)
+Package: l3names 2012/12/07 v4346 L3 Namespace for primitives
+)
+Package: expl3 2013/03/14 v4469 L3 Experimental code bundle wrapper
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3basics.sty
+Package: l3basics 2013/01/10 v4428 L3 Basic definitions
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3expan.sty
+Package: l3expan 2013/02/03 v4458 L3 Argument expansion
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3tl.sty
+Package: l3tl 2013/01/08 v4415 L3 Token lists
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3seq.sty
+Package: l3seq 2013/01/12 v4434 L3 Sequences and stacks
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3int.sty
+Package: l3int 2013/01/13 v4444 L3 Integers
+\c_max_int=\count97
+\l_tmpa_int=\count98
+\l_tmpb_int=\count99
+\g_tmpa_int=\count100
+\g_tmpb_int=\count101
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3quark.sty
+Package: l3quark 2012/11/04 v4268 L3 Quarks
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3prg.sty
+Package: l3prg 2013/02/13 v4459 L3 Control structures
+\g__prg_map_int=\count102
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3clist.sty
+Package: l3clist 2013/01/08 v4414 L3 Comma separated lists
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3token.sty
+Package: l3token 2013/01/10 v4428 L3 Experimental token manipulation
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3prop.sty
+Package: l3prop 2013/01/09 v4423 L3 Property lists
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3msg.sty
+Package: l3msg 2013/01/08 v4412 L3 Messages
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3file.sty
+Package: l3file 2013/01/14 v4446 L3 File and I/O operations
+\l_iow_line_count_int=\count103
+\l__iow_target_count_int=\count104
+\l__iow_current_line_int=\count105
+\l__iow_current_word_int=\count106
+\l__iow_current_indentation_int=\count107
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3skip.sty
+Package: l3skip 2013/01/13 v4444 L3 Dimensions and skips
+\c_zero_dim=\dimen121
+\c_max_dim=\dimen122
+\l_tmpa_dim=\dimen123
+\l_tmpb_dim=\dimen124
+\g_tmpa_dim=\dimen125
+\g_tmpb_dim=\dimen126
+\c_zero_skip=\skip52
+\c_max_skip=\skip53
+\l_tmpa_skip=\skip54
+\l_tmpb_skip=\skip55
+\g_tmpa_skip=\skip56
+\g_tmpb_skip=\skip57
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3keys.sty
+Package: l3keys 2013/02/24 v4461 L3 Experimental key-value interfaces
+\g__keyval_level_int=\count108
+\l_keys_choice_int=\count109
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3fp.sty
+Package: l3fp 2013/01/19 v4449 L3 Floating points
+\c__fp_leading_shift_int=\count110
+\c__fp_middle_shift_int=\count111
+\c__fp_trailing_shift_int=\count112
+\c__fp_big_leading_shift_int=\count113
+\c__fp_big_middle_shift_int=\count114
+\c__fp_big_trailing_shift_int=\count115
+\c__fp_Bigg_leading_shift_int=\count116
+\c__fp_Bigg_middle_shift_int=\count117
+\c__fp_Bigg_trailing_shift_int=\count118
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3box.sty
+Package: l3box 2013/01/08 v4411 L3 Experimental boxes
+\c_empty_box=\box29
+\l_tmpa_box=\box30
+\l_tmpb_box=\box31
+\g_tmpa_box=\box32
+\g_tmpb_box=\box33
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3coffins.sty
+Package: l3coffins 2012/09/09 v4212 L3 Coffin code layer
+\l__coffin_internal_box=\box34
+\l__coffin_internal_dim=\dimen127
+\l__coffin_offset_x_dim=\dimen128
+\l__coffin_offset_y_dim=\dimen129
+\l__coffin_x_dim=\dimen130
+\l__coffin_y_dim=\dimen131
+\l__coffin_x_prime_dim=\dimen132
+\l__coffin_y_prime_dim=\dimen133
+\c_empty_coffin=\box35
+\l__coffin_aligned_coffin=\box36
+\l__coffin_aligned_internal_coffin=\box37
+\l_tmpa_coffin=\box38
+\l_tmpb_coffin=\box39
+\l__coffin_display_coffin=\box40
+\l__coffin_display_coord_coffin=\box41
+\l__coffin_display_pole_coffin=\box42
+\l__coffin_display_offset_dim=\dimen134
+\l__coffin_display_x_dim=\dimen135
+\l__coffin_display_y_dim=\dimen136
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3color.sty
+Package: l3color 2012/08/29 v4156 L3 Experimental color support
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3luatex.sty
+Package: l3luatex 2012/08/03 v4049 L3 Experimental LuaTeX-specific functions
+\g__cctab_allocate_int=\count119
+\g__cctab_stack_int=\count120
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3candidates.sty
+Package: l3candidates 2013/03/14 v4468 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen137
+\l__box_bottom_dim=\dimen138
+\l__box_left_dim=\dimen139
+\l__box_right_dim=\dimen140
+\l__box_top_new_dim=\dimen141
+\l__box_bottom_new_dim=\dimen142
+\l__box_left_new_dim=\dimen143
+\l__box_right_new_dim=\dimen144
+\l__box_internal_box=\box43
+\l__coffin_bounding_shift_dim=\dimen145
+\l__coffin_left_corner_dim=\dimen146
+\l__coffin_right_corner_dim=\dimen147
+\l__coffin_bottom_corner_dim=\dimen148
+\l__coffin_top_corner_dim=\dimen149
+\l__coffin_scaled_total_height_dim=\dimen150
+\l__coffin_scaled_width_dim=\dimen151
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2013/03/12 v4467 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count121
+\l__xparse_m_args_int=\count122
+\l__xparse_mandatory_args_int=\count123
+\l__xparse_processor_int=\count124
+\l__xparse_v_nesting_int=\count125
+)
+\l_fontspec_script_int=\count126
+\l_fontspec_language_int=\count127
+\l_fontspec_strnum_int=\count128
+\l_fontspec_tmpa_dim=\dimen152
+\l_fontspec_tmpb_dim=\dimen153
+\l_fontspec_tmpc_dim=\dimen154
+Variant \tl_gset:cV already defined; not changing it on line 69
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fontspec/fontspec-patches.sty
+Package: fontspec-patches 2013/05/20 v2.3c Font selection for XeLaTeX and LuaLa
+TeX
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+LaTeX Info: Redefining \textsubscript on input line 424.
+)
+LaTeX Info: Redefining \em on input line 22.
+LaTeX Info: Redefining \emph on input line 30.
+LaTeX Info: Redefining \- on input line 33.
+
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \oldstylenums with arg. spec. 'm' on line 128.
+*************************************************
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \liningnums with arg. spec. 'm' on line 132.
+.................................................
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2013/05/20 v2.3c Font selection for XeLaTeX and LuaLaTe
+X
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/euenc/eu1enc.def
+File: eu1enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
+)
+LaTeX Font Info:    Try loading font information for EU1+lmr on input line 100.
+
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/euenc/eu1lmr.fd
+File: eu1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+(/usr/local/texlive/2013/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
+other characters in Unicode lower plane
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357
+.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/euenc/eu1lmss.fd
+File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+\tipaTiiicode=\count129
+\tipasavetokens=\toks18
+\tipachecktokens=\toks19
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: xetex.def on input line 91.
+
+(/usr/local/texlive/2013/texmf-dist/tex/xelatex/xetex-def/xetex.def
+File: xetex.def 2013/04/29 v0.96 LaTeX color/graphics driver for XeTeX (RRM/JK)
+
+))
+\Gin@req@height=\dimen155
+\Gin@req@width=\dimen156
+))
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \fontspec with arg. spec. 'O{}m' on line 41.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmainfont with arg. spec. 'O{}m' on line 46.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setsansfont with arg. spec. 'O{}m' on line 51.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmonofont with arg. spec. 'O{}m' on line 56.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathrm with arg. spec. 'O{}m' on line 65.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setboldmathrm with arg. spec. 'O{}m' on line 69.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathsf with arg. spec. 'O{}m' on line 73.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathtt with arg. spec. 'O{}m' on line 77.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontfamily with arg. spec. 'mO{}m' on line 96.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontface with arg. spec. 'mO{}m' on line 100.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \defaultfontfeatures with arg. spec. 'om' on line
+. 108.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \addfontfeatures with arg. spec. 'm' on line 144.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontfeature with arg. spec. 'mm' on line 156.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newAATfeature with arg. spec. 'mmmm' on line 164.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newICUfeature with arg. spec. 'mmm' on line 172.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \aliasfontfeature with arg. spec. 'mm' on line
+. 201.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \aliasfontfeatureoption with arg. spec. 'mmm' on
+. line 203.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontscript with arg. spec. 'mm' on line 208.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontlanguage with arg. spec. 'mm' on line 235.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareFontsExtensions with arg. spec. 'm' on
+. line 256.
+.................................................
+Variant \prop_gput:cnV already defined; not changing it on line 582
+Variant \prop_gput:cnx already defined; not changing it on line 583
+\l_fontspec_tmp_int=\count130
+LaTeX Info: Redefining \itshape on input line 2087.
+LaTeX Info: Redefining \slshape on input line 2092.
+LaTeX Info: Redefining \scshape on input line 2097.
+LaTeX Info: Redefining \upshape on input line 2102.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+\g__file_internal_ior=\read1
+.................................................
+. fontspec info: "set-scale"
+. 
+. Arimo_B.ttf scale = 0.8157925138632163.
+.................................................
+\g_fontspec_family_Arimo_B.ttf_int=\count131
+.................................................
+. fontspec info: "set-scale"
+. 
+. Arimo_B.ttf scale = 0.8157925138632163.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Arimo-Bold_B.ttf scale = 0.8157925138632163.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Arimo-Italic_B.ttf scale = 0.8157925138632163.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Arimo-BoldItalic_B.ttf scale = 0.8157925138632163.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Arimo_B.ttf(0)' created for font 'Arimo_B.ttf' with options [
+. Scale=MatchLowercase, Path=./lsp-fonts/, BoldFont = Arimo-Bold_B.ttf ,
+. ItalicFont = Arimo-Italic_B.ttf , BoldItalicFont = Arimo-BoldItalic_B.ttf ].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[0.8157925138632163]"[./lsp-fonts/Arimo_B.ttf]/ICU:script=latn;language=
+DFLT;"
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->s*[0.8157925138632163]"[./lsp-fonts/Arimo-Bold_B.ttf]/ICU:script=latn;lang
+uage=DFLT;"
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->s*[0.8157925138632163]"[./lsp-fonts/Arimo-Italic_B.ttf]/ICU:script=latn;la
+nguage=DFLT;"
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->s*[0.8157925138632163]"[./lsp-fonts/Arimo-BoldItalic_B.ttf]/ICU:script=lat
+n;language=DFLT;"
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. FreeMono_B.otf scale = 1.0335730098615.
+.................................................
+\g_fontspec_family_FreeMono_B.otf_int=\count132
+.................................................
+. fontspec info: "set-scale"
+. 
+. FreeMono_B.otf scale = 1.0335730098615.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. FreeMonoBold_B.otf scale = 0.9862705662169334.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. FreeMonoOblique_B.otf scale = 1.0335730098615.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. FreeMonoBoldOblique_B.otf scale = 0.9862705662169334.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FreeMono_B.otf(0)' created for font 'FreeMono_B.otf' with
+. options [ Ligatures={TeX},Scale=MatchLowercase,Path=./lsp-fonts/, BoldFont =
+. FreeMonoBold_B.otf , SlantedFont = FreeMonoOblique_B.otf , BoldSlantedFont =
+. FreeMonoBoldOblique_B.otf ].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[1.0335730098615]"[./lsp-fonts/FreeMono_B.otf]/ICU:script=latn;language=
+DFLT;mapping=tex-text;"
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->s*[0.9862705662169334]"[./lsp-fonts/FreeMonoBold_B.otf]/ICU:script=latn;la
+nguage=DFLT;mapping=tex-text;"
+. 
+. * 'sl/' with NFSS spec.:
+. 
+. <->s*[1.0335730098615]"[./lsp-fonts/FreeMonoOblique_B.otf]/ICU:script=latn;la
+nguage=DFLT;mapping=tex-text;"
+. 
+. * 'sl/' with NFSS spec.:
+. 
+. <->s*[0.9862705662169334]"[./lsp-fonts/FreeMonoBoldOblique_B.otf]/ICU:script=
+latn;language=DFLT;mapping=tex-text;"
+.................................................
+\g_fontspec_family_LinLibertine_R_B.otf_int=\count133
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_R_B.otf(0)' created for font
+. 'LinLibertine_R_B.otf' with options [ Ligatures={TeX,Common},
+. Path=./lsp-fonts/, PunctuationSpace=0, Numbers={Proportional}, BoldFont =
+. LinLibertine_RZ_B.otf , ItalicFont = LinLibertine_RI_B.otf , BoldItalicFont
+. = LinLibertine_RZI_B.otf ].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->"[./lsp-fonts/LinLibertine_R_B.otf]/ICU:script=latn;language=DFLT;mapping=
+tex-text;+liga;+pnum;"
+. and font adjustment code:
+. \fontdimen 7\font =0\fontdimen 7\font 
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->"[./lsp-fonts/LinLibertine_R_B.otf]/ICU:script=latn;language=DFLT;mapping=
+tex-text;+liga;+pnum;+smcp;"
+. and font adjustment code:
+. \fontdimen 7\font =0\fontdimen 7\font 
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->"[./lsp-fonts/LinLibertine_RZ_B.otf]/ICU:script=latn;language=DFLT;mapping
+=tex-text;+liga;+pnum;"
+. and font adjustment code:
+. \fontdimen 7\font =0\fontdimen 7\font 
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->"[./lsp-fonts/LinLibertine_RZ_B.otf]/ICU:script=latn;language=DFLT;mapping
+=tex-text;+liga;+pnum;+smcp;"
+. and font adjustment code:
+. \fontdimen 7\font =0\fontdimen 7\font 
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->"[./lsp-fonts/LinLibertine_RI_B.otf]/ICU:script=latn;language=DFLT;mapping
+=tex-text;+liga;+pnum;"
+. and font adjustment code:
+. \fontdimen 7\font =0\fontdimen 7\font 
+. 
+. * 'italic small caps' with NFSS spec.:
+. 
+. <->"[./lsp-fonts/LinLibertine_RI_B.otf]/ICU:script=latn;language=DFLT;mapping
+=tex-text;+liga;+pnum;+smcp;"
+. and font adjustment code:
+. \fontdimen 7\font =0\fontdimen 7\font 
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->"[./lsp-fonts/LinLibertine_RZI_B.otf]/ICU:script=latn;language=DFLT;mappin
+g=tex-text;+liga;+pnum;"
+. and font adjustment code:
+. \fontdimen 7\font =0\fontdimen 7\font 
+.................................................
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
+\MT@toks=\toks20
+\MT@count=\count134
+LaTeX Info: Redefining \textls on input line 766.
+\MT@outer@kern=\dimen157
+LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
+\MT@listname@count=\count135
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/microtype-xetex.def
+File: microtype-xetex.def 2013/05/23 v2.5a Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 254.
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
+))
+Package scrkbase Info: You've told me to redefine the font selection of the
+(scrkbase)             element `sectioning' that is an alias of element
+(scrkbase)             `disposition' on input line 188.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/datetime/datetime.sty
+Package: datetime 2010/09/21 v2.58 Date Time Package
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2012/10/24 v2.02
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+\etb@tempcnta=\count136
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2012/09/28
+\fc@digit@counter=\count137
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks21
+\ex@=\dimen158
+)
+\c@padzeroesN=\count138
+\fc@tmpcatcode=\count139
+\@DT@modctr=\count140
+\@ordinalctr=\count141
+\@orgargctr=\count142
+\@strctr=\count143
+\@tmpstrctr=\count144
+\@DT@loopN=\count145
+\@DT@X=\count146
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2012/06/18
+))
+\@day=\count147
+\@month=\count148
+\@year=\count149
+\c@HOUR=\count150
+\c@HOURXII=\count151
+\c@MINUTE=\count152
+\c@TOHOUR=\count153
+\c@TOMINUTE=\count154
+\c@SECOND=\count155
+\currenthour=\count156
+\currentminute=\count157
+\currentsecond=\count158
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 292.
+\@dtctr=\count159
+\dayofyear=\count160
+\dayofweek=\count161
+LaTeX Info: Redefining \today on input line 724.
+\dt@a=\toks22
+\dt@b=\toks23
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrpage2.sty
+Package: scrpage2 2013/12/19 v3.12 KOMA-Script package (page head and foot)
+LaTeX Info: Redefining \pagemark on input line 174.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip58
+\bibsep=\skip59
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count162
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/index/index.sty
+Package: index 2004/01/20 v4.2beta Improved index support (dmj)
+\@indexbox=\insert233
+\indexproofstyle=\toks24
+)
+\idxtitle@default=\toks25
+\tf@default=\write3
+\openout3 = `book.idx'.
+
+Package index Info: Writing index file book.idx on input line 422.
+\idxtitle@lan=\toks26
+\tf@lan=\write4
+\openout4 = `book.ldx'.
+
+Package index Info: Writing index file book.ldx on input line 423.
+\idxtitle@aut=\toks27
+\tf@aut=\write5
+\openout5 = `book.adx'.
+
+Package index Info: Writing index file book.adx on input line 424.
+\openout3 = `book.idx'.
+
+Package index Info: Writing index file book.idx on input line 425.
+\idxtitle@wrd=\toks28
+\tf@wrd=\write6
+\openout6 = `book.wdx'.
+
+Package index Info: Writing index file book.wdx on input line 426.
+\idxtitle@rwrd=\toks29
+\tf@rwrd=\write7
+\openout7 = `book.rdx'.
+
+Package index Info: Writing index file book.rdx on input line 427.
+Invalid UTF-8 byte or sequence at line 446 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 476 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 476 replaced by U+FFFD.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen159
+\Hy@linkcounter=\count163
+\Hy@pagecounter=\count164
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count165
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4319.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4319.
+Package hyperref Info: Option `hyperindex' set `true' on input line 4319.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4319.
+Package hyperref Info: Option `draft' set `false' on input line 4319.
+Package hyperref Info: Option `plainpages' set `false' on input line 4319.
+Package hyperref Info: Option `pdfusetitle' set `true' on input line 4319.
+
+
+Package hyperref Warning: XeTeX driver only supports unicode.
+(hyperref)                Enabling option `unicode'.
+
+Package hyperref Info: Option `unicode' set `true' on input line 4319.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count166
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen160
+\Fld@menulength=\count167
+\Field@Width=\dimen161
+\Fld@charsize=\dimen162
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count168
+\c@Item=\count169
+\c@Hfootnote=\count170
+)
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2012/11/06 v6.83m Hyperref driver for XeTeX
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/stringenc.sty
+Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box44
+\c@Hy@AnnotLevel=\count171
+\HyField@AnnotCount=\count172
+\Fld@listcount=\count173
+\c@bookmark@seq@number=\count174
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
+(rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
+
+(rerunfilecheck)             Therefore file contents cannot be checked efficien
+tly
+(rerunfilecheck)             and the loading of the package is aborted.
+)
+\Hy@SectionHShift=\skip60
+)
+
+Class scrbook Warning: Change of `\@footnotemark' detected!
+(scrbook)              Use of `footnotes=multiple' may break
+(scrbook)              another package!
+(scrbook)              Maybe you should remove the usage of
+(scrbook)              option `footnotes=multiple' on input line 884.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count175
+\rotFPtop=\skip61
+\rotFPbot=\skip62
+\rot@float@box=\box45
+\rot@mess@toks=\toks30
+)
+Package hyperref Info: Option `unicode' set `true' on input line 961.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/authorindex/authorindex.sty
+Package: authorindex 2005/03/22 make index of authors cited in a work
+)
+Invalid UTF-8 byte or sequence at line 970 replaced by U+FFFD.
+)
+(./LSP/lsp-styles/lsp-gb4e.sty
+
+LaTeX Warning: You have requested package `LSP/lsp-styles/lsp-gb4e',
+               but the package provides `lsp-gb4e'.
+
+Package: lsp-gb4e 2000/09/05
+(./LSP/lsp-styles/lsp-cgloss.sty
+\lineone=\box46
+\linetwo=\box47
+\linethree=\box48
+\wordone=\box49
+\wordtwo=\box50
+\wordthree=\box51
+\gline=\box52
+\glossglue=\skip63
+)
+\c@fnx=\count176
+\@xnumdepth=\count177
+\c@xnumi=\count178
+\c@xnumii=\count179
+\c@xnumiii=\count180
+\c@xnumiv=\count181
+\c@rxnumi=\count182
+\c@rxnumii=\count183
+\c@rxnumiii=\count184
+\c@rxnumiv=\count185
+\lcommentsep=\skip64
+) (./LSP/lsp-styles/avm.sty
+\avmdimen=\dimen163
+\avmboxone=\box53
+\avmboxthree=\box54
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/layout.sty
+Package: layout 2000/09/25 v1.2c Show layout parameters
+\oneinch=\count186
+\cnt@paperwidth=\count187
+\cnt@paperheight=\count188
+\cnt@hoffset=\count189
+\cnt@voffset=\count190
+\cnt@textheight=\count191
+\cnt@textwidth=\count192
+\cnt@topmargin=\count193
+\cnt@oddsidemargin=\count194
+\cnt@evensidemargin=\count195
+\cnt@headheight=\count196
+\cnt@headsep=\count197
+\cnt@marginparsep=\count198
+\cnt@marginparwidth=\count199
+\cnt@marginparpush=\count200
+\cnt@footskip=\count201
+Normal \count register pool exhausted, switching to extended pool.
+\fheight=\count277
+\ref@top=\count278
+\ref@hoffset=\count279
+\ref@voffset=\count280
+\ref@head=\count281
+\ref@body=\count282
+\ref@foot=\count283
+\ref@margin=\count284
+\ref@marginwidth=\count285
+\ref@marginpar=\count286
+\Interval=\count287
+\ExtraYPos=\count288
+\PositionX=\count289
+\PositionY=\count290
+\ArrowLength=\count291
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count292
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count293
+\FV@InFile=\read2
+\FV@TabBox=\box55
+\c@FancyVerbLine=\count294
+\FV@StepNumber=\count295
+\FV@OutFile=\write8
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/qtree/qtree.sty
+Package: 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
+Package: qtree 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2011/04/05 v0.2y Improved picture commands (HjG,RN,JT)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2011/04/05 v0.1t pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: xetex.def on input line 119.
+Package pict2e Info: Driver file for pict2e: p2e-xetex.def on input line 121.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pict2e/p2e-xetex.def
+File: p2e-xetex.def 2011/04/05 v0.1t Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks31
+\@arclen=\dimen164
+\@arcrad=\dimen165
+\@tempdimd=\dimen166
+)
+\c@treecount=\count296
+\c@branchcount=\count297
+\parentbox=\box56
+\treebox=\box57
+\treeboxone=\box58
+\treeboxtwo=\box59
+\treeboxthree=\box60
+\treeboxfour=\box61
+\treeboxfive=\box62
+\treeboxsix=\box63
+\treeboxseven=\box64
+\treeboxeight=\box65
+\treeboxnine=\box66
+\treeboxten=\box67
+\treeboxeleven=\box68
+\treeboxtwelve=\box69
+\treeboxthirteen=\box70
+\treeboxfourteen=\box71
+\treeboxfifteen=\box72
+\treeboxsixteen=\box73
+\treeboxseventeen=\box74
+\treeboxeighteen=\box75
+\treeboxnineteen=\box76
+\treeboxtwenty=\box77
+\treeoffsetone=\skip65
+\treeoffsettwo=\skip66
+\treeoffsetthree=\skip67
+\treeoffsetfour=\skip68
+\treeoffsetfive=\skip69
+\treeoffsetsix=\skip70
+\treeoffsetseven=\skip71
+\treeoffseteight=\skip72
+\treeoffsetnine=\skip73
+\treeoffsetten=\skip74
+\treeoffseteleven=\skip75
+\treeoffsettwelve=\skip76
+\treeoffsetthirteen=\skip77
+\treeoffsetfourteen=\skip78
+\treeoffsetfifteen=\skip79
+\treeoffsetsixteen=\skip80
+\treeoffsetseventeen=\skip81
+\treeoffseteighteen=\skip82
+\treeoffsetnineteen=\skip83
+\treeoffsettwenty=\skip84
+\treeshiftone=\skip85
+\treeshifttwo=\skip86
+\treeshiftthree=\skip87
+\treeshiftfour=\skip88
+\treeshiftfive=\skip89
+\treeshiftsix=\skip90
+\treeshiftseven=\skip91
+\treeshifteight=\skip92
+\treeshiftnine=\skip93
+\treeshiftten=\skip94
+\treeshifteleven=\skip95
+\treeshifttwelve=\skip96
+\treeshiftthirteen=\skip97
+\treeshiftfourteen=\skip98
+\treeshiftfifteen=\skip99
+\treeshiftsixteen=\skip100
+\treeshiftseventeen=\skip101
+\treeshifteighteen=\skip102
+\treeshiftnineteen=\skip103
+\treeshifttwenty=\skip104
+\treewidthone=\skip105
+\treewidthtwo=\skip106
+\treewidththree=\skip107
+\treewidthfour=\skip108
+\treewidthfive=\skip109
+\treewidthsix=\skip110
+\treewidthseven=\skip111
+\treewidtheight=\skip112
+\treewidthnine=\skip113
+\treewidthten=\skip114
+\treewidtheleven=\skip115
+\treewidthtwelve=\skip116
+\treewidththirteen=\skip117
+\treewidthfourteen=\skip118
+\treewidthfifteen=\skip119
+\treewidthsixteen=\skip120
+\treewidthseventeen=\skip121
+\treewidtheighteen=\skip122
+\treewidthnineteen=\skip123
+\treewidthtwenty=\skip124
+\daughteroffsetone=\skip125
+\daughteroffsettwo=\skip126
+\daughteroffsetthree=\skip127
+\daughteroffsetfour=\skip128
+\branchwidthone=\skip129
+\branchwidthtwo=\skip130
+\branchwidththree=\skip131
+\branchwidthfour=\skip132
+\parentoffset=\skip133
+\treeoffset=\skip134
+\daughteroffset=\skip135
+\branchwidth=\skip136
+\parentwidth=\skip137
+\treewidth=\skip138
+\qta=\toks32
+\qtb=\toks33
+\nbranches=\count298
+\qroofx=\count299
+\qroofy=\count300
+\@qrscratchbox=\box78
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip139
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen167
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count301
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count302
+\leftroot@=\count303
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count304
+\DOTSCASE@=\count305
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box79
+\strutbox@=\box80
+\big@size=\dimen168
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count306
+\c@MaxMatrixCols=\count307
+\dotsspace@=\muskip17
+\c@parentequation=\count308
+\dspbrk@lvl=\count309
+\tag@help=\toks34
+\row@=\count310
+\column@=\count311
+\maxfields@=\count312
+\andhelp@=\toks35
+\eqnshift@=\dimen169
+\alignsep@=\dimen170
+\tagshift@=\dimen171
+\tagwidth@=\dimen172
+\totwidth@=\dimen173
+\lineht@=\dimen174
+\@envbody=\toks36
+\multlinegap=\skip140
+\multlinetaggap=\skip141
+\mathdisplay@stack=\toks37
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count313
+\mult@box=\box81
+\multicol@leftmargin=\dimen175
+\c@unbalance=\count314
+\c@collectmore=\count315
+\doublecol@number=\count316
+\multicoltolerance=\count317
+\multicolpretolerance=\count318
+\full@width=\dimen176
+\page@free=\dimen177
+\premulticols=\dimen178
+\postmulticols=\dimen179
+\multicolsep=\skip142
+\multicolbaselineskip=\skip143
+\partial@page=\box82
+\last@line=\box83
+\mult@rightbox=\box84
+\mult@grightbox=\box85
+\mult@gfirstbox=\box86
+\mult@firstbox=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\c@columnbadness=\count319
+\c@finalcolumnbadness=\count320
+\last@try=\dimen180
+\multicolovershoot=\dimen181
+\multicolundershoot=\dimen182
+\mult@nat@firstbox=\box105
+\colbreak@box=\box106
+\multicol@sort@counter=\count321
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/minitoc/minitoc.sty
+Package: minitoc 2008/07/16 v60 Package minitoc (JPFD)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/minitoc/mtcmess.sty
+Package: mtcmess 2006/03/14
+)
+Package minitoc Info: I0001
+(minitoc)             *** minitoc package, version 60 ***.
+\tf@mtc=\write9
+\mtcindent=\skip144
+\mtcskipamount=\skip145
+Package minitoc Info: I0005
+(minitoc)             compatible with hyperref.
+Package minitoc Info: I0023
+(minitoc)             part level macros available.
+Package minitoc Info: I0003
+(minitoc)             chapter level macros available.
+\mtc@toks=\toks38
+\mtc@strutbox=\box107
+\mtc@hstrutbox=\box108
+Package minitoc Info: I0002
+(minitoc)             Autoconfiguration of extensions.
+\openout9 = `book.mtc0'.
+
+\openout9 = `book.mtc'.
+
+ (./book.mtc0)
+Package minitoc Info: I0012
+(minitoc)             Long extensions (Unix-like) will be used.
+Package minitoc Info: I0031
+(minitoc)             ==> this version is configured for UNIX-like 
+(minitoc)                 (long extensions) file names.
+\openout9 = `book.mtc'.
+
+\openout9 = `book.mtc0'.
+
+\c@mtc=\count322
+\c@minitocdepth=\count323
+\c@ptc=\count324
+\c@parttocdepth=\count325
+\ptcindent=\skip146
+Package minitoc Info: I0010
+(minitoc)             The english language is selected.
+(minitoc)              on input line 4910.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/minitoc/english.mld
+File: english.mld 2006/01/13
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/minitoc/english.mld
+File: english.mld 2006/01/13
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count326
+\float@exts=\toks39
+\float@box=\box109
+\@float@everytoks=\toks40
+\@floatcapt=\box110
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip147
+\subfigcapskip=\skip148
+\subfigcaptopadj=\dimen183
+\subfigbottomskip=\skip149
+\subfigcapmargin=\dimen184
+\subfiglabelskip=\skip150
+\c@subfigure=\count327
+\c@lofdepth=\count328
+\c@subtable=\count329
+\c@lotdepth=\count330
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2013/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip151
+\subfig@bottom=\skip152
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/epigraph/epigraph.sty
+Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
+\beforeepigraphskip=\skip153
+\afterepigraphskip=\skip154
+\epigraphwidth=\skip155
+\epigraphrule=\skip156
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks41
+\inpenc@posthook=\toks42
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+)) (./book.aux
+(./summary.aux) (./intro/intro.aux) (./frameworks/frameworks.aux)
+(./intro/intro-part-1.aux) (./basic-strategy/basic-strategy.aux)
+(./graded-membership/graded-membership.aux)
+(./category-combination/category-combination.aux
+
+LaTeX Warning: Label `s:definition-Filter-by-Colour' multiply defined.
+
+) (./achromatic/achromatic.aux) (./intro/intro-part-2.aux)
+(./basic-operators/basic-operators.aux)
+(./graded-membership/learning-operators.aux) (./experiments/experiments.aux)
+(./intro/intro-part-3.aux) (./selection/selection.aux)
+(./composition/composition.aux) (./conclusion/conclusion.aux)
+
+LaTeX Warning: Label `s:conclusion' multiply defined.
+
+(./spaces/spaces.aux))
+\openout1 = `book.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 72.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 72.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tipa/t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(56.9055pt, 355.65945pt, 71.13188pt)
+* v-part:(T,H,B)=(77.96053pt, 522.96085pt, 81.94476pt)
+* \paperwidth=483.69684pt
+* \paperheight=682.86613pt
+* \textwidth=355.65945pt
+* \textheight=522.96085pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-31.70947pt
+* \headheight=17.0pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=47.6pt
+* \marginparwidth=50.0pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ABD: EveryShipout initializing macros
+*** you should *not* be loading the inputenc package
+*** XeTeX expects the source to be in UTF8 encoding
+*** some features of other encodings may conflict, resulting in poor output.
+.................................................
+. fontspec info: "setup-math"
+. 
+. Adjusting the maths setup (use [no-math] to avoid this).
+.................................................
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 72.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 72.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 72.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 72.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 72.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 72.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 72.
+LaTeX Font Info:    Redeclaring math accent \check on input line 72.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 72.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 72.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 72.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 72.
+LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 72.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> EU1/LinLibertine_R_B.otf(0)/m/n on inpu
+t line 72.
+LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 72.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> EU1/LinLibertine_R_B.otf(0)/m/n on inp
+ut line 72.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  EU1/LinLibertine_R_B.otf(0)/m/n --> EU1/LinLibertine_R_
+B.otf(0)/m/n on input line 72.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  EU1/LinLibertine_R_B.otf(0)/m/n --> EU1/LinLibertine_R_
+B.otf(0)/m/n on input line 72.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> EU1/LinLibertine_R_B.otf(0)/m/it on in
+put line 72.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> EU1/LinLibertine_R_B.otf(0)/bx/n on in
+put line 72.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> EU1/Arimo_B.ttf(0)/m/n on input line 7
+2.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> EU1/FreeMono_B.otf(0)/m/n on input lin
+e 72.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  EU1/LinLibertine_R_B.otf(0)/m/n --> EU1/LinLibertine_R_
+B.otf(0)/bx/n on input line 72.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  EU1/LinLibertine_R_B.otf(0)/m/n --> EU1/LinLibertine_R_
+B.otf(0)/bx/n on input line 72.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> EU1/LinLibertine_R_B.otf(0)/bx/it on 
+input line 72.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> EU1/Arimo_B.ttf(0)/bx/n on input line
+ 72.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> EU1/FreeMono_B.otf(0)/bx/n on input li
+ne 72.
+LaTeX Info: Redefining \microtypecontext on input line 72.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `LinLibertine_R_B.otf' (encoding: EU1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+\AtBeginShipoutBox=\box111
+Package hyperref Info: Link coloring OFF on input line 72.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count331
+)
+LaTeX Info: Redefining \ref on input line 72.
+LaTeX Info: Redefining \pageref on input line 72.
+LaTeX Info: Redefining \nameref on input line 72.
+
+(./book.out) (./book.out)
+\@outlinefile=\write10
+\openout10 = `book.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+\c@minilofdepth=\count332
+\c@minilotdepth=\count333
+\c@partlofdepth=\count334
+\c@partlotdepth=\count335
+\c@sectlofdepth=\count336
+\c@sectlotdepth=\count337
+Package minitoc(hints) Info: I0049
+(minitoc(hints))             ==> You requested the hints option. 
+(minitoc(hints))             Some hints are eventually given below.
+Package minitoc(hints) Info: I0043
+(minitoc(hints))             --- The KOMAScript scrbook class is loaded. 
+(minitoc(hints))             See the minitoc package documentation 
+(minitoc(hints))             for specific precautions.
+
+Package minitoc(hints) Warning: W0030
+(minitoc(hints))                --- The \part command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+
+Package minitoc(hints) Warning: W0028
+(minitoc(hints))                --- The \chapter command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+LaTeX Font Info:    Font shape `EU1/Arimo_B.ttf(0)/m/n' will be
+(Font)              scaled to size 8.93295pt on input line 74.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `Arimo_B.ttf' (encoding: EU1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+.................................................
+. fontspec info: "set-scale"
+. 
+. Arimo_B.ttf scale = 0.8120079233408858.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Arimo_B.ttf scale = 0.9564119235264212.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Arimo_B.ttf scale = 0.8120079233408858.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Arimo_B.ttf scale = 0.9564119235264212.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Arimo-Bold_B.ttf scale = 0.8120079233408858.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Arimo-Bold_B.ttf scale = 0.9564119235264212.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Arimo-Italic_B.ttf scale = 0.8120079233408858.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Arimo-Italic_B.ttf scale = 0.9564119235264212.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Arimo-BoldItalic_B.ttf scale = 0.8120079233408858.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Arimo-BoldItalic_B.ttf scale = 0.9564119235264212.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Arimo_B.ttf(1)' created for font 'Arimo_B.ttf' with options [
+. Scale=MatchLowercase, Path=./lsp-fonts/, BoldFont = Arimo-Bold_B.ttf ,
+. ItalicFont = Arimo-Italic_B.ttf , BoldItalicFont = Arimo-BoldItalic_B.ttf
+. ,Scale=MatchUppercase].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[0.9564119235264212]"[./lsp-fonts/Arimo_B.ttf]/ICU:script=latn;language=
+DFLT;"
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->s*[0.9564119235264212]"[./lsp-fonts/Arimo-Bold_B.ttf]/ICU:script=latn;lang
+uage=DFLT;"
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->s*[0.9564119235264212]"[./lsp-fonts/Arimo-Italic_B.ttf]/ICU:script=latn;la
+nguage=DFLT;"
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->s*[0.9564119235264212]"[./lsp-fonts/Arimo-BoldItalic_B.ttf]/ICU:script=lat
+n;language=DFLT;"
+.................................................
+LaTeX Font Info:    Font shape `EU1/Arimo_B.ttf(1)/m/n' will be
+(Font)              scaled to size 10.47263pt on input line 74.
+LaTeX Font Info:    Font shape `EU1/Arimo_B.ttf(1)/m/n' will be
+(Font)              scaled to size 49.7331pt on input line 74.
+LaTeX Font Info:    Font shape `EU1/Arimo_B.ttf(0)/m/n' will be
+(Font)              scaled to size 13.86853pt on input line 74.
+File: ./lsp-logos/langsci_logo_nocolor.pdf Graphic file (type QTm)
+<use  "./lsp-logos/langsci_logo_nocolor.pdf" >
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
+
+)
+[-5
+
+
+
+]
+.................................................
+. fontspec info: "set-scale"
+. 
+. Arimo_B.ttf scale = 0.8120079233408858.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Arimo_B.ttf scale = 0.9564119235264212.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Arimo_B.ttf(1)' created for font 'Arimo_B.ttf' with options [
+. Scale=MatchLowercase, Path=./lsp-fonts/, BoldFont = Arimo-Bold_B.ttf ,
+. ItalicFont = Arimo-Italic_B.ttf , BoldItalicFont = Arimo-BoldItalic_B.ttf
+. ,Scale=MatchUppercase].
+. 
+. This font family consists of the following shapes:
+.................................................
+LaTeX Font Info:    Font shape `EU1/Arimo_B.ttf(1)/m/n' will be
+(Font)              scaled to size 23.91014pt on input line 74.
+
+Overfull \hbox (0.74268pt too wide) in paragraph at lines 74--74
+\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 ized in agent-based models. Four differe
+nt language strategies are explored:
+ []
+
+[-4]
+LaTeX Font Info:    Try loading font information for U+msa on input line 74.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 74.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+File: ./lsp-logos/langsci_spinelogo_nocolor.pdf Graphic file (type QTm)
+
+<use  "./lsp-logos/langsci_spinelogo_nocolor.pdf" >
+LaTeX Font Info:    Font shape `EU1/Arimo_B.ttf(0)/m/n' will be
+(Font)              scaled to size 13.05273pt on input line 74.
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_R_B.otf(1)' created for font
+. 'LinLibertine_R_B.otf' with options [ Ligatures={TeX,Common},
+. Path=./lsp-fonts/, PunctuationSpace=0, Numbers={Proportional}, BoldFont =
+. LinLibertine_RZ_B.otf , ItalicFont = LinLibertine_RI_B.otf , BoldItalicFont
+. = LinLibertine_RZI_B.otf ,Numbers=Lining].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->"[./lsp-fonts/LinLibertine_R_B.otf]/ICU:script=latn;language=DFLT;mapping=
+tex-text;+liga;+pnum;+lnum;"
+. and font adjustment code:
+. \fontdimen 7\font =0\fontdimen 7\font 
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->"[./lsp-fonts/LinLibertine_R_B.otf]/ICU:script=latn;language=DFLT;mapping=
+tex-text;+liga;+pnum;+lnum;+smcp;"
+. and font adjustment code:
+. \fontdimen 7\font =0\fontdimen 7\font 
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->"[./lsp-fonts/LinLibertine_RZ_B.otf]/ICU:script=latn;language=DFLT;mapping
+=tex-text;+liga;+pnum;+lnum;"
+. and font adjustment code:
+. \fontdimen 7\font =0\fontdimen 7\font 
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->"[./lsp-fonts/LinLibertine_RZ_B.otf]/ICU:script=latn;language=DFLT;mapping
+=tex-text;+liga;+pnum;+lnum;+smcp;"
+. and font adjustment code:
+. \fontdimen 7\font =0\fontdimen 7\font 
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->"[./lsp-fonts/LinLibertine_RI_B.otf]/ICU:script=latn;language=DFLT;mapping
+=tex-text;+liga;+pnum;+lnum;"
+. and font adjustment code:
+. \fontdimen 7\font =0\fontdimen 7\font 
+. 
+. * 'italic small caps' with NFSS spec.:
+. 
+. <->"[./lsp-fonts/LinLibertine_RI_B.otf]/ICU:script=latn;language=DFLT;mapping
+=tex-text;+liga;+pnum;+lnum;+smcp;"
+. and font adjustment code:
+. \fontdimen 7\font =0\fontdimen 7\font 
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->"[./lsp-fonts/LinLibertine_RZI_B.otf]/ICU:script=latn;language=DFLT;mappin
+g=tex-text;+liga;+pnum;+lnum;"
+. and font adjustment code:
+. \fontdimen 7\font =0\fontdimen 7\font 
+.................................................
+LaTeX Font Info:    Calculating math sizes for size <16> on input line 74.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16> not available
+(Font)              size <17.28> substituted on input line 74.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 74.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 74.
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_R_B.otf(1)' created for font
+. 'LinLibertine_R_B.otf' with options [ Ligatures={TeX,Common},
+. Path=./lsp-fonts/, PunctuationSpace=0, Numbers={Proportional}, BoldFont =
+. LinLibertine_RZ_B.otf , ItalicFont = LinLibertine_RI_B.otf , BoldItalicFont
+. = LinLibertine_RZI_B.otf ,Numbers=Lining].
+. 
+. This font family consists of the following shapes:
+.................................................
+[-3]
+LaTeX Font Info:    Font shape `EU1/Arimo_B.ttf(0)/m/n' will be
+(Font)              scaled to size 8.15796pt on input line 74.
+ (./lsp-seriesinfo/cmle-info.tex
+LaTeX Font Info:    Font shape `EU1/Arimo_B.ttf(0)/m/n' will be
+(Font)              scaled to size 9.78955pt on input line 3.
+) [-2]
+.................................................
+. fontspec info: "set-scale"
+. 
+. Arimo_B.ttf scale = 0.8120079233408858.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Arimo_B.ttf scale = 0.9564119235264212.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Arimo_B.ttf(1)' created for font 'Arimo_B.ttf' with options [
+. Scale=MatchLowercase, Path=./lsp-fonts/, BoldFont = Arimo-Bold_B.ttf ,
+. ItalicFont = Arimo-Italic_B.ttf , BoldItalicFont = Arimo-BoldItalic_B.ttf
+. ,Scale=MatchUppercase].
+. 
+. This font family consists of the following shapes:
+.................................................
+File: ./lsp-logos/langsci_logo_nocolor.pdf Graphic file (type QTm)
+
+<use  "./lsp-logos/langsci_logo_nocolor.pdf" > [1
+
+
+]
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 74.
+
+Missing character: There is no ཋ in font [./lsp-fonts/LinLibertine_R_B.otf]/ICU
+:script=latn;language=DFLT;mapping=tex-text;+liga;+pnum;!
+File: ./lsp-logos/FULogo_sw_CMYK.pdf Graphic file (type QTm)
+<use  "./lsp-logos/FULogo_sw_CMYK.pdf" > [2]
+\openout2 = `summary.aux'.
+
+ (./summary.tex
+Overfull \hbox (6.35388pt too wide) in paragraph at lines 30--50
+[]\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 Four different language strategies are
+ explored: the basic colour strategy (“blue”),
+ []
+
+LaTeX Font Info:    Font shape `EU1/LinLibertine_R_B.otf(0)/m/sl' in size <10.9
+5> not available
+(Font)              Font shape `EU1/LinLibertine_R_B.otf(0)/m/it' tried instead
+ on input line 50.
+[3
+
+
+
+] [4]) [5] [6]
+Package tocbasic Info: character protrusion at toc deactivated on input line 79
+.
+ (./book.toc [7
+
+
+
+] [8] [9] [10] [11])
+\tf@toc=\write11
+\openout11 = `book.toc'.
+
+ [12] [1
+
+
+
+
+] [2]
+\openout2 = `intro/intro.aux'.
+
+
+(./intro/intro.tex
+Chapter 1.
+
+Class scrbook Warning: \float@addtolists detected!
+(scrbook)              Implementation of \float@addtolist became
+(scrbook)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrbook)              has been replaced by more several more flexible
+(scrbook)              features of package `tocbasic`.
+(scrbook)              Since Version 3.12 support for deprecated
+(scrbook)              \float@addtolist interface has been
+(scrbook)              restricted to only some of the KOMA-Script
+(scrbook)              features and been removed from others.
+(scrbook)              Loading of package `scrhack' may help to
+(scrbook)              avoid this warning, if you are using a
+(scrbook)              a package that still implements the
+(scrbook)              deprecated \float@addtolist interface .
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_R_B.otf(1)' created for font
+. 'LinLibertine_R_B.otf' with options [ Ligatures={TeX,Common},
+. Path=./lsp-fonts/, PunctuationSpace=0, Numbers={Proportional}, BoldFont =
+. LinLibertine_RZ_B.otf , ItalicFont = LinLibertine_RI_B.otf , BoldItalicFont
+. = LinLibertine_RZI_B.otf ,Numbers=Lining].
+. 
+. This font family consists of the following shapes:
+.................................................
+[3
+
+
+
+] [4]
+Missing character: There is no ⒴ in font [./lsp-fonts/LinLibertine_R_B.otf]/ICU
+:script=latn;language=DFLT;mapping=tex-text;+liga;+pnum;!
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_R_B.otf(1)' created for font
+. 'LinLibertine_R_B.otf' with options [ Ligatures={TeX,Common},
+. Path=./lsp-fonts/, PunctuationSpace=0, Numbers={Proportional}, BoldFont =
+. LinLibertine_RZ_B.otf , ItalicFont = LinLibertine_RI_B.otf , BoldItalicFont
+. = LinLibertine_RZI_B.otf ,Numbers=Lining].
+. 
+. This font family consists of the following shapes:
+.................................................
+Missing character: There is no ␊ in font [./lsp-fonts/LinLibertine_R_B.otf]/ICU
+:script=latn;language=DFLT;mapping=tex-text;+liga;+pnum;!
+File: ./intro/figures/number-bcts.pdf Graphic file (type QTm)
+ <use  "./intro/figures/number-bcts.pdf" > [5]
+File: ./intro/figures/tarahumara.pdf Graphic file (type QTm)
+
+<use  "./intro/figures/tarahumara.pdf" > [6] [7]
+File: ./intro/figures/category-combination.pdf Graphic file (type QTm)
+
+<use  "./intro/figures/category-combination.pdf" > [8]
+File: ./intro/figures/russian-diagram.pdf Graphic file (type QTm)
+
+<use  "./intro/figures/russian-diagram.pdf" > [9] [10]
+File: ./intro/figures/semiotic-cycle.pdf Graphic file (type QTm)
+
+<use  "./intro/figures/semiotic-cycle.pdf" > [11]
+Overfull \hbox (5.80276pt too wide) in paragraph at lines 359--368
+[]\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 In the \EU1/LinLibertine_R_B.otf(0)/m/
+it/10.95 Grounded Colour Naming Game[][] \EU1/LinLibertine_R_B.otf(0)/m/n/10.95
+ (see Section []9.3[]), embodied agents (robots)
+ []
+
+Missing character: There is no ८ in font [./lsp-fonts/LinLibertine_R_B.otf]/ICU
+:script=latn;language=DFLT;mapping=tex-text;+liga;+pnum;!
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_R_B.otf(1)' created for font
+. 'LinLibertine_R_B.otf' with options [ Ligatures={TeX,Common},
+. Path=./lsp-fonts/, PunctuationSpace=0, Numbers={Proportional}, BoldFont =
+. LinLibertine_RZ_B.otf , ItalicFont = LinLibertine_RI_B.otf , BoldItalicFont
+. = LinLibertine_RZI_B.otf ,Numbers=Lining].
+. 
+. This font family consists of the following shapes:
+.................................................
+Missing character: There is no ⎋ in font [./lsp-fonts/LinLibertine_R_B.otf]/ICU
+:script=latn;language=DFLT;mapping=tex-text;+liga;+pnum;!
+[12] [13]
+File: ./intro/figures/history-yellow.pdf Graphic file (type QTm)
+ <use  "./intro/figures/history-yellow.pdf" > [14] [15]) [16]
+\openout2 = `frameworks/frameworks.aux'.
+
+
+(./frameworks/frameworks.tex
+Chapter 2.
+[17
+
+
+
+
+] [18]
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 140.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 142.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 145.
+
+File: ./frameworks/figures/context.pdf Graphic file (type QTm)
+<use  "./frameworks/figures/context.pdf" >
+File: ./frameworks/figures/network.pdf Graphic file (type QTm)
+
+<use  "./frameworks/figures/network.pdf" >
+Overfull \hbox (5.475pt too wide) in paragraph at lines 155--163
+ [][] 
+ []
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 175.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 176.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 178.
+
+[19] [20]
+File: ./frameworks/figures/more-complex-context.pdf Graphic file (type QTm)
+ <use  "./frameworks/figures/more-complex-context.pdf" >
+File: ./frameworks/figures/more-complex-network.pdf Graphic file (type QTm)
+
+<use  "./frameworks/figures/more-complex-network.pdf" >
+Overfull \hbox (5.475pt too wide) in paragraph at lines 187--196
+ [][] 
+ []
+
+[21]
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 232.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 234.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 240.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 246.
+
+File: ./frameworks/figures/network-conceptualisation.pdf Graphic file (type QTm
+)
+<use  "./frameworks/figures/network-conceptualisation.pdf" >
+File: ./frameworks/figures/evaluation.pdf Graphic file (type QTm)
+
+<use  "./frameworks/figures/evaluation.pdf" >
+Overfull \hbox (5.475pt too wide) in paragraph at lines 257--267
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 14.75526pt on input line 269.
+
+[22] [23]
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 281.
+
+
+Overfull \hbox (14.71951pt too wide) in paragraph at lines 278--285
+\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 parsed after hearing a sentence like “th
+e wabado ball”. Due to the omni-directionality
+ []
+
+File: ./frameworks/figures/network-learning.pdf Graphic file (type QTm)
+<use  "./frameworks/figures/network-learning.pdf" >
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 295.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 295.
+
+[24]
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 321.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 321.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 322.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 322.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 327.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 330.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 330.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 330.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 338.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 338.
+
+File: ./frameworks/figures/conceptualisation.pdf Graphic file (type QTm)
+<use  "./frameworks/figures/conceptualisation.pdf" >
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 352.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 352.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 352.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 352.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 352.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 352.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 352.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 352.
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 352--352
+\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 of four primitives: \EU1/LinLibertine_R_
+B.otf(0)/m/sc/10.95 Equal-to-Context\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 , \E
+U1/LinLibertine_R_B.otf(0)/m/sc/10.95 Filter-Set-Prototype\EU1/LinLibertine_R_B
+.otf(0)/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (10.15451pt too wide) in paragraph at lines 362--368
+\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 Earlier research on automatic programmin
+g in knowledge systems (see e.g. []Barstow[]
+ []
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 388.
+
+[25] [26]
+LaTeX Font Info:    Font shape `EU1/FreeMono_B.otf(0)/m/n' will be
+(Font)              scaled to size 11.31757pt on input line 399.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `FreeMono_B.otf' (encoding: EU1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [27] [28]
+File: ./frameworks/figures/fcg-search.pdf Graphic file (type QTm)
+ <use  "./frameworks/figures/fcg-search.pdf" > [29]
+LaTeX Font Info:    Font shape `EU1/FreeMono_B.otf(0)/m/n' will be
+(Font)              scaled to size 8.26855pt on input line 529.
+File: ./frameworks/figures/cfs-le-ballon.pdf Graphic file (type QTm)
+
+<use  "./frameworks/figures/cfs-le-ballon.pdf" > [30]
+File: ./frameworks/figures/fcg-rule-application.pdf Graphic file (type QTm)
+
+<use  "./frameworks/figures/fcg-rule-application.pdf" >
+LaTeX Font Info:    Font shape `EU1/FreeMono_B.otf(0)/m/n' will be
+(Font)              scaled to size 9.30212pt on input line 620.
+ [31] [32] [33]
+File: ./frameworks/figures/nounadj-application.pdf Graphic file (type QTm)
+
+<use  "./frameworks/figures/nounadj-application.pdf" >
+
+LaTeX Warning: Float too large for page by 28.0889pt on input line 716.
+
+[34] [35] [36] [37]) [38] [39
+
+
+
+] [40]
+\openout2 = `intro/intro-part-1.aux'.
+
+ (./intro/intro-part-1.tex [41
+
+])
+\openout2 = `basic-strategy/basic-strategy.aux'.
+
+
+(./basic-strategy/basic-strategy.tex [42
+
+
+
+
+]
+Chapter 3.
+[43]
+File: ./basic-strategy/figures/sturges-consensus-chips.pdf Graphic file (type Q
+Tm)
+ <use  "./basic-strategy/figures/sturges-consensus-chips.pdf" >
+File: ./basic-strategy/figures/language-game-models-comparison.pdf Graphic file
+ (type QTm)
+
+<use  "./basic-strategy/figures/language-game-models-comparison.pdf" > [44]
+[45] [46]
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 197.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 199.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 201.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 204.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 208.
+
+[47]
+File: ./basic-strategy/figures/semantics-interpretation.pdf Graphic file (type 
+QTm)
+ <use  "./basic-strategy/figures/semantics-interpretation.pdf" >
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 226.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 226.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 226.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 226.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 226.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 226.
+
+[48]
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 266.
+
+
+Class scrbook Warning: Usage of deprecated font command `\sc'!
+(scrbook)              You should note, that in 1994 font command `\sc' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\sc' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrbook)              by `\normalfont \scshape ' on input line 267.
+
+[49]
+File: ./basic-strategy/figures/linguistic-structure.pdf Graphic file (type QTm)
+
+ <use  "./basic-strategy/figures/linguistic-structure.pdf" > [50] [51]
+[52] [53]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_R_B.otf(1)' created for font
+. 'LinLibertine_R_B.otf' with options [ Ligatures={TeX,Common},
+. Path=./lsp-fonts/, PunctuationSpace=0, Numbers={Proportional}, BoldFont =
+. LinLibertine_RZ_B.otf , ItalicFont = LinLibertine_RI_B.otf , BoldItalicFont
+. = LinLibertine_RZI_B.otf ,Numbers=Lining].
+. 
+. This font family consists of the following shapes:
+.................................................
+File: ./basic-strategy/figures/baseline.pdf Graphic file (type QTm)
+ <use  "./basic-strategy/figures/baseline.pdf" > [54] [55]
+File: ./basic-strategy/figures/baseline-failure-context.pdf Graphic file (type 
+QTm)
+
+<use  "./basic-strategy/figures/baseline-failure-context.pdf" >) [56]
+\openout2 = `graded-membership/graded-membership.aux'.
+
+
+(./graded-membership/graded-membership.tex
+Chapter 4.
+File: ./graded-membership/figures/burgress-tarahumara.pdf Graphic file (type QT
+m)
+<use  "./graded-membership/figures/burgress-tarahumara.pdf" > [57
+
+
+
+
+] [58]
+File: ./graded-membership/figures/semantics-schematic.pdf Graphic file (type QT
+m)
+
+<use  "./graded-membership/figures/semantics-schematic.pdf" > [59] [60]
+File: ./graded-membership/figures/semantic-program.pdf Graphic file (type QTm)
+
+<use  "./graded-membership/figures/semantic-program.pdf" > [61]
+Underfull \hbox (badness 10000) in paragraph at lines 222--225
+[]\EU1/FreeMono_B.otf(0)/m/n/10.95 ?membership-category \EU1/LinLibertine_R_B.o
+tf(0)/m/n/10.95 (of type membership-
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 228--235
+[][]\EU1/FreeMono_B.otf(0)/m/n/10.95 ?source-set\EU1/LinLibertine_R_B.otf(0)/m/
+n/10.95 : categorises each entity in the source
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 228--235
+\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 turns pair-wise bindings for []\EU1/Free
+Mono_B.otf(0)/m/n/10.95 membership-category
+ []
+
+[62] [63]
+File: ./graded-membership/figures/linguistic-structure.pdf Graphic file (type Q
+Tm)
+ <use  "./graded-membership/figures/linguistic-structure.pdf" >
+
+LaTeX Warning: Float too large for page by 29.55807pt on input line 332.
+
+[64] [65] [66] [67]
+File: ./graded-membership/figures/tarahumara-basic-categories.pdf Graphic file 
+(type QTm)
+
+<use  "./graded-membership/figures/tarahumara-basic-categories.pdf" >
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_R_B.otf(1)' created for font
+. 'LinLibertine_R_B.otf' with options [ Ligatures={TeX,Common},
+. Path=./lsp-fonts/, PunctuationSpace=0, Numbers={Proportional}, BoldFont =
+. LinLibertine_RZ_B.otf , ItalicFont = LinLibertine_RI_B.otf , BoldItalicFont
+. = LinLibertine_RZI_B.otf ,Numbers=Lining].
+. 
+. This font family consists of the following shapes:
+.................................................
+File: ./graded-membership/figures/sita.pdf Graphic file (type QTm)
+
+<use  "./graded-membership/figures/sita.pdf" >
+File: ./graded-membership/figures/sawaro.pdf Graphic file (type QTm)
+
+<use  "./graded-membership/figures/sawaro.pdf" >
+File: ./graded-membership/figures/sita-kame.pdf Graphic file (type QTm)
+
+<use  "./graded-membership/figures/sita-kame.pdf" >
+File: ./graded-membership/figures/sawaro-kame.pdf Graphic file (type QTm)
+
+<use  "./graded-membership/figures/sawaro-kame.pdf" >
+File: ./graded-membership/figures/sita-name.pdf Graphic file (type QTm)
+
+<use  "./graded-membership/figures/sita-name.pdf" >
+File: ./graded-membership/figures/sawaro-name.pdf Graphic file (type QTm)
+
+<use  "./graded-membership/figures/sawaro-name.pdf" >
+File: ./graded-membership/figures/sita-nanti.pdf Graphic file (type QTm)
+
+<use  "./graded-membership/figures/sita-nanti.pdf" >
+File: ./graded-membership/figures/sawaro-nanti.pdf Graphic file (type QTm)
+
+<use  "./graded-membership/figures/sawaro-nanti.pdf" >
+
+LaTeX Warning: Float too large for page by 36.29039pt on input line 562.
+
+File: ./graded-membership/figures/baseline.pdf Graphic file (type QTm)
+<use  "./graded-membership/figures/baseline.pdf" > [68] [69] [70]) [71]
+\openout2 = `category-combination/category-combination.aux'.
+
+
+(./category-combination/category-combination.tex [72
+
+
+
+
+]
+Chapter 5.
+File: ./category-combination/figures/russian-combination.pdf Graphic file (type
+ QTm)
+<use  "./category-combination/figures/russian-combination.pdf" > [73] [74]
+[75]
+File: ./category-combination/figures/semantics-before-transformation.pdf Graphi
+c file (type QTm)
+
+<use  "./category-combination/figures/semantics-before-transformation.pdf" >
+File: ./category-combination/figures/semantics-transformed.pdf Graphic file (ty
+pe QTm)
+
+<use  "./category-combination/figures/semantics-transformed.pdf" > [76]
+[77]
+Overfull \hbox (3.194pt too wide) in paragraph at lines 230--234
+\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 The selection process is based on the id
+ea that each categorisation process changes
+ []
+
+[78]
+File: ./category-combination/figures/semantic-program.pdf Graphic file (type QT
+m)
+ <use  "./category-combination/figures/semantic-program.pdf" > [79]
+Underfull \hbox (badness 1184) in paragraph at lines 326--333
+[][]\EU1/FreeMono_B.otf(0)/m/n/10.95 ?category ?category-set\EU1/LinLibertine_R
+_B.otf(0)/m/n/10.95 : draws all categories
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--333
+\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 in the category set towards []\EU1/FreeM
+ono_B.otf(0)/m/n/10.95 ?category \EU1/LinLibertine_R_B.otf(0)/m/n/10.95 bound t
+o
+ []
+
+[80]
+File: ./category-combination/figures/linguistic-structure.pdf Graphic file (typ
+e QTm)
+ <use  "./category-combination/figures/linguistic-structure.pdf" >
+
+LaTeX Warning: Float too large for page by 23.91725pt on input line 380.
+
+[81] [82] [83] [84]
+File: ./category-combination/figures/russian-basic-categories.pdf Graphic file 
+(type QTm)
+
+<use  "./category-combination/figures/russian-basic-categories.pdf" >
+File: ./category-combination/figures/russian-compounds.pdf Graphic file (type Q
+Tm)
+
+<use  "./category-combination/figures/russian-compounds.pdf" > [85]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_R_B.otf(1)' created for font
+. 'LinLibertine_R_B.otf' with options [ Ligatures={TeX,Common},
+. Path=./lsp-fonts/, PunctuationSpace=0, Numbers={Proportional}, BoldFont =
+. LinLibertine_RZ_B.otf , ItalicFont = LinLibertine_RI_B.otf , BoldItalicFont
+. = LinLibertine_RZI_B.otf ,Numbers=Lining].
+. 
+. This font family consists of the following shapes:
+.................................................
+File: ./category-combination/figures/baseline.pdf Graphic file (type QTm)
+
+<use  "./category-combination/figures/baseline.pdf" > [86] [87] [88])
+\openout2 = `achromatic/achromatic.aux'.
+
+
+(./achromatic/achromatic.tex
+Chapter 6.
+File: ./achromatic/figures/russian-diagram.pdf Graphic file (type QTm)
+<use  "./achromatic/figures/russian-diagram.pdf" > [89
+
+
+
+
+] [90]
+File: ./achromatic/figures/semantics-achromatic.pdf Graphic file (type QTm)
+
+<use  "./achromatic/figures/semantics-achromatic.pdf" >
+File: ./achromatic/figures/semantics-basic-categories.pdf Graphic file (type QT
+m)
+
+<use  "./achromatic/figures/semantics-basic-categories.pdf" >
+File: ./achromatic/figures/semantics-achromatic-transformed.pdf Graphic file (t
+ype QTm)
+
+<use  "./achromatic/figures/semantics-achromatic-transformed.pdf" > [91]
+[92] [93]
+File: ./achromatic/figures/semantic-program.pdf Graphic file (type QTm)
+ <use  "./achromatic/figures/semantic-program.pdf" > [94]
+Underfull \hbox (badness 1377) in paragraph at lines 276--279
+[][]\EU1/FreeMono_B.otf(0)/m/n/10.95 ?category ?category-set\EU1/LinLibertine_R
+_B.otf(0)/m/n/10.95 : scales all categories
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--279
+\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 in the category set towards []\EU1/FreeM
+ono_B.otf(0)/m/n/10.95 ?category \EU1/LinLibertine_R_B.otf(0)/m/n/10.95 bound t
+o
+ []
+
+File: ./achromatic/figures/linguistic-structure.pdf Graphic file (type QTm)
+<use  "./achromatic/figures/linguistic-structure.pdf" >
+
+LaTeX Warning: Float too large for page by 30.10283pt on input line 298.
+
+[95] [96]
+File: ./achromatic/figures/russian-modified-foci.pdf Graphic file (type QTm)
+ <use  "./achromatic/figures/russian-modified-foci.pdf" >
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_R_B.otf(1)' created for font
+. 'LinLibertine_R_B.otf' with options [ Ligatures={TeX,Common},
+. Path=./lsp-fonts/, PunctuationSpace=0, Numbers={Proportional}, BoldFont =
+. LinLibertine_RZ_B.otf , ItalicFont = LinLibertine_RI_B.otf , BoldItalicFont
+. = LinLibertine_RZI_B.otf ,Numbers=Lining].
+. 
+. This font family consists of the following shapes:
+.................................................
+ [97]
+[98]
+File: ./achromatic/figures/baseline.pdf Graphic file (type QTm)
+ <use  "./achromatic/figures/baseline.pdf" >) [99] [100] [101
+
+
+
+] [102]
+\openout2 = `intro/intro-part-2.aux'.
+
+
+(./intro/intro-part-2.tex
+File: ./intro/figures/strategies-1.pdf Graphic file (type QTm)
+ <use  "./intro/figures/strategies-1.pdf" >) [103
+
+]
+[104]
+\openout2 = `basic-operators/basic-operators.aux'.
+
+ (./basic-operators/basic-operators.tex
+Chapter 7.
+[105
+
+
+
+
+]
+File: ./basic-operators/figures/alignment-rate.pdf Graphic file (type QTm)
+ <use  "./basic-operators/figures/alignment-rate.pdf" > [106] [107]
+File: ./basic-operators/figures/acquisition.pdf Graphic file (type QTm)
+
+<use  "./basic-operators/figures/acquisition.pdf" > [108] [109]
+File: ./basic-operators/figures/alignment-rate-vs-variance.pdf Graphic file (ty
+pe QTm)
+
+<use  "./basic-operators/figures/alignment-rate-vs-variance.pdf" >
+File: ./basic-operators/figures/acquisition-acquired-lexicon-100.pdf Graphic fi
+le (type QTm)
+
+<use  "./basic-operators/figures/acquisition-acquired-lexicon-100.pdf" >
+File: ./basic-operators/figures/acquisition-acquired-lexicon-2500.pdf Graphic f
+ile (type QTm)
+
+<use  "./basic-operators/figures/acquisition-acquired-lexicon-2500.pdf" >
+File: ./basic-operators/figures/acquisition-target-lexicon.pdf Graphic file (ty
+pe QTm)
+
+<use  "./basic-operators/figures/acquisition-target-lexicon.pdf" >
+Overfull \hbox (5.475pt too wide) in paragraph at lines 257--271
+ [][] 
+ []
+
+
+Overfull \hbox (5.475pt too wide) in paragraph at lines 257--271
+ [][] 
+ []
+
+
+Overfull \hbox (5.475pt too wide) in paragraph at lines 257--271
+ [][] 
+ []
+
+[110] [111] [112]
+File: ./basic-operators/figures/formation-full.pdf Graphic file (type QTm)
+ <use  "./basic-operators/figures/formation-full.pdf" >
+[113]
+File: ./basic-operators/figures/formation-full-lexicon-1000.pdf Graphic file (t
+ype QTm)
+ <use  "./basic-operators/figures/formation-full-lexicon-1000.pdf" >
+File: ./basic-operators/figures/formation-full-lexicon-2000.pdf Graphic file (t
+ype QTm)
+
+<use  "./basic-operators/figures/formation-full-lexicon-2000.pdf" >
+File: ./basic-operators/figures/formation-full-lexicon-3000.pdf Graphic file (t
+ype QTm)
+
+<use  "./basic-operators/figures/formation-full-lexicon-3000.pdf" >
+File: ./basic-operators/figures/formation-brightness.pdf Graphic file (type QTm
+)
+
+<use  "./basic-operators/figures/formation-brightness.pdf" >
+File: ./basic-operators/figures/formation-brightness-lexicon-1000.pdf Graphic f
+ile (type QTm)
+
+<use  "./basic-operators/figures/formation-brightness-lexicon-1000.pdf" >
+File: ./basic-operators/figures/formation-brightness-lexicon-3000.pdf Graphic f
+ile (type QTm)
+
+<use  "./basic-operators/figures/formation-brightness-lexicon-3000.pdf" >
+File: ./basic-operators/figures/formation-brightness-lexicon-4000.pdf Graphic f
+ile (type QTm)
+
+<use  "./basic-operators/figures/formation-brightness-lexicon-4000.pdf" >
+[114] [115] [116])
+\openout2 = `graded-membership/learning-operators.aux'.
+
+ (./graded-membership/learning-operators.tex
+Chapter 8.
+[117
+
+
+
+
+] [118]
+File: ./graded-membership/figures/strict-acquisition.pdf Graphic file (type QTm
+)
+ <use  "./graded-membership/figures/strict-acquisition.pdf" >
+File: ./graded-membership/figures/strict-acquisition-values.pdf Graphic file (t
+ype QTm)
+
+<use  "./graded-membership/figures/strict-acquisition-values.pdf" > [119]
+[120] [121]
+File: ./graded-membership/figures/strict-formation.pdf Graphic file (type QTm)
+ <use  "./graded-membership/figures/strict-formation.pdf" >
+File: ./graded-membership/figures/strict-formation-constrained.pdf Graphic file
+ (type QTm)
+
+<use  "./graded-membership/figures/strict-formation-constrained.pdf" > [122]
+[123] [124]) [125]
+\openout2 = `experiments/experiments.aux'.
+
+ (./experiments/experiments.tex [126
+
+
+
+
+]
+Chapter 9.
+[127] [128]
+File: ./experiments/figures/natural-data-set.pdf Graphic file (type QTm)
+ <use  "./experiments/figures/natural-data-set.pdf" >
+File: ./experiments/figures/urban-data-set.pdf Graphic file (type QTm)
+
+<use  "./experiments/figures/urban-data-set.pdf" >
+File: ./experiments/figures/uniform-data-set.pdf Graphic file (type QTm)
+
+<use  "./experiments/figures/uniform-data-set.pdf" >
+File: ./experiments/figures/data-sets-histogram.pdf Graphic file (type QTm)
+
+<use  "./experiments/figures/data-sets-histogram.pdf" > [129]
+File: ./experiments/figures/clustering-first.jpg Graphic file (type QTm)
+
+<use  "./experiments/figures/clustering-first.jpg" > [130] [131]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_R_B.otf(1)' created for font
+. 'LinLibertine_R_B.otf' with options [ Ligatures={TeX,Common},
+. Path=./lsp-fonts/, PunctuationSpace=0, Numbers={Proportional}, BoldFont =
+. LinLibertine_RZ_B.otf , ItalicFont = LinLibertine_RI_B.otf , BoldItalicFont
+. = LinLibertine_RZI_B.otf ,Numbers=Lining].
+. 
+. This font family consists of the following shapes:
+.................................................
+ [132]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_R_B.otf(1)' created for font
+. 'LinLibertine_R_B.otf' with options [ Ligatures={TeX,Common},
+. Path=./lsp-fonts/, PunctuationSpace=0, Numbers={Proportional}, BoldFont =
+. LinLibertine_RZ_B.otf , ItalicFont = LinLibertine_RI_B.otf , BoldItalicFont
+. = LinLibertine_RZI_B.otf ,Numbers=Lining].
+. 
+. This font family consists of the following shapes:
+.................................................
+ [133]
+[134]
+File: ./experiments/figures/categories-language.pdf Graphic file (type QTm)
+ <use  "./experiments/figures/categories-language.pdf" >
+File: ./experiments/figures/categories-no-language.pdf Graphic file (type QTm)
+
+<use  "./experiments/figures/categories-no-language.pdf" > [135]
+File: ./experiments/figures/contour-wcs.pdf Graphic file (type QTm)
+
+<use  "./experiments/figures/contour-wcs.pdf" > [136]
+File: ./experiments/figures/contour-natural-no-language.pdf Graphic file (type 
+QTm)
+
+<use  "./experiments/figures/contour-natural-no-language.pdf" >
+File: ./experiments/figures/contour-natural-language.pdf Graphic file (type QTm
+)
+
+<use  "./experiments/figures/contour-natural-language.pdf" >
+File: ./experiments/figures/contour-uniform-no-language.pdf Graphic file (type 
+QTm)
+
+<use  "./experiments/figures/contour-uniform-no-language.pdf" >
+File: ./experiments/figures/contour-uniform-language.pdf Graphic file (type QTm
+)
+
+<use  "./experiments/figures/contour-uniform-language.pdf" > [137] [138]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_R_B.otf(1)' created for font
+. 'LinLibertine_R_B.otf' with options [ Ligatures={TeX,Common},
+. Path=./lsp-fonts/, PunctuationSpace=0, Numbers={Proportional}, BoldFont =
+. LinLibertine_RZ_B.otf , ItalicFont = LinLibertine_RI_B.otf , BoldItalicFont
+. = LinLibertine_RZI_B.otf ,Numbers=Lining].
+. 
+. This font family consists of the following shapes:
+.................................................
+
+[139]
+Overfull \hbox (3.83086pt too wide) in paragraph at lines 557--567
+[]\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 To investigate the influence of this \
+EU1/LinLibertine_R_B.otf(0)/m/it/10.95 perceptual deviation\EU1/LinLibertine_R_
+B.otf(0)/m/n/10.95 , I introduce the \EU1/LinLibertine_R_B.otf(0)/m/it/10.95 gr
+ounded
+ []
+
+File: ./experiments/figures/grounding-cng-small.jpg Graphic file (type QTm)
+<use  "./experiments/figures/grounding-cng-small.jpg" > [140] [141]
+File: ./experiments/figures/grounding-data-sets-geometric-objects.jpg Graphic f
+ile (type QTm)
+
+<use  "./experiments/figures/grounding-data-sets-geometric-objects.jpg" >
+File: ./experiments/figures/grounding-data-sets-toy-objects.jpg Graphic file (t
+ype QTm)
+
+<use  "./experiments/figures/grounding-data-sets-toy-objects.jpg" >
+File: ./experiments/figures/grounding-vision-system-object-perception-1.png Gra
+phic file (type QTm)
+
+<use  "./experiments/figures/grounding-vision-system-object-perception-1.png" >
+File: ./experiments/figures/grounding-vision-system-object-perception-2.png Gra
+phic file (type QTm)
+
+<use  "./experiments/figures/grounding-vision-system-object-perception-2.png" >
+File: ./experiments/figures/grounding-vision-system-object-perception-4.png Gra
+phic file (type QTm)
+
+<use  "./experiments/figures/grounding-vision-system-object-perception-4.png" >
+File: ./experiments/figures/grounding-vision-system-object-perception-5.png Gra
+phic file (type QTm)
+
+<use  "./experiments/figures/grounding-vision-system-object-perception-5.png" >
+File: ./experiments/figures/grounding-vision-system-object-perception-7.png Gra
+phic file (type QTm)
+
+<use  "./experiments/figures/grounding-vision-system-object-perception-7.png" >
+File: ./experiments/figures/grounding-vision-system-object-modeling-2.png Graph
+ic file (type QTm)
+<use  "./experiments/figures/grounding-vision-system-object-modeling-2.png" >
+[142] [143]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_R_B.otf(1)' created for font
+. 'LinLibertine_R_B.otf' with options [ Ligatures={TeX,Common},
+. Path=./lsp-fonts/, PunctuationSpace=0, Numbers={Proportional}, BoldFont =
+. LinLibertine_RZ_B.otf , ItalicFont = LinLibertine_RI_B.otf , BoldItalicFont
+. = LinLibertine_RZI_B.otf ,Numbers=Lining].
+. 
+. This font family consists of the following shapes:
+.................................................
+File: ./experiments/figures/grounding-scene-a.pdf Graphic file (type QTm)
+ <use  "./experiments/figures/grounding-scene-a.pdf" >
+File: ./experiments/figures/grounding-scene-b.pdf Graphic file (type QTm)
+
+<use  "./experiments/figures/grounding-scene-b.pdf" >
+File: ./experiments/figures/grounding-perceptual-deviation.pdf Graphic file (ty
+pe QTm)
+
+<use  "./experiments/figures/grounding-perceptual-deviation.pdf" >
+File: ./experiments/figures/grounding-grounded-world.pdf Graphic file (type QTm
+)
+
+<use  "./experiments/figures/grounding-grounded-world.pdf" > [144] [145]
+[146] [147]
+File: ./experiments/figures/grounding-comparison-communicative-success.pdf Grap
+hic file (type QTm)
+
+<use  "./experiments/figures/grounding-comparison-communicative-success.pdf" >
+[148]
+File: ./experiments/figures/grounding-formation-interpretation-variance.pdf Gra
+phic file (type QTm)
+
+<use  "./experiments/figures/grounding-formation-interpretation-variance.pdf" >
+[149]
+File: ./experiments/figures/grounding-comparison-distance-to-human-categories.p
+df Graphic file (type QTm)
+
+<use  "./experiments/figures/grounding-comparison-distance-to-human-categories.
+pdf" >
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_R_B.otf(1)' created for font
+. 'LinLibertine_R_B.otf' with options [ Ligatures={TeX,Common},
+. Path=./lsp-fonts/, PunctuationSpace=0, Numbers={Proportional}, BoldFont =
+. LinLibertine_RZ_B.otf , ItalicFont = LinLibertine_RI_B.otf , BoldItalicFont
+. = LinLibertine_RZI_B.otf ,Numbers=Lining].
+. 
+. This font family consists of the following shapes:
+.................................................
+ [150] [151]
+Overfull \hbox (0.88358pt too wide) in paragraph at lines 980--989
+\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 gories than condition I. Although in thi
+s experiment no guiding teacher is present,
+ []
+
+[152] [153]) [154
+
+
+
+] [155] [156]
+\openout2 = `intro/intro-part-3.aux'.
+
+ (./intro/intro-part-3.tex
+File: ./intro/figures/strategies-2.pdf Graphic file (type QTm)
+
+<use  "./intro/figures/strategies-2.pdf" >
+File: ./intro/figures/strategies-3.pdf Graphic file (type QTm)
+
+<use  "./intro/figures/strategies-3.pdf" >) [157
+
+]
+\openout2 = `selection/selection.aux'.
+
+ (./selection/selection.tex
+[158
+
+
+
+
+]
+Chapter 10.
+File: ./selection/figures/history-yellow.pdf Graphic file (type QTm)
+<use  "./selection/figures/history-yellow.pdf" > [159] [160]
+File: ./selection/figures/strategies-scores.pdf Graphic file (type QTm)
+
+<use  "./selection/figures/strategies-scores.pdf" > [161] [162] [163] [164]
+File: ./selection/figures/strategies-one-winner.pdf Graphic file (type QTm)
+
+<use  "./selection/figures/strategies-one-winner.pdf" >
+File: ./selection/figures/strategies-competition.pdf Graphic file (type QTm)
+
+<use  "./selection/figures/strategies-competition.pdf" >
+
+Class scrbook Warning: Usage of deprecated font command `\it'!
+(scrbook)              You should note, that in 1994 font command `\it' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\it' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\it' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\it'
+(scrbook)              by `\normalfont \itshape ' on input line 284.
+
+
+Class scrbook Warning: Usage of deprecated font command `\it'!
+(scrbook)              You should note, that in 1994 font command `\it' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\it' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\it' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\it'
+(scrbook)              by `\normalfont \itshape ' on input line 284.
+
+
+LaTeX Warning: Float too large for page by 27.61494pt on input line 286.
+
+[165] [166]
+File: ./selection/figures/selective-advantage.pdf Graphic file (type QTm)
+ <use  "./selection/figures/selective-advantage.pdf" >) [167]
+[168] [169]
+\openout2 = `composition/composition.aux'.
+
+ (./composition/composition.tex [170
+
+
+
+
+]
+Chapter 11.
+[171]
+File: ./composition/figures/composition-colour.pdf Graphic file (type QTm)
+ <use  "./composition/figures/composition-colour.pdf" >
+File: ./composition/figures/composed-network.pdf Graphic file (type QTm)
+
+<use  "./composition/figures/composed-network.pdf" >
+File: ./composition/figures/map-network-1.pdf Graphic file (type QTm)
+
+<use  "./composition/figures/map-network-1.pdf" >
+File: ./composition/figures/map-network-2.pdf Graphic file (type QTm)
+
+<use  "./composition/figures/map-network-2.pdf" >
+File: ./composition/figures/map-network-3.pdf Graphic file (type QTm)
+
+<use  "./composition/figures/map-network-3.pdf" >
+File: ./composition/figures/learning-2.pdf Graphic file (type QTm)
+
+<use  "./composition/figures/learning-2.pdf" > [172] [173]
+File: ./composition/figures/mapping-1.pdf Graphic file (type QTm)
+
+<use  "./composition/figures/mapping-1.pdf" > [174] [175] [176]
+File: ./composition/figures/mapping-2.pdf Graphic file (type QTm)
+
+<use  "./composition/figures/mapping-2.pdf" >
+Overfull \hbox (5.59937pt too wide) in paragraph at lines 242--252
+\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 by starting from the previous one and ad
+ding an extra primitive constraint, \EU1/LinLibertine_R_B.otf(0)/m/sc/10.95 Fil
+ter-
+ []
+
+[177]
+File: ./composition/figures/mapping-3.pdf Graphic file (type QTm)
+ <use  "./composition/figures/mapping-3.pdf" > [178]
+File: ./composition/figures/learning-1.pdf Graphic file (type QTm)
+
+<use  "./composition/figures/learning-1.pdf" > [179] [180] [181] [182] [183]
+[184]
+File: ./composition/figures/learning-3.pdf Graphic file (type QTm)
+ <use  "./composition/figures/learning-3.pdf" > [185] [186]
+File: ./composition/figures/learning-operators-graph.pdf Graphic file (type QTm
+)
+
+<use  "./composition/figures/learning-operators-graph.pdf" > [187] [188])
+[189
+
+
+
+] [190]
+\openout2 = `conclusion/conclusion.aux'.
+
+ (./conclusion/conclusion.tex
+Chapter 12.
+[191
+
+
+
+] [192]
+Overfull \hbox (2.00774pt too wide) in paragraph at lines 120--129
+\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 agent to acquire colour categories and m
+embership categories from another agent.
+ []
+
+
+Overfull \hbox (10.01945pt too wide) in paragraph at lines 135--147
+\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 impact on the colour category systems th
+at are formed within them ([]Yendrikhovskij[]
+ []
+
+[193] [194] [195] [196] [197] [198]) [199]
+\openout2 = `spaces/spaces.aux'.
+
+ (./spaces/spaces.tex [200
+
+
+
+
+]
+Appendix A.
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_R_B.otf(1)' created for font
+. 'LinLibertine_R_B.otf' with options [ Ligatures={TeX,Common},
+. Path=./lsp-fonts/, PunctuationSpace=0, Numbers={Proportional}, BoldFont =
+. LinLibertine_RZ_B.otf , ItalicFont = LinLibertine_RI_B.otf , BoldItalicFont
+. = LinLibertine_RZI_B.otf ,Numbers=Lining].
+. 
+. This font family consists of the following shapes:
+.................................................
+File: ./spaces/figures/conversions.pdf Graphic file (type QTm)
+<use  "./spaces/figures/conversions.pdf" > [201]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_R_B.otf(1)' created for font
+. 'LinLibertine_R_B.otf' with options [ Ligatures={TeX,Common},
+. Path=./lsp-fonts/, PunctuationSpace=0, Numbers={Proportional}, BoldFont =
+. LinLibertine_RZ_B.otf , ItalicFont = LinLibertine_RI_B.otf , BoldItalicFont
+. = LinLibertine_RZI_B.otf ,Numbers=Lining].
+. 
+. This font family consists of the following shapes:
+.................................................
+ [202]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_R_B.otf(1)' created for font
+. 'LinLibertine_R_B.otf' with options [ Ligatures={TeX,Common},
+. Path=./lsp-fonts/, PunctuationSpace=0, Numbers={Proportional}, BoldFont =
+. LinLibertine_RZ_B.otf , ItalicFont = LinLibertine_RI_B.otf , BoldItalicFont
+. = LinLibertine_RZI_B.otf ,Numbers=Lining].
+. 
+. This font family consists of the following shapes:
+.................................................
+
+Overfull \hbox (12.72292pt too wide) in paragraph at lines 126--132
+\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 representation of colour which removes t
+he luminance information. This is achieved
+ []
+
+[203]
+Overfull \hbox (7.198pt too wide) in paragraph at lines 177--187
+\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 approximately redness-greenness and the 
+\EU1/LinLibertine_R_B.otf(0)/m/it/10.95 b* \EU1/LinLibertine_R_B.otf(0)/m/n/10.
+95 dimension approximately yellowness-
+ []
+
+Missing character: There is no ⇺ in font [./lsp-fonts/LinLibertine_R_B.otf]/ICU
+:script=latn;language=DFLT;mapping=tex-text;+liga;+pnum;!
+[204] [205]
+File: ./spaces/figures/munsell-colour-wheel.pdf Graphic file (type QTm)
+ <use  "./spaces/figures/munsell-colour-wheel.pdf" >
+File: ./spaces/figures/munsell-diagram-brittanica-1.pdf Graphic file (type QTm)
+
+
+<use  "./spaces/figures/munsell-diagram-brittanica-1.pdf" > [206]
+File: ./spaces/figures/book-of-color-1929.pdf Graphic file (type QTm)
+
+<use  "./spaces/figures/book-of-color-1929.pdf" >
+File: ./spaces/figures/real.pdf Graphic file (type QTm)
+
+<use  "./spaces/figures/real.pdf" >
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_R_B.otf(1)' created for font
+. 'LinLibertine_R_B.otf' with options [ Ligatures={TeX,Common},
+. Path=./lsp-fonts/, PunctuationSpace=0, Numbers={Proportional}, BoldFont =
+. LinLibertine_RZ_B.otf , ItalicFont = LinLibertine_RI_B.otf , BoldItalicFont
+. = LinLibertine_RZI_B.otf ,Numbers=Lining].
+. 
+. This font family consists of the following shapes:
+.................................................
+ [207] [208] [209]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_R_B.otf(1)' created for font
+. 'LinLibertine_R_B.otf' with options [ Ligatures={TeX,Common},
+. Path=./lsp-fonts/, PunctuationSpace=0, Numbers={Proportional}, BoldFont =
+. LinLibertine_RZ_B.otf , ItalicFont = LinLibertine_RI_B.otf , BoldItalicFont
+. = LinLibertine_RZI_B.otf ,Numbers=Lining].
+. 
+. This font family consists of the following shapes:
+.................................................
+ [210] [211]) [212]
+(./book.bbl [213
+
+
+
+
+
+] [214] [215]
+Underfull \hbox (badness 1383) in paragraph at lines 313--317
+[]\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 Lin, H., M. R. Luo, L. W. MacDonald & 
+Arthur W.S. Tarrant. 2001.  A
+ []
+
+[216] [217] [218] [219])
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the book.maf file.
+\openout9 = `book.maf'.
+
+Package minitoc(hints) Info: I0053
+(minitoc(hints))             You have loaded the float package; 
+(minitoc(hints))             please be aware that the minitoc package 
+(minitoc(hints))             facilities can not be used for new types 
+(minitoc(hints))             of floats defined by the float package.
+
+
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the book.log file.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
+[220]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
+ (./book.aux (./summary.aux) (./intro/intro.aux)
+(./frameworks/frameworks.aux) (./intro/intro-part-1.aux)
+(./basic-strategy/basic-strategy.aux)
+(./graded-membership/graded-membership.aux)
+(./category-combination/category-combination.aux) (./achromatic/achromatic.aux)
+(./intro/intro-part-2.aux) (./basic-operators/basic-operators.aux)
+(./graded-membership/learning-operators.aux) (./experiments/experiments.aux)
+(./intro/intro-part-3.aux) (./selection/selection.aux)
+(./composition/composition.aux) (./conclusion/conclusion.aux)
+(./spaces/spaces.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 130.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 130.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.28pt have occurred.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 32192 strings out of 493938
+ 601562 string characters out of 6148857
+ 842101 words of memory out of 5000000
+ 34495 multiletter control sequences out of 15000+600000
+ 17511 words of font info for 128 fonts, out of 8000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 65i,19n,82p,949b,682s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on book.pdf (236 pages).

@@ -1,0 +1,219 @@
+\contentsline {chapter}{Preface}{iii}{Item.5}
+\contentsline {part}{\numberline {I}Introduction}{1}{part.1}
+\contentsline {chapter}{\numberline {1}Language Systems and Language Strategies}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Language strategies for colour}{4}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Basic colour strategy}{5}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Graded membership strategy}{6}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Compounding strategy}{6}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Basic modification strategy}{9}{subsection.1.1.4}
+\contentsline {subsection}{\numberline {1.1.5}Other strategies}{9}{subsection.1.1.5}
+\contentsline {section}{\numberline {1.2}Modelling a language strategy}{10}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Modelling linguistic interaction}{10}{subsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.1.1}Language games for colour}{12}{subsubsection.1.2.1.1}
+\contentsline {subsubsection}{\numberline {1.2.1.2}Background assumptions}{12}{subsubsection.1.2.1.2}
+\contentsline {section}{\numberline {1.3}Self-organisation of language systems}{13}{section.1.3}
+\contentsline {section}{\numberline {1.4}Modelling the self-organisation of language systems}{13}{section.1.4}
+\contentsline {section}{\numberline {1.5}Evolution of language strategies}{14}{section.1.5}
+\contentsline {section}{\numberline {1.6}Modelling evolution of language strategies}{15}{section.1.6}
+\contentsline {section}{\numberline {1.7}Structure of this book}{15}{section.1.7}
+\contentsline {xpart}{Introduction}{3}{part.1}
+\contentsline {chapter}{\numberline {2}Formalisms for Language Systems and Language Strategies}{17}{chapter.2}
+\contentsline {section}{\numberline {2.1}Embodied Cognitive Semantics using IRL}{18}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Theoretical foundations}{18}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Semantic constraint network}{19}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Evaluation}{22}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Conceptualisation}{24}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}Implementation of a primitive}{27}{subsection.2.1.5}
+\contentsline {subsubsection}{2.1.5.1\ Semantic Primitive Filter-Set-Prototype}{27}{subsubsection.2.1.5.1}
+\contentsline {section}{\numberline {2.2}Construction Grammar using FCG}{27}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Theoretical foundations}{27}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Language processing}{28}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Coupled feature structures}{29}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Application of a construction}{31}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Structure building}{31}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Linking through variable equalities}{33}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.7}Application of an example construction}{33}{subsection.2.2.7}
+\contentsline {part}{\numberline {II}Language Strategies for Colour}{39}{part.2}
+\contentsline {xpart}{Language Strategies for Colour}{41}{part.2}
+\contentsline {chapter}{\numberline {3}Basic Colour Strategy}{43}{chapter.3}
+\contentsline {section}{\numberline {3.1}Related research}{43}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Colour categories}{43}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Models}{44}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Semantic template}{45}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Profiling}{46}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Categorisation based on colour}{46}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Selection based on activation}{47}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Semantic constraint network}{47}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Semantic primitives}{48}{subsection.3.2.5}
+\contentsline {subsubsection}{3.2.5.1\ Semantic Primitive Equal-to-Context}{48}{subsubsection.3.2.5.1}
+\contentsline {subsubsection}{3.2.5.2\ Semantic Primitive Profile-Colour-Dimensions}{48}{subsubsection.3.2.5.2}
+\contentsline {subsubsection}{3.2.5.3\ Semantic Primitive Filter-by-Colour-Lenient}{49}{subsubsection.3.2.5.3}
+\contentsline {subsubsection}{3.2.5.4\ Semantic Primitive Select-Most-Activated}{49}{subsubsection.3.2.5.4}
+\contentsline {section}{\numberline {3.3}Syntactic templates}{50}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Syntactic template 1.1: Semantic entities}{52}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Syntactic template 1.2: Functional primitives}{52}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Syntactic template 1.3: Contextual primitives}{53}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Baseline experiment}{54}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Measures}{54}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Results}{56}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}Conclusion}{56}{section.3.5}
+\contentsline {chapter}{\numberline {4}Graded Membership Strategy}{57}{chapter.4}
+\contentsline {section}{\numberline {4.1}Related research}{57}{section.4.1}
+\contentsline {section}{\numberline {4.2}Semantic template}{59}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Profiling and categorisation based on colour}{60}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Categorisation based on membership}{61}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Selection based on activation}{61}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Semantic constraint network}{61}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Semantic primitives}{61}{subsection.4.2.5}
+\contentsline {subsubsection}{4.2.5.1\ Semantic Primitive Filter-by-Colour}{61}{subsubsection.4.2.5.1}
+\contentsline {subsubsection}{4.2.5.2\ Semantic Primitive Filter-by-Membership}{62}{subsubsection.4.2.5.2}
+\contentsline {subsection}{\numberline {4.2.6}Alternative approaches to semantics}{63}{subsection.4.2.6}
+\contentsline {section}{\numberline {4.3}Syntactic templates}{64}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Syntactic template 1.1: Semantic entities}{64}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Syntactic template 1.2: Functional primitives}{66}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Syntactic template 2.1: Re-use of constructions}{66}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Baseline experiment}{67}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Results}{71}{subsection.4.4.1}
+\contentsline {section}{\numberline {4.5}Conclusion}{71}{section.4.5}
+\contentsline {chapter}{\numberline {5}Category Combination Strategy}{73}{chapter.5}
+\contentsline {section}{\numberline {5.1}Related research}{73}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Models}{75}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}Semantic template}{75}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Profiling and first categorisation based on colour}{76}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Transformation of the set of colour categories}{78}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Second categorisation based on colour}{78}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Optional categorisation based on membership}{78}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Selection based on activation}{78}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}Semantic constraint network}{79}{subsection.5.2.6}
+\contentsline {subsection}{\numberline {5.2.7}Semantic primitives}{80}{subsection.5.2.7}
+\contentsline {subsubsection}{5.2.7.1\ Semantic Primitive Get-Basic-Colour-Category-Set}{80}{subsubsection.5.2.7.1}
+\contentsline {subsubsection}{5.2.7.2\ Semantic Primitive Filter-by-Colour}{80}{subsubsection.5.2.7.2}
+\contentsline {subsubsection}{5.2.7.3\ Semantic Primitive Draw-Category-Set-to-Category}{80}{subsubsection.5.2.7.3}
+\contentsline {subsection}{\numberline {5.2.8}Alternative approaches to semantics}{81}{subsection.5.2.8}
+\contentsline {section}{\numberline {5.3}Syntactic templates}{81}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Syntactic template 1.1: Semantic entities}{81}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Syntactic template 1.2: Functional primitives}{83}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Syntactic template 1.3: Contextual primitives}{83}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Syntactic template 2.2: Re-use of constructions}{84}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Baseline experiment}{85}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Results}{86}{subsection.5.4.1}
+\contentsline {section}{\numberline {5.5}Conclusion}{88}{section.5.5}
+\contentsline {chapter}{\numberline {6}Basic Modification Strategy}{89}{chapter.6}
+\contentsline {section}{\numberline {6.1}Related research}{90}{section.6.1}
+\contentsline {section}{\numberline {6.2}Semantic template}{90}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Profiling and first categorisation based on colour}{91}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Transformation of set of modifying categories}{91}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Second categorisation based on modifiers}{93}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Optional categorisation based on membership}{93}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}Selection based on activation}{93}{subsection.6.2.5}
+\contentsline {subsection}{\numberline {6.2.6}Semantic constraint network}{93}{subsection.6.2.6}
+\contentsline {subsection}{\numberline {6.2.7}Semantic primitives}{94}{subsection.6.2.7}
+\contentsline {subsubsection}{6.2.7.1\ Semantic Primitive Get-Lightness-Colour-Category-Set}{94}{subsubsection.6.2.7.1}
+\contentsline {subsubsection}{6.2.7.2\ Semantic Primitive Scale-Category-Set-to-Category}{94}{subsubsection.6.2.7.2}
+\contentsline {section}{\numberline {6.3}Syntactic templates}{95}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Syntactic template 2.2: Re-use of constructions}{95}{subsection.6.3.1}
+\contentsline {section}{\numberline {6.4}Baseline Experiment}{97}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Results}{99}{subsection.6.4.1}
+\contentsline {section}{\numberline {6.5}Conclusion}{99}{section.6.5}
+\contentsline {part}{\numberline {III}Self-organisation of Language Systems}{101}{part.3}
+\contentsline {xpart}{Self-organisation of Language Systems}{103}{part.3}
+\contentsline {chapter}{\numberline {7}Basic Colour Strategy}{105}{chapter.7}
+\contentsline {section}{\numberline {7.1}Related models}{105}{section.7.1}
+\contentsline {section}{\numberline {7.2}Adoption and alignment operators}{106}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Acquisition experiment}{106}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Measures}{107}{subsection.7.2.2}
+\contentsline {subsubsection}{\numberline {7.2.2.1}Number of categories}{107}{subsubsection.7.2.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2.2}Interpretation variance}{107}{subsubsection.7.2.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Results}{108}{subsection.7.2.3}
+\contentsline {section}{\numberline {7.3}Invention operator}{110}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Formation experiment}{112}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Results}{113}{subsection.7.3.2}
+\contentsline {subsubsection}{\numberline {7.3.2.1}Brightness and hue strategy}{113}{subsubsection.7.3.2.1}
+\contentsline {subsubsection}{\numberline {7.3.2.2}Brightness strategy}{114}{subsubsection.7.3.2.2}
+\contentsline {section}{\numberline {7.4}Conclusion}{114}{section.7.4}
+\contentsline {chapter}{\numberline {8}Graded Membership Strategy}{117}{chapter.8}
+\contentsline {section}{\numberline {8.1}Adoption and alignment operators}{117}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Acquisition experiment}{118}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Measures}{118}{subsection.8.1.2}
+\contentsline {subsubsection}{\numberline {8.1.2.1}Membership category variance}{118}{subsubsection.8.1.2.1}
+\contentsline {subsection}{\numberline {8.1.3}Results}{119}{subsection.8.1.3}
+\contentsline {section}{\numberline {8.2}Invention operator}{119}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Formation experiment}{122}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Measures}{122}{subsection.8.2.2}
+\contentsline {subsubsection}{\numberline {8.2.2.1}Number of membership categories}{122}{subsubsection.8.2.2.1}
+\contentsline {subsection}{\numberline {8.2.3}Results}{122}{subsection.8.2.3}
+\contentsline {section}{\numberline {8.3}Conclusion}{125}{section.8.3}
+\contentsline {chapter}{\numberline {9}Further Experiments on Basic Colour Systems}{127}{chapter.9}
+\contentsline {section}{\numberline {9.1}Impact of environment on similarity to natural systems}{127}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Data sets}{128}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Extracting colour categories}{129}{subsection.9.1.2}
+\contentsline {subsection}{\numberline {9.1.3}Comparison to human colour categories}{130}{subsection.9.1.3}
+\contentsline {subsection}{\numberline {9.1.4}Conclusion}{134}{subsection.9.1.4}
+\contentsline {section}{\numberline {9.2}Impact of language on universal trends}{134}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Discrimination game}{134}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Alignment within one population}{135}{subsection.9.2.2}
+\contentsline {subsection}{\numberline {9.2.3}Alignment over different populations}{136}{subsection.9.2.3}
+\contentsline {subsection}{\numberline {9.2.4}Conclusion}{140}{subsection.9.2.4}
+\contentsline {section}{\numberline {9.3}Impact of embodiment on performance of operators}{140}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Robotic setup and visual perception}{142}{subsection.9.3.1}
+\contentsline {subsection}{\numberline {9.3.2}Perceptual deviation and structure in embodied data}{144}{subsection.9.3.2}
+\contentsline {subsection}{\numberline {9.3.3}Discerning the impact of embodiment}{147}{subsection.9.3.3}
+\contentsline {subsection}{\numberline {9.3.4}Resulting dynamics}{147}{subsection.9.3.4}
+\contentsline {subsection}{\numberline {9.3.5}Comparison to human categories}{150}{subsection.9.3.5}
+\contentsline {subsection}{\numberline {9.3.6}Conclusion}{152}{subsection.9.3.6}
+\contentsline {section}{\numberline {9.4}General conclusion}{153}{section.9.4}
+\contentsline {part}{\numberline {IV}Evolution and Origins of Language Strategies}{155}{part.4}
+\contentsline {xpart}{Evolution and Origins of Language Strategies}{157}{part.4}
+\contentsline {chapter}{\numberline {10}Linguistic Selection of Language Strategies}{159}{chapter.10}
+\contentsline {section}{\numberline {10.1}Language strategies}{159}{section.10.1}
+\contentsline {section}{\numberline {10.2}Strategy selection}{160}{section.10.2}
+\contentsline {subsection}{\numberline {10.2.1}Implementation of language strategies}{161}{subsection.10.2.1}
+\contentsline {section}{\numberline {10.3}Experiment on linguistic selection}{163}{section.10.3}
+\contentsline {subsection}{\numberline {10.3.1}Measures}{164}{subsection.10.3.1}
+\contentsline {subsection}{\numberline {10.3.2}Results}{165}{subsection.10.3.2}
+\contentsline {section}{\numberline {10.4}Selective advantage}{165}{section.10.4}
+\contentsline {subsection}{\numberline {10.4.1}Experiment}{165}{subsection.10.4.1}
+\contentsline {section}{\numberline {10.5}Conclusion}{167}{section.10.5}
+\contentsline {chapter}{\numberline {11}Origins of Language Strategies}{171}{chapter.11}
+\contentsline {section}{\numberline {11.1}Generation of semantic templates}{171}{section.11.1}
+\contentsline {section}{\numberline {11.2}Repair strategies}{172}{section.11.2}
+\contentsline {subsection}{\numberline {11.2.1}Construction of a syntactic category system}{172}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {11.2.2}Implementaton of repair strategies}{179}{subsection.11.2.2}
+\contentsline {subsection}{\numberline {11.2.3}Repair strategy 1.2: Functional primitives}{181}{subsection.11.2.3}
+\contentsline {subsection}{\numberline {11.2.4}Repair strategy 1.3: Contextual primitives}{182}{subsection.11.2.4}
+\contentsline {subsection}{\numberline {11.2.5}Re-use of syntactic categories}{183}{subsection.11.2.5}
+\contentsline {subsection}{\numberline {11.2.6}Repair strategy 2.1: Re-use of constructions}{184}{subsection.11.2.6}
+\contentsline {subsection}{\numberline {11.2.7}Experimental results}{185}{subsection.11.2.7}
+\contentsline {section}{\numberline {11.3}Conclusion}{187}{section.11.3}
+\contentsline {part}{\numberline {V}Conclusion}{189}{part.5}
+\contentsline {chapter}{\numberline {12}Discussion and Conclusion}{191}{chapter.12}
+\contentsline {section}{\numberline {12.1}Contributions}{191}{section.12.1}
+\contentsline {subsection}{\numberline {12.1.1}Identification of language strategies}{191}{subsection.12.1.1}
+\contentsline {subsection}{\numberline {12.1.2}Operationalisation of language strategies}{192}{subsection.12.1.2}
+\contentsline {subsection}{\numberline {12.1.3}Self-organisation of language systems}{193}{subsection.12.1.3}
+\contentsline {subsection}{\numberline {12.1.4}Evolution of language strategies}{194}{subsection.12.1.4}
+\contentsline {subsection}{\numberline {12.1.5}Compositional semantics and language}{194}{subsection.12.1.5}
+\contentsline {section}{\numberline {12.2}Discussion}{195}{section.12.2}
+\contentsline {subsection}{\numberline {12.2.1}Tractability}{195}{subsection.12.2.1}
+\contentsline {subsection}{\numberline {12.2.2}Compositionality}{195}{subsection.12.2.2}
+\contentsline {subsection}{\numberline {12.2.3}Flexiblity}{196}{subsection.12.2.3}
+\contentsline {subsection}{\numberline {12.2.4}Generality}{196}{subsection.12.2.4}
+\contentsline {subsection}{\numberline {12.2.5}Related models and approaches}{197}{subsection.12.2.5}
+\contentsline {section}{\numberline {12.3}Possible applications}{198}{section.12.3}
+\contentsline {section}{\numberline {12.4}Future work}{199}{section.12.4}
+\contentsline {xpart}{Conclusion}{191}{part.5}
+\contentsline {chapter}{\numberline {A}Colour Spaces and Systems}{201}{appendix.A}
+\contentsline {section}{\numberline {A.1}CIE 1931 XYZ colour space}{201}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Illuminants and chromatic adaptation}{202}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.2}Chromaticity diagrams and CIE xyY colour space}{203}{subsection.A.1.2}
+\contentsline {section}{\numberline {A.2}CIE 1976 L*a*b*}{204}{section.A.2}
+\contentsline {subsection}{\numberline {A.2.1}Conversion}{204}{subsection.A.2.1}
+\contentsline {section}{\numberline {A.3}CIE 1976 L*u*v*}{205}{section.A.3}
+\contentsline {subsection}{\numberline {A.3.1}Conversion}{205}{subsection.A.3.1}
+\contentsline {section}{\numberline {A.4}Munsell colour system}{206}{section.A.4}
+\contentsline {subsection}{\numberline {A.4.1}Development}{207}{subsection.A.4.1}
+\contentsline {subsection}{\numberline {A.4.2}Conversion}{210}{subsection.A.4.2}
+\contentsline {section}{\numberline {A.5}Natural Color System}{210}{section.A.5}
+\contentsline {section}{\numberline {A.6}RGB}{210}{section.A.6}
+\contentsline {section}{\numberline {A.7}YCbCr}{211}{section.A.7}
+\contentsline {chapter}{\nonumberline Bibliography}{213}{appendix*.26}

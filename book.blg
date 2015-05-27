@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: book.aux
+The style file: unified.bst
+A level-1 auxiliary file: summary.aux
+A level-1 auxiliary file: intro/intro.aux
+A level-1 auxiliary file: frameworks/frameworks.aux
+A level-1 auxiliary file: intro/intro-part-1.aux
+A level-1 auxiliary file: basic-strategy/basic-strategy.aux
+A level-1 auxiliary file: graded-membership/graded-membership.aux
+A level-1 auxiliary file: category-combination/category-combination.aux
+A level-1 auxiliary file: achromatic/achromatic.aux
+A level-1 auxiliary file: intro/intro-part-2.aux
+A level-1 auxiliary file: basic-operators/basic-operators.aux
+A level-1 auxiliary file: graded-membership/learning-operators.aux
+A level-1 auxiliary file: experiments/experiments.aux
+A level-1 auxiliary file: intro/intro-part-3.aux
+A level-1 auxiliary file: selection/selection.aux
+A level-1 auxiliary file: composition/composition.aux
+A level-1 auxiliary file: conclusion/conclusion.aux
+A level-1 auxiliary file: spaces/spaces.aux
+Database file #1: references.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--missing publisher in bleys09linguistic
+Warning--empty journal in loetzsch10grounding
+You've used 109 entries,
+            3166 wiz_defined-function locations,
+            1262 strings with 21994 characters,
+and the built_in function-call counts, 64946 in all, are:
+= -- 5358
+> -- 2174
+< -- 101
++ -- 809
+- -- 643
+* -- 4109
+:= -- 9936
+add.period$ -- 461
+call.type$ -- 109
+change.case$ -- 852
+chr.to.int$ -- 112
+cite$ -- 111
+duplicate$ -- 5367
+empty$ -- 5365
+format.name$ -- 948
+if$ -- 13262
+int.to.chr$ -- 4
+int.to.str$ -- 1
+missing$ -- 1096
+newline$ -- 555
+num.names$ -- 490
+pop$ -- 2269
+preamble$ -- 1
+purify$ -- 630
+quote$ -- 0
+skip$ -- 1855
+stack$ -- 0
+substring$ -- 2937
+swap$ -- 2513
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 933
+warning$ -- 2
+while$ -- 491
+width$ -- 0
+write$ -- 1444
+(There were 2 warnings)

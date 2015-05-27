@@ -1,0 +1,658 @@
+\begin{thebibliography}{109}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\providecommand{\urlprefix}{}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Alvarado \& Jameson(2002)}]{alvarado02modifying}
+Alvarado, Nancy \& Kimberly~A. Jameson. 2002.
+\newblock {The Use of Modifying Terms in the Naming and Categorization of Color
+  Appearances in Vietnamese and English}.
+\newblock \emph{Journal of Cognition and Culture} 2(1). 53--80.
+
+\bibitem[{Baronchelli et~al.(2010)Baronchelli, Gong, Puglisi \&
+  Loreto}]{baronchelli10modeling}
+Baronchelli, Andrea, Tao Gong, Andrea Puglisi \& Vitorrio Loreto. 2010.
+\newblock Modeling the emergence of universality in color naming patterns.
+\newblock \emph{Proceedings of the National Academy of Sciences} 107(2403).
+
+\bibitem[{Barstow(1979)}]{barstow79knowledge}
+Barstow, D. 1979.
+\newblock \emph{Knowledge-based program construction}.
+\newblock New York: Elsevier.
+
+\bibitem[{Batali(2002)}]{batali02negotiation}
+Batali, J. 2002.
+\newblock The negotiation and acquisition of recursive grammars as a result of
+  competition among exemplars.
+\newblock In Ted Briscoe (ed.), \emph{Linguistic evolution through language
+  acquisition: Formal and computational models}, chap.~5. Cambridge University
+  Press.
+\newblock
+  \urlprefix\url{http://www.isrl.uiuc.edu/~amag/langev/paper/batali02theNegotiation.html}.
+
+\bibitem[{Belpaeme(2002)}]{belpaeme02factors}
+Belpaeme, Tony. 2002.
+\newblock \emph{Factors influencing the origins of colour categories}: Vrije
+  Universiteit Brussel dissertation.
+
+\bibitem[{Belpaeme \& Bleys(2005{\natexlab{a}})}]{belpaeme05eelc}
+Belpaeme, Tony \& Joris Bleys. 2005{\natexlab{a}}.
+\newblock Colourful language and colour categories.
+\newblock In \emph{Proceedings of the second international symposium on the
+  emergence and evolution of linguistic communication}, 1--7.
+
+\bibitem[{Belpaeme \& Bleys(2005{\natexlab{b}})}]{belpaeme05explaining}
+Belpaeme, Tony \& Joris Bleys. 2005{\natexlab{b}}.
+\newblock Explaining universal color categories through a constrained
+  acquisition process.
+\newblock \emph{Adaptive Behavior} 13(4). 293--310.
+
+\bibitem[{Belpaeme \& Bleys(2007)}]{belpaeme07language}
+Belpaeme, Tony \& Joris Bleys. 2007.
+\newblock Language, perceptual categories and their interaction: Insights from
+  computational modelling.
+\newblock In Caroline Lyon, Chrystopher Nehaniv \& Angelo Cangelosi (eds.),
+  \emph{Emergence of communication and language}, chap.~18, 339--353.
+  Springer-Verlag, London: Springer-Verlag.
+
+\bibitem[{Belpaeme \& Bleys(2009)}]{belpaeme09impact}
+Belpaeme, Tony \& Joris Bleys. 2009.
+\newblock The impact of statistical distributions of colours on colour category
+  acquisition.
+\newblock \emph{Journal of Cognitive Science} 10(1). 1--20.
+
+\bibitem[{Belpaeme et~al.(1998)Belpaeme, Steels \& van
+  Looveren}]{belpaeme98construction}
+Belpaeme, Tony, Luc Steels \& Joris van Looveren. 1998.
+\newblock The construction and acquisition of visual categories.
+\newblock In A.~Birk \& Y.~Demiris (eds.), \emph{Proceedings of the sixth
+  european conference on learning robots}, vol. 1545 Lecture Notes in
+  Artificial Intelligence, 1--12. Berlin: Springer.
+
+\bibitem[{Benavente et~al.(2008)Benavente, Vanrell \&
+  Baldrich}]{benavente08parametric}
+Benavente, Robert, Maria Vanrell \& Ramon Baldrich. 2008.
+\newblock Parametric fuzzy sets for automatic color naming.
+\newblock \emph{Journal of the Optical Society of America A} 25(10).
+  2582--2593.
+
+\bibitem[{Bergen \& Chang(2005)}]{bergen03embodied}
+Bergen, B.~K. \& N.~C. Chang. 2005.
+\newblock Embodied construction grammar in simulation-based language
+  understanding.
+\newblock In J.-O. \"Ostman \& M.~Fried (eds.), \emph{Construction grammar(s):
+  Cognitive and cross-language dimensions}, John Benjamins.
+
+\bibitem[{Berlin \& Kay(1969)}]{berlin69basic}
+Berlin, Brent \& Paul Kay. 1969.
+\newblock \emph{Basic color terms: Their universality and evolution}.
+\newblock Berkeley, California: University of California Press.
+
+\bibitem[{Berns \& Billmeyer(1985)}]{berns82development}
+Berns, Roy~S. \& Fred~W. Billmeyer. 1985.
+\newblock Development of the 1929 {Munsell Book of Color}: A historical review.
+\newblock \emph{{COLOR} research and application} 10. 246--250.
+
+\bibitem[{Bleys(2006)}]{bleys06next}
+Bleys, Joris. 2006.
+\newblock Next-generation language-games: The guessing game revisited.
+\newblock In Pierre-Yves Schobbens, Wim Vanhoof \& Gabriel Schwanen (eds.),
+  \emph{Proceedings of the 18th belgium-netherlands conference of artificial
+  intelligence}, .
+
+\bibitem[{Bleys(2008)}]{bleys08expressing}
+Bleys, Joris. 2008.
+\newblock Expressing second order semantics and the emergence of recursion.
+\newblock In Andrew D.~M. Smith, Kenny Smith \& Ramon~Ferrer i~Cancho (eds.),
+  \emph{The evolution of language: Evolang 7}, 34--41. World Scientific.
+
+\bibitem[{Bleys et~al.(2009)Bleys, Loetzsch, Spranger \&
+  Steels}]{bleys09grounded}
+Bleys, Joris, Martin Loetzsch, Michael Spranger \& Luc Steels. 2009.
+\newblock The grounded colour naming game.
+\newblock In \emph{{IEEE Ro-Man} 2009 workshops and tutorial proceedings},
+  IEEE.
+
+\bibitem[{Bleys \& Steels(2009)}]{bleys09linguistic}
+Bleys, Joris \& Luc Steels. 2009.
+\newblock Linguistic selection of language strategies: A case study for color.
+\newblock In \emph{Proceedings of the ecal 2009 conference}, .
+
+\bibitem[{Boynton(1997)}]{boynton97insights}
+Boynton, Robert~M. 1997.
+\newblock Insights gained from naming the osa colors.
+\newblock In C.~Hardin \& Luisa Maffi (eds.), \emph{Color categories in thought
+  and language}, 133--150. Cambridge University Press.
+
+\bibitem[{Boynton \& Olson(1987)}]{boynton87locating}
+Boynton, Robert~M. \& Conrad~X. Olson. 1987.
+\newblock Locating basic colors in the {OSA} space.
+\newblock \emph{{COLOR} Research and application} 12(2). 94--105.
+
+\bibitem[{Bradley \& Fayyad(1998)}]{bradley98refining}
+Bradley, Paul \& Usama~M. Fayyad. 1998.
+\newblock Refining initial points for $k$-means clustering.
+\newblock In \emph{Proceedings of the 15th international conference on machine
+  learning}, 91--99. San Franciso, {CA}: Morgan Kaufmann.
+
+\bibitem[{Burgress et~al.(1983)Burgress, Kempton \&
+  MacLaury}]{burgress83tarahumara}
+Burgress, Don, Willett Kempton \& Robert~E. MacLaury. 1983.
+\newblock Tarahumara color modifiers: category structure presaging evolutionary
+  change.
+\newblock \emph{American Ethnologist} 10(1). 133--149.
+
+\bibitem[{Casson(1997)}]{casson97shift}
+Casson, R. 1997.
+\newblock {Color shift: evolution of English color terms from brightness to
+  hue}.
+\newblock In C.~Hardin \& Luisa Maffi (eds.), \emph{Color categories in thought
+  and language}, 224--239. Cambridge: Cambridge University Press.
+
+\bibitem[{Chomsky(1957)}]{chomsky57syntactic}
+Chomsky, N. 1957.
+\newblock \emph{Syntactic structures}.
+\newblock Mouton.
+
+\bibitem[{Conklin(1995)}]{conklin55hanunoo}
+Conklin, Harold~C. 1995.
+\newblock Hanun\'oo color categories.
+\newblock \emph{Southwestern Journal of Anthropology} 11(4). 339--344.
+
+\bibitem[{Conover(1999)}]{conover99practical}
+Conover, W.J. 1999.
+\newblock \emph{Practical nonparametric statistics}.
+\newblock New York: John Wiley and Sons.
+
+\bibitem[{Coradeschi \& Saffiotti(2003)}]{coradeschi03anchoring}
+Coradeschi, Silvia \& Alessandro Saffiotti. 2003.
+\newblock An introduction to the anchoring problem.
+\newblock \emph{Robotics and Autonomous Systems} 43(2-3). 85--96.
+
+\bibitem[{Croft(2001)}]{croft01radical}
+Croft, W.~A. 2001.
+\newblock \emph{Radical construction grammar: Syntactic theory in typological
+  perspective}.
+\newblock Oxford: Oxford University Press.
+
+\bibitem[{De~Beule \& Steels(2005)}]{debeule05hierarchy}
+De~Beule, J. \& L.~Steels. 2005.
+\newblock Hierarchy in {Fluid Construction Grammar}.
+\newblock In Ulrich Furbach (ed.), \emph{Proceedings of the 28th annual german
+  conference on ai, ki 2005}, vol. 3698 Lecture Notes in Artificial
+  Intelligence, 1--15. Berlin Heidelberg: Springer Verlag.
+
+\bibitem[{De~Beule(2008)}]{debeule08emergence}
+De~Beule, Joachim. 2008.
+\newblock The emergence of compositionality, hierarchy and recursion in
+  peer-to-peer interactions.
+\newblock In Andrew D.~M. Smith, Kenny Smith \& Ramon~Ferrer i~Cancho (eds.),
+  \emph{The evolution of language: Evolang 7}, World Scientific.
+
+\bibitem[{Derefeldt \& Sahlin(1986)}]{derefeldt86transformation}
+Derefeldt, Gunilla \& Christer Sahlin. 1986.
+\newblock Transformation of {NCS} data into {CIELAB} colour space.
+\newblock \emph{{COLOR} research and application} 11. 146--152.
+
+\bibitem[{Dowman(2007)}]{dowman07explaining}
+Dowman, M. 2007.
+\newblock Explaining color term typology with an evolutionary model.
+\newblock \emph{Cognitive Science} 31. 99--132.
+
+\bibitem[{Dowty et~al.(1981)Dowty, Wall \& Peters}]{dowty1981introduction}
+Dowty, D.~R., R.~Wall \& S.~Peters. 1981.
+\newblock \emph{Introduction to {M}ontague semantics}.
+\newblock D. Reidel Publishing Company.
+
+\bibitem[{Fairchild(1998)}]{fairchild98color}
+Fairchild, Mark~D. 1998.
+\newblock \emph{Color appearance models}.
+\newblock Reading, MA: Addison-Wesley.
+
+\bibitem[{Fujita et~al.(2003)Fujita, Kuroki, Ishida \&
+  Doi}]{fujita03autonomous}
+Fujita, Masahiro, Yoshihiro Kuroki, Tatsuzo Ishida \& Toshi~T. Doi. 2003.
+\newblock Autonomous behavior control architecture of entertainment humanoid
+  robot {S}{D}{R}-4{X}.
+\newblock In \emph{Proceedings of the ieee/rsj international conference on
+  intelligent robots and systems (iros '03)}, 960--967, vol. 1. Las Vegas,
+  Nevada.
+
+\bibitem[{G\"ardenfors(2004)}]{gardenfors04conceptual}
+G\"ardenfors, Peter. 2004.
+\newblock \emph{Conceptual spaces: the geometry of thought}.
+\newblock The MIT Press.
+
+\bibitem[{Garrod \& Doherty(1994)}]{garrod94conversation}
+Garrod, S. \& G.~Doherty. 1994.
+\newblock Conversation, co-ordination and convention: an empirical
+  investigation of how groups establish linguistic conventions.
+\newblock \emph{Cognition} 53. 181--251.
+
+\bibitem[{Goldberg(1995)}]{goldberg95constructions}
+Goldberg, A.~E. 1995.
+\newblock \emph{Constructions: A construction grammar approach to argument
+  structure}.
+\newblock University of Chicago Press.
+
+\bibitem[{Goldberg(2003)}]{goldberg03constructions}
+Goldberg, A.~E. 2003.
+\newblock Constructions: a new theoretical approach to language.
+\newblock \emph{Trends in Cognitive Sciences} 7(5). 219--224.
+
+\bibitem[{Guild(1931)}]{guild31}
+Guild, J. 1931.
+\newblock The colorimetric properties of the spectrum.
+\newblock \emph{Philosophical Transactions of the Royal Society of America}
+  230. 149--187.
+
+\bibitem[{Hersh \& Caramazza(1976)}]{hersh76fuzzy}
+Hersh, Harry~M. \& Alfonso Caramazza. 1976.
+\newblock A fuzzy set approach to modifiers and vagueness in natural language.
+\newblock \emph{Journal of Experimental Psychology: General} 105(3). 254--276.
+
+\bibitem[{Howard \& Burnidge(1994)}]{howard94colors}
+Howard, C.~M. \& J.~A. Burnidge. 1994.
+\newblock Colors in natural landscapes.
+\newblock \emph{Journal of the Society of Information Display} 2(1). 47--55.
+
+\bibitem[{Kalman(1960)}]{kalman60new}
+Kalman, Rudolf~Emil. 1960.
+\newblock A new approach to linear filtering and prediction problems.
+\newblock \emph{Transactions of the ASME-Journal of Basic Engineering} 82(1).
+  35--45.
+
+\bibitem[{Kay et~al.(2010)Kay, Berlin, Maffi, Merrifield \& Cook}]{kay10world}
+Kay, Paul, Brent Berlin, Luisa Maffi, William~R. Merrifield \& Richard~S. Cook.
+  2010.
+\newblock \emph{World color survey} CSLI Lecture Notes.
+\newblock University of Chicago Press.
+
+\bibitem[{Kay \& Maffi(2008)}]{kay08number}
+Kay, Paul \& Luisa Maffi. 2008.
+\newblock Number of basic colour categories.
+\newblock In Martin Haspelmath, Matthew Dryer, David Gil \& Comrie Bernard
+  (eds.), \emph{The world atlas of language structures online}, chap. 133.
+  Munich, Germany: Max Planck Digital Library.
+
+\bibitem[{Kay \& McDaniel(1978)}]{kay78linguistic}
+Kay, Paul \& Chad~K. McDaniel. 1978.
+\newblock The linguistic significance of the meanings of basic color terms.
+\newblock \emph{Language} 54(3). 610--646.
+
+\bibitem[{Kelly \& Judd(1955)}]{kelly53icss}
+Kelly, K.~L. \& Deane~B. Judd. 1955.
+\newblock The {ISCC-NBS} method of designating colors and a dictionary of color
+  names.
+\newblock \emph{National Bureau of Standards (USA)} 553.
+
+\bibitem[{Komarova \& Jameson(2008)}]{komarova08population}
+Komarova, N. \& K.~Jameson. 2008.
+\newblock Population heterogeneity and color stimulus heterogeneity in
+  agent-based color categorization.
+\newblock \emph{Journal of Theoretical Biology} 253(4). 680--700.
+
+\bibitem[{Lammens(1994)}]{lammens94computational}
+Lammens, Johan. 1994.
+\newblock \emph{A computational model of color perception and color naming}:
+  Graduate School of State University of New York at Buffalo dissertation.
+
+\bibitem[{Lillo et~al.(2007)Lillo, Moreira, Vitini \&
+  Mart\'in}]{lillo07locating}
+Lillo, J., H.~Moreira, I.~Vitini \& J.~Mart\'in. 2007.
+\newblock Locating basic {S}panish colour categories in {CIE L}*u*v* space:
+  identification, lightness segregation and correspondence with {E}nglish
+  equivalents.
+\newblock \emph{Psicol\'ogica} 28. 21--54.
+
+\bibitem[{Lin et~al.(2001)Lin, Luo, MacDonald \& Tarrant}]{lin01unconstrained}
+Lin, H., M.~R. Luo, L.~W. MacDonald \& Arthur~W.S. Tarrant. 2001.
+\newblock {A Cross-Cultural Colour-Naming Study. Part I: Using an Unconstrained
+  Method}.
+\newblock \emph{{COLOR} research and application} 26. 40--60.
+
+\bibitem[{Lloyd(1982)}]{lloyd82least}
+Lloyd, Stuart~P. 1982.
+\newblock Least squares quantization in pcm.
+\newblock \emph{IEEE Transactions on Information Theory} 28(2).
+
+\bibitem[{Loetzsch et~al.(2010)Loetzsch, Spranger \&
+  Steels}]{loetzsch10grounding}
+Loetzsch, M., M.~Spranger \& L.~Steels. 2010.
+\newblock The grounding of object naming and identity Submitted.
+
+\bibitem[{Loetzsch et~al.(2009)Loetzsch, Bleys \&
+  Wellens}]{loetzsch09understanding}
+Loetzsch, Martin, Joris Bleys \& Pieter Wellens. 2009.
+\newblock Understanding the dynamics of complex lisp programs.
+\newblock In \emph{Proceedings of the 2nd european lisp symposium}, 59--69.
+  Milano, Italy.
+
+\bibitem[{Loetzsch et~al.(2008)Loetzsch, van Trijp \&
+  Steels}]{loetzsch08typological}
+Loetzsch, Martin, Remi van Trijp \& Luc Steels. 2008.
+\newblock Typological and computational investigations of spatial perspective.
+\newblock In \emph{Modeling communication with robots and virtual humans}, vol.
+  4930 Lecture Notes in Computer Science, 125--142. Berlin: Springer.
+
+\bibitem[{MacAdam(1935)}]{macadam35maximum}
+MacAdam, David~L. 1935.
+\newblock Maximum visual efficiency of colored materials.
+\newblock \emph{Journal of the Optical Society of America} 25. 249--252.
+
+\bibitem[{MacLaury(1992)}]{maclaury92brightness}
+MacLaury, Robert~E. 1992.
+\newblock From brightness to hue: an explanatory model of color-category
+  evolution.
+\newblock \emph{Current Anthropology} 33(2). 137--186.
+
+\bibitem[{MacLaury(1997)}]{maclaury97color}
+MacLaury, Robert~E. 1997.
+\newblock \emph{Color and cognition in mesoamerica}.
+\newblock Austin: University of Texas Press.
+
+\bibitem[{MacLaury(2002)}]{maclaury02introducing}
+MacLaury, Robert~E. 2002.
+\newblock Introducing vantage theory.
+\newblock \emph{Language Sciences} 24(493-536).
+
+\bibitem[{Marriott \& Stuckey(1998)}]{marriott98programming}
+Marriott, K. \& P.~J. Stuckey. 1998.
+\newblock \emph{Programming with constraints: An introduction}.
+\newblock The MIT Press.
+
+\bibitem[{Menegaz et~al.(2007)Menegaz, Le~Troter, Sequeira \&
+  Boi}]{menegaz07discrete}
+Menegaz, G., A.~Le~Troter, J.~Sequeira \& J.~M. Boi. 2007.
+\newblock A discrete model for color naming.
+\newblock \emph{EURASIP J. Appl. Signal Process.} 2007(1). 113--113.
+\newblock \doi{http://dx.doi.org/10.1155/2007/29125}.
+
+\bibitem[{Mojsilovic(2002)}]{mojsilovic02method}
+Mojsilovic, A. 2002.
+\newblock A method for color naming and description of color composition of
+  images.
+\newblock In \emph{Proceedings of internal coference on image processing, icip
+  2002}, .
+
+\bibitem[{Mojsilovic(2005)}]{mojsilovic05computational}
+Mojsilovic, A. 2005.
+\newblock A computational model for color naming and describing color
+  composition of images.
+\newblock \emph{IEEE Transactions on Image Processing} 14(5). 690--699.
+
+\bibitem[{Newhall et~al.(1942)Newhall, Nickerson \& Judd}]{newhall42final}
+Newhall, Sidney~M., Dorothy Nickerson \& Deane~B. Judd. 1942.
+\newblock Final report of the {O.S.A.} subcommittee on the spacing of the
+  {Munsell} colors.
+\newblock \emph{Journal of the Optical Society of America} 33(7). 385--418.
+
+\bibitem[{Paramei(2005)}]{paramei05singing}
+Paramei, Galina~V. 2005.
+\newblock Singing the {R}ussian blues: An argument for culturally basic color
+  terms.
+\newblock \emph{Cross-Cultural Research} 39(1). 10--38.
+
+\bibitem[{Pollard \& Sag(1995)}]{pollard94hpsg}
+Pollard, C. \& I.~Sag. 1995.
+\newblock \emph{Head-driven phrase structure grammar}.
+\newblock Chicago: University of Chicago Press.
+
+\bibitem[{Puglisi et~al.(2008)Puglisi, Baronchelli \&
+  Loreto}]{puglisi08cultural}
+Puglisi, Andrea, Andrea Baronchelli \& Vittorio Loreto. 2008.
+\newblock Cultural route to the emergence of linguistic categories.
+\newblock \emph{Proceedings of the National Academy of Sciences} 105(23).
+  7936--7940.
+
+\bibitem[{Regier et~al.(2005)Regier, Kay \& Cook}]{regier05focal}
+Regier, Terry, Paul Kay \& Richard~S. Cook. 2005.
+\newblock Focal colors are universal after all.
+\newblock \emph{Proceedings of the National Academy of Sciences} 102(23).
+  8386--8391.
+
+\bibitem[{Roberson(2005)}]{roberson05color}
+Roberson, D. 2005.
+\newblock Color categories are culturally diverse in cognition as well as in
+  language.
+\newblock \emph{Cross-Cultural Research} 39. 56--71.
+
+\bibitem[{Roberson et~al.(2002)Roberson, Davies \& Davidoff}]{roberson02color}
+Roberson, D., I~Davies \& Jules Davidoff. 2002.
+\newblock Color categories are not universal: replications and new evidence.
+\newblock In B.~Saunders \& J.~van Brakel (eds.), \emph{Theories, technologies,
+  instrumentalities of color}, 22--35. Lanham, MD: University Press of America.
+
+\bibitem[{Rosch(1973)}]{rosch73natural}
+Rosch, Eleanor~H. 1973.
+\newblock Natural categories.
+\newblock \emph{{C}ognitive {P}sychology} 4. 328--350.
+
+\bibitem[{Rucklidge(1997)}]{rucklidge97efficiently}
+Rucklidge, W.~J. 1997.
+\newblock {Efficiently locating objects using the Hausdorff distance}.
+\newblock \emph{International Journal of Computer Vision} 24(3). 251--270.
+
+\bibitem[{Safuanova \& Korzh(2007)}]{safuanova07russian}
+Safuanova, Olga~V. \& Nina~N. Korzh. 2007.
+\newblock Russian color names: mapping into a perceptual color space.
+\newblock In Robert~E. MacLaury, Galina~V. Paramei \& Don Dedrick (eds.),
+  \emph{Anthropology of color}, 75--106. Amsterdam: John Benjamins.
+
+\bibitem[{Shepard(1987)}]{shepard87toward}
+Shepard, Roger~N. 1987.
+\newblock Toward a universal law of generalization for psychological science.
+\newblock \emph{Science} 237. 1317--1323.
+
+\bibitem[{Shepard(1992)}]{shepard92perceptual}
+Shepard, Roger~N. 1992.
+\newblock The perceptual organization of colors: An adaptation to regularities
+  of the terrestrial world?
+\newblock In J.~Barkow, L.~Cosmides \& J.~Tooby (eds.), \emph{Adapted mind},
+  495--532. Oxford: Oxford University Press.
+
+\bibitem[{Simpson \& Tarrant(1991)}]{simpson91sex}
+Simpson, Jean \& Arthur~W.S. Tarrant. 1991.
+\newblock Sex- and age-related differences in colour vocabulary.
+\newblock \emph{Language and Speech} 34(1). 57--62.
+
+\bibitem[{Siskind(2001)}]{siskind01grounding}
+Siskind, J.~M. 2001.
+\newblock Grounding the lexical semantics of verbs in visual perception using
+  force dynamics and event logic.
+\newblock \emph{Journal of Artificial Intelligence Research} 15. 31--90.
+
+\bibitem[{Smith et~al.(2003)Smith, Kirby \& Brighton}]{smith03iterated}
+Smith, K., S.~Kirby \& H.~Brighton. 2003.
+\newblock Iterated learning: a framework for the emergence of language.
+\newblock \emph{Artificial Life} 9(4). 371--386.
+
+\bibitem[{Spranger(2008)}]{spranger08diplomathesis}
+Spranger, Michael. 2008.
+\newblock World models for grounded language games.
+\newblock Diploma thesis. Humboldt-Universit\"at zu Berlin.
+
+\bibitem[{Steels(1996{\natexlab{a}})}]{steels96perceptually}
+Steels, L. 1996{\natexlab{a}}.
+\newblock Perceptually grounded meaning creation.
+\newblock In M.~Tokoro (ed.), \emph{Proceedings of the second international
+  conference on multi-agent systems}, 338--344. Menlo Park, CA: AAAI Press.
+
+\bibitem[{Steels(1999)}]{steels99talking}
+Steels, L. 1999.
+\newblock \emph{The talking heads experiment. volume 1. words and meanings}.
+\newblock Antwerpen: Laboratorium.
+
+\bibitem[{Steels(2003)}]{steels03reentrance}
+Steels, L. 2003.
+\newblock Language-reentrance and the \'inner voice\'.
+\newblock \emph{Journal of Consciousness Studies} 10(4-5). 173--185.
+
+\bibitem[{Steels(2007)}]{steels07recruitment}
+Steels, L. 2007.
+\newblock The recruitment theory of language origins.
+\newblock In C.~Lyon, C.~L. Nehaniv \& A.~Cangelosi (eds.), \emph{Emergence of
+  language and communication}, 129--151. Berlin: Springer.
+
+\bibitem[{Steels \& Bleys(2005)}]{steels05planning}
+Steels, L. \& J.~Bleys. 2005.
+\newblock Planning what to say: Second order semantics for {Fluid Construction
+  Grammars}.
+\newblock In A.~Bugarin~Diz \& J.~Santos Reyes (eds.), \emph{Proceedings of
+  caepia \'05. lecture notes in ai.}, Berlin: Springer Verlag.
+
+\bibitem[{Steels \& De~Beule(2006)}]{steels06unify}
+Steels, L. \& J.~De~Beule. 2006.
+\newblock Unify and merge in {Fluid Construction Grammar}.
+\newblock In P.~Vogt, Y.~Sugita, E.~Tuci \& C.~Nehaniv (eds.), \emph{Symbol
+  grounding and beyond: Proceedings of the third international workshop on the
+  emergence and evolution of linguistic communication} LNAI 4211, 197--223.
+  Berlin: Springer-Verlag.
+
+\bibitem[{Steels et~al.(2005)Steels, De~Beule \& Neubauer}]{steels05linking}
+Steels, L., J.~De~Beule \& N.~Neubauer. 2005.
+\newblock Linking in {Fluid Construction Grammars}.
+\newblock In \emph{Proceedings of bnaic. transactions of the belgian royal
+  society of arts and sciences.}, 11--18. Brussels.
+
+\bibitem[{Steels(1996{\natexlab{b}})}]{steels96self}
+Steels, Luc. 1996{\natexlab{b}}.
+\newblock A self-organizing spatial vocabulary.
+\newblock \emph{Artificial Life} 2(3). 318--332.
+
+\bibitem[{Steels(1997)}]{steels97constructing}
+Steels, Luc. 1997.
+\newblock Construction and sharing perceptual distinctions.
+\newblock In M.~van Someren \& G.~Widmer (eds.), \emph{Proceedings of the
+  european conference on machine learning}, Berlin: Springer.
+
+\bibitem[{Steels(1998)}]{steels98origins}
+Steels, Luc. 1998.
+\newblock The origins of syntax in visually grounded robotic agents.
+\newblock \emph{Artificial Intelligence} 103(1-2). 133--156.
+
+\bibitem[{Steels(2000{\natexlab{a}})}]{steels00emergence}
+Steels, Luc. 2000{\natexlab{a}}.
+\newblock The emergence of grammar in communicating autonomous robotic agents.
+\newblock In W.~Horn (ed.), \emph{Ecai 2000: Proceedings of the 14th european
+  conference on artificial life}, 764--769. Amsterdam: IOS Publishing.
+
+\bibitem[{Steels(2000{\natexlab{b}})}]{steels00language}
+Steels, Luc. 2000{\natexlab{b}}.
+\newblock Language as a complex adaptive system.
+\newblock In M.~Schoenauer (ed.), \emph{Proceedings of ppsn vi: Lecture notes
+  in computer science} Lecture Notes in Computer Science, 17--26. Berlin:
+  Springer-Verlag.
+
+\bibitem[{Steels \& Belpaeme(2005)}]{steels05coordinating}
+Steels, Luc \& Tony Belpaeme. 2005.
+\newblock Coordinating perceptually grounded categories through language: A
+  case study for colour.
+\newblock \emph{Behavioral and Brain Sciences} 28. 469--529.
+
+\bibitem[{Steels \& Bleys(2007)}]{steels07emergence}
+Steels, Luc \& Joris Bleys. 2007.
+\newblock Emergence of hierarchy in {Fluid Construction Grammar}.
+\newblock In \emph{Proceedings of the slea workshop at the 9th european
+  conference on artificial life}, .
+
+\bibitem[{Steels \& Loetzsch(2009)}]{steels09perspective}
+Steels, Luc \& Martin Loetzsch. 2009.
+\newblock Perspective alignment in spatial language.
+\newblock In Kenny~R. Coventry, Thora Tenbrink \& John.~A Bateman (eds.),
+  \emph{Spatial language and dialogue}, Oxford University Press.
+\newblock To appear.
+
+\bibitem[{Steels \& Wellens(2006)}]{steels06how}
+Steels, Luc \& Pieter Wellens. 2006.
+\newblock How grammar emerges to dampen combinatorial search in parsing.
+\newblock In Paul Vogt (ed.), \emph{Eelc 2: Symbol grounding and beyond}, vol.
+  4211 LNAI, 76--88. Berlin Heidelberg: Springer Verlag.
+
+\bibitem[{Sturges \& Whitfield(1995)}]{sturges95location}
+Sturges, Julia \& T.~W.~Allan Whitfield. 1995.
+\newblock {Locating basic colours in the Munsell Space}.
+\newblock \emph{Color Research and Application} 20. 364--376.
+
+\bibitem[{Tomasello(1995)}]{tomasello95jointattention}
+Tomasello, Michael. 1995.
+\newblock Joint attention as social cognition.
+\newblock In Chris Moore \& Philip~J. Dunham (eds.), \emph{Joint attention: Its
+  origins and role in development}, Hillsdale, NJ: Lawrence Erlbaum Associates.
+
+\bibitem[{Tribushinina(2008)}]{tribushinina08cognitive}
+Tribushinina, Elena. 2008.
+\newblock \emph{Cognitive reference points: Semantics beyond the prototypes in
+  adjectives of space and colour} (LOT Dissertation Series 192).
+\newblock Utrecht, The Netherlands: LOT publications.
+
+\bibitem[{{Van den Broeck}(2007)}]{vandenbroeck07constraintbased}
+{Van den Broeck}, Wouter. 2007.
+\newblock A constraint-based model of grounded compositional semantics.
+\newblock In Stephen J.~Cowley Lu{\'\i}s Seabra~Lopes, Tony~Belpaeme (ed.),
+  \emph{Language and robots: Proceedings of the symposium. 10-12 december 2007,
+  aveiro, portugal}, 93--98. Universidade de Aveiro.
+
+\bibitem[{{Van den Broeck}(2008)}]{vandenbroeck08constraintbased}
+{Van den Broeck}, Wouter. 2008.
+\newblock Constraint-based compositional semantics.
+\newblock In Andrew D.~M. Smith, Kenny Smith \& Ramon~Ferrer i~Cancho (eds.),
+  \emph{The evolution of language: Evolang 7}, World Scientific.
+
+\bibitem[{Van~Wijk(1959)}]{vanwijk59crosscultural}
+Van~Wijk, H.A.C.W. 1959.
+\newblock A cross-cultural theory of colour and brightness nomenclature.
+\newblock \emph{Bijdragen tot de taal-, land- en volkenkunde} 115. 113--137.
+
+\bibitem[{Vogt(2003)}]{vogt03anchoring}
+Vogt, Paul. 2003.
+\newblock Anchoring of semiotic symbols.
+\newblock \emph{Robotics and Autonomous Systems} 43(2-3). 109--120.
+
+\bibitem[{Wang \& Steels(2008)}]{wang08self}
+Wang, E. \& L.~Steels. 2008.
+\newblock Self-interested agents can bootstrap symbolic communication if they
+  punish cheaters.
+\newblock In A.~D.~M. Smith, K.~Smith \& R.~Ferrer~i Cancho (eds.), \emph{The
+  evolution of language. proceedings of the 7th international conference on the
+  evolution of language}, 362--369. Singapore: World Scientific.
+
+\bibitem[{van~de Weijer et~al.(2007)van~de Weijer, Schmid \&
+  Verbeek}]{vandewijer07learning}
+van~de Weijer, Joost, Cordelia Schmid \& Jakob Verbeek. 2007.
+\newblock Learning color names from real-world images.
+\newblock \emph{Computer Vision and Pattern Recognition, IEEE Computer Society
+  Conference on} 0. 1--8.
+\newblock \doi{http://doi.ieeecomputersociety.org/10.1109/CVPR.2007.383218}.
+
+\bibitem[{Wellens et~al.(2008)Wellens, Loetzsch \& Steels}]{wellens08flexible}
+Wellens, Pieter, Martin Loetzsch \& Luc Steels. 2008.
+\newblock Flexible word meaning in embodied agents.
+\newblock \emph{Connection Science} 20(2). 173--191.
+
+\bibitem[{Winograd(1972)}]{winograd72understanding}
+Winograd, Terry. 1972.
+\newblock \emph{Understanding natural language}.
+\newblock Academic Press.
+
+\bibitem[{Wright(1928)}]{wright28}
+Wright, W.~D. 1928.
+\newblock A re-determination of the trichromatic coefficients of the spectral
+  colours.
+\newblock \emph{Transactions of the {O}ptical {S}ociety} 30. 141--161.
+
+\bibitem[{Xu(2002)}]{xu02role}
+Xu, Fei. 2002.
+\newblock The role of language in acquiring object concepts in infancy.
+\newblock \emph{Cognition} 85. 223--250.
+
+\bibitem[{Yendrikhovskij(2001)}]{yendrikhovskij01computational}
+Yendrikhovskij, S.~N. 2001.
+\newblock A computational model of colour categorization.
+\newblock \emph{Color Research and Application} 26(1). 235--238.
+
+\end{thebibliography}

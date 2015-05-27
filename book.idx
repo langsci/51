@@ -1,0 +1,156 @@
+\indexentry {language strategy|hyperpage}{4}
+\indexentry {language system|hyperpage}{4}
+\indexentry {basic colour term|hyperpage}{5}
+\indexentry {focal colour|hyperpage}{5}
+\indexentry {language strategy!modelling|hyperpage}{10}
+\indexentry {baseline experiment|hyperpage}{10}
+\indexentry {agent|hyperpage}{10}
+\indexentry {language game|hyperpage}{10}
+\indexentry {communicative goal|hyperpage}{10}
+\indexentry {context|hyperpage}{10}
+\indexentry {semiotic cycle|hyperpage}{11}
+\indexentry {language game!Colour Naming Game|hyperpage}{12}
+\indexentry {Colour Naming Game|hyperindexformat{\see {language game}}}{12}
+\indexentry {language game!Grounded Colour Naming Game|hyperpage}{12}
+\indexentry {Grounded Colour Naming Game|hyperindexformat{\see {language game}}}{12}
+\indexentry {language game!Colour Description Game|hyperpage}{12}
+\indexentry {Colour Description Game|hyperindexformat{\see {language game}}}{12}
+\indexentry {language system!self-organisation of|hyperpage}{13}
+\indexentry {learning operators!adoption operator|hyperpage}{13}
+\indexentry {learning operators!alignment operator|hyperpage}{13}
+\indexentry {learning operators!invention operator|hyperpage}{13}
+\indexentry {acquisition experiment|hyperpage}{13}
+\indexentry {formation experiment|hyperpage}{13}
+\indexentry {language strategy!evolution|hyperpage}{14}
+\indexentry {Incremental Recruitment Language|hyperindexformat{\see {IRL}}}{18}
+\indexentry {IRL|hyperpage}{18}
+\indexentry {semantic constraint network|hyperpage}{19}
+\indexentry {semantic network|hyperindexformat{\see {semantic constraint network}}}{19}
+\indexentry {primitive constraint|hyperpage}{19}
+\indexentry {semantic entity|hyperpage}{19}
+\indexentry {semantic constraint network!evaluation|hyperpage}{22}
+\indexentry {conceptualisation|hyperpage}{24}
+\indexentry {semantic constraint network!generation|hyperpage}{24}
+\indexentry {IRL!chunking|hyperpage}{25}
+\indexentry {chunking|hyperindexformat{\see {IRL}}}{25}
+\indexentry {primitive constraint!implementation|hyperpage}{27}
+\indexentry {Fluid Construction Grammar|hyperindexformat{\see {FCG}}}{27}
+\indexentry {FCG|hyperpage}{27}
+\indexentry {linguistic structure|hyperpage}{28}
+\indexentry {coupled feature structure|hyperpage}{29}
+\indexentry {FCG!structure building|hyperpage}{31}
+\indexentry {structure building|hyperindexformat{\see {FCG}}}{31}
+\indexentry {linking|hyperindexformat{\see {FCG}}}{33}
+\indexentry {FCG!linking|hyperpage}{33}
+\indexentry {semantic template|hyperpage}{41}
+\indexentry {syntactic template|hyperpage}{41}
+\indexentry {naming benchmark|hyperpage}{41}
+\indexentry {baseline experiment|hyperpage}{41}
+\indexentry {language strategy!for colour!basic colour strategy|hyperpage}{43}
+\indexentry {basic colour strategy|hyperindexformat{\see {language strategy}}}{43}
+\indexentry {colour category|hyperpage}{43}
+\indexentry {prototype|hyperindexformat{\see {colour category}}}{43}
+\indexentry {consensus samples|hyperindexformat{\see {colour category}}}{43}
+\indexentry {semantic template!for basic colour strategy|hyperpage}{45}
+\indexentry {profiling|hyperpage}{46}
+\indexentry {syntactic template!for semantic entities|hyperpage}{52}
+\indexentry {syntactic template!for functional primitives|hyperpage}{52}
+\indexentry {functional primitive|hyperindexformat{\see {primitive constraint}}}{52}
+\indexentry {primitive constraint!functional primitive|hyperpage}{52}
+\indexentry {syntactic template!for contextual primitives|hyperpage}{53}
+\indexentry {contextual primitive|hyperindexformat{\see {primitive constraint}}}{53}
+\indexentry {primitive constraint!contextual primitive|hyperpage}{53}
+\indexentry {baseline experiment!for basic colour strategy|hyperpage}{54}
+\indexentry {naming benchmark!for basic colour strategy|hyperpage}{54}
+\indexentry {measures!communicative success|hyperpage}{54}
+\indexentry {communicative success|hyperindexformat{\see {measures}}}{54}
+\indexentry {language strategy!for colour!graded membership strategy|hyperpage}{57}
+\indexentry {graded membership strategy|hyperindexformat{\see {language strategy}}}{57}
+\indexentry {semantic template!for graded membership strategy|hyperpage}{59}
+\indexentry {syntactic template!for semantic entities|hyperpage}{64}
+\indexentry {syntactic template!for functional primitives|hyperpage}{66}
+\indexentry {syntactic template!re-use of constructions|hyperpage}{66}
+\indexentry {baseline experiment!for graded membership strategy|hyperpage}{67}
+\indexentry {naming benchmark!for graded membership strategy|hyperpage}{68}
+\indexentry {language strategy!for colour!category combination strategy|hyperpage}{73}
+\indexentry {category combination strategy|hyperindexformat{\see {language strategy}}}{73}
+\indexentry {semantic template!for category combination strategy|hyperpage}{75}
+\indexentry {syntactic template!for functional primitives|hyperpage}{83}
+\indexentry {syntactic template!for contextual primitives|hyperpage}{83}
+\indexentry {syntactic template!re-use of constructions|hyperpage}{84}
+\indexentry {baseline experiment!for category combination strategy|hyperpage}{85}
+\indexentry {naming benchmark!for category combination strategy|hyperpage}{85}
+\indexentry {language strategy!for colour!basic modification strategy|hyperpage}{89}
+\indexentry {basic modification strategy|hyperindexformat{\see {language strategy}}}{89}
+\indexentry {semantic template!for basic modification strategy|hyperpage}{90}
+\indexentry {syntactic template!re-use of constructions|hyperpage}{95}
+\indexentry {baseline experiment!for basic modification strategy|hyperpage}{97}
+\indexentry {naming benchmark!for basic modification strategy|hyperpage}{97}
+\indexentry {adoption operator|hyperindexformat{\see {learning operators}}}{103}
+\indexentry {learning operators|hyperpage}{103}
+\indexentry {alignment operator|hyperindexformat{\see {learning operators}}}{103}
+\indexentry {invention operator|hyperindexformat{\see {learning operators}}}{103}
+\indexentry {acquisition experiment|hyperpage}{103}
+\indexentry {formation experiment|hyperpage}{103}
+\indexentry {learning operators!adoption operator!for basic colour strategy|hyperpage}{106}
+\indexentry {learning operators!alignment operator!for basic colour strategy|hyperpage}{106}
+\indexentry {alignment rate!colour category|hyperpage}{106}
+\indexentry {colour category alignment rate|hyperindexformat{\see {alignment rate}}}{106}
+\indexentry {acquisition experiment!for basic colours strategy|hyperpage}{106}
+\indexentry {measures!number of categories|hyperpage}{107}
+\indexentry {number of categories|hyperindexformat{\see {measures}}}{107}
+\indexentry {measures!interpretation variance|hyperpage}{107}
+\indexentry {interpretation variance|hyperindexformat{\see {measures}}}{107}
+\indexentry {learning operators!invention operator!for basic colour strategy|hyperpage}{110}
+\indexentry {invention rate!colour category|hyperpage}{110}
+\indexentry {colour category invention rate|hyperindexformat{\see {invention rate}}}{110}
+\indexentry {formation experiment!for basic colour strategy|hyperpage}{112}
+\indexentry {learning operators!adoption operator!for graded membership strategy|hyperpage}{117}
+\indexentry {learning operators!alignment operator!for graded membership strategy|hyperpage}{117}
+\indexentry {alignment rate!membership category|hyperpage}{118}
+\indexentry {membership category alignment rate|hyperindexformat{\see {alignment rate}}}{118}
+\indexentry {acquisition experiment!for graded membership strategy|hyperpage}{118}
+\indexentry {measures!membership category variance|hyperpage}{118}
+\indexentry {membership category variance|hyperindexformat{\see {measures}}}{118}
+\indexentry {learning operators!invention operator!for graded membership strategy|hyperpage}{119}
+\indexentry {invention rate!membership category|hyperpage}{119}
+\indexentry {membership category invention rate|hyperindexformat{\see {invention rate}}}{119}
+\indexentry {formation experiment!for graded membership strategy|hyperpage}{122}
+\indexentry {measures!number of membership categories|hyperpage}{122}
+\indexentry {number of membership categories|hyperindexformat{\see {measures}}}{122}
+\indexentry {impact!of environment on basic colour systems|hyperpage}{127}
+\indexentry {impact!of language on basic colour systems|hyperpage}{134}
+\indexentry {impact!of embodiment on basic colour strategy|hyperpage}{140}
+\indexentry {embodiment!impact of|hyperindexformat{\see {impact}}}{140}
+\indexentry {language strategy!linguistic selection of|hyperpage}{159}
+\indexentry {measures!strategy success|hyperpage}{164}
+\indexentry {strategy success|hyperindexformat{\see {measures}}}{164}
+\indexentry {measures!strategy usage|hyperpage}{164}
+\indexentry {strategy usage|hyperindexformat{\see {measures}}}{164}
+\indexentry {measures!strategy coherence|hyperpage}{164}
+\indexentry {strategy coherence|hyperindexformat{\see {measures}}}{164}
+\indexentry {language strategy!selective advantage of|hyperpage}{165}
+\indexentry {language strategy!origins of|hyperpage}{171}
+\indexentry {semantic template!generation|hyperpage}{171}
+\indexentry {repair strategies|hyperpage}{172}
+\indexentry {repair strategy!for semantic entities|hyperpage}{179}
+\indexentry {repair strategy!for functional primitives|hyperpage}{181}
+\indexentry {repair strategy!for contextual primitives|hyperpage}{182}
+\indexentry {repair strategy!re-use of constructions|hyperpage}{184}
+\indexentry {colour space!CIE 1931 XYZ|hyperpage}{201}
+\indexentry {CIE 1931 XYZ|hyperindexformat{\see {colour space}}}{201}
+\indexentry {colour space!CIE xyY|hyperpage}{203}
+\indexentry {CIE xyY|hyperindexformat{\see {colour space}}}{203}
+\indexentry {colour space!CIE 1976 \emph {L*a*b*}|hyperpage}{204}
+\indexentry {CIE 1976 \emph {L*a*b*}|hyperindexformat{\see {colour space}}}{204}
+\indexentry {colour space!CIE 1976 \emph {L*u*v*}|hyperpage}{205}
+\indexentry {CIE 1976 \emph {L*u*v*}|hyperindexformat{\see {colour space}}}{205}
+\indexentry {colour system!Munsell|hyperpage}{206}
+\indexentry {Munsell colour system|hyperindexformat{\see {colour system}}}{206}
+\indexentry {colour system!Natural|hyperpage}{210}
+\indexentry {NCS|hyperindexformat{\see {Natural Color System}}}{210}
+\indexentry {Natural Color System|hyperindexformat{\see {colour system}}}{210}
+\indexentry {colour model!RGB|hyperpage}{210}
+\indexentry {RGB|hyperindexformat{\see {colour model}}}{210}
+\indexentry {colour model!YCbCr|hyperpage}{211}
+\indexentry {YCbCr|hyperindexformat{\see {colour model}}}{211}
