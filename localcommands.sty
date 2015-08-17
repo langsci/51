@@ -1,0 +1,23 @@
+\newenvironment{explanation}[1]
+{\vskip0.08cm\parbox[t]{0.15\textwidth}{\raggedleft #1}
+\hskip0.03\textwidth\begin{minipage}[t]{0.76\textwidth}}
+{\end{minipage}\vskip0.05cm}
+
+\def\sectionlevel{135}
+
+\newcommand{\definition}[2]{
+  \def\definitionnumber{\ }
+  \ifnum\sectionlevel=1\refstepcounter{section}
+  \addcontentsline{toc}{section}{\thesection\  #1 #2}\def\definitionnumber{\thesection}
+  \else
+  \ifnum\sectionlevel=13\refstepcounter{subsection}
+  \addcontentsline{toc}{subsection}{\thesubsection\  #1 #2}\def\definitionnumber{\thesubsection}
+  \else
+  \ifnum\sectionlevel=135\refstepcounter{subsubsection}
+  \addcontentsline{toc}{subsubsection}{\thesubsubsection\  #1 #2}
+  \def\definitionnumber{\thesubsubsection}
+  \fi\fi\fi
+  \label{s:definition-#2}
+  \vskip0.5cm
+  \noindent
+  \definitionnumber\hskip0.2cm\emph{#1}\hskip0.2cm\textsc{#2}\nopagebreak\vskip0.1cm\hrule\nopagebreak\vskip0.1cm}
