@@ -193,22 +193,20 @@ the English categories, both for CIE $L^*a^*b^*$ and CIE $L^*u^*v^*$.
 
 \begin{table}[htbp]
 \centering
-\begin{tabular}{llllll}
-\hline
-& $L^*$ & $u^*$ & $v^*$ & $C^*_{uv}$ & $H_{uv}$\\
-\hline
-NATURAL & $0.561^*$  & $0.673^*$  & $0.636^*$  & $0.709^*$  & $0.745^*$  \\
-URBAN & $0.972^*$  & $0.564^*$  & $0.673^*$  & $0.636^*$  & $0.636^*$  \\
-UNIFORM & $0.187$  & $0.418$  & $0.745^*$  & $0.491^*$  & $0.818^*$  \\
-\hline
-\\
-\hline
-& L* & $a^*$ & $b^*$ & $C^*_{ab}$ & $H_{ab}$\\
-\hline
-NATURAL & $0.785^*$ & 0.200 & $0.745^{*}$ & $0.709^*$ & $0.636^*$ \\
-URBAN & $0.935^{*}$ & $0.382$ & $0.745^{*}$ & $0.491^*$ & 0.345 \\
-RANDOM & $0.411$ & 0.309 & $0.782^{*}$ & $0.600^*$ & $0.709^*$ \\
-\hline
+\begin{tabular}{>{\scshape}ld{5}d{5}d{5}d{5}d{5}}
+\lsptoprule
+& \multicolumn{1}{c}{$L^*$} & \multicolumn{1}{c}{$u^*$} & \multicolumn{1}{c}{$v^*$} & \multicolumn{1}{c}{$C^*_{uv}$} & \multicolumn{1}{c}{$H_{uv}$}\\
+\midrule
+natural & 0.561^*  & 0.673^*  & 0.636^*  & 0.709^*  & 0.745^*  \\
+urban & 0.972^*  & 0.564^*  & 0.673^*  & 0.636^*  & 0.636^*  \\
+uniform & 0.187  & 0.418  & 0.745^*  & 0.491^*  & 0.818^*  \\
+\midrule
+& \multicolumn{1}{c}{$L^*$} & \multicolumn{1}{c}{$a^*$} & \multicolumn{1}{c}{$b^*$} & \multicolumn{1}{c}{$C^*_{ab}$} & \multicolumn{1}{c}{$H_{ab}$}\\
+\midrule
+natural & 0.785^* & 0.200 & 0.745^{*} & 0.709^* & 0.636^* \\
+urban & 0.935^{*} & 0.382 & 0.745^{*} & 0.491^* & 0.345 \\
+random & 0.411 & 0.309 & 0.782^{*} & 0.600^* & 0.709^* \\
+\lspbottomrule
 \multicolumn{6}{l}{\footnotesize* Correlation is significant at the 0.05 level.}\\	
 \end{tabular}
 \caption{Correlation between cluster centroids and human colour
@@ -246,21 +244,21 @@ broken down by each category, are summarised in Table
 \begin{table}[htbp]
   \centering
   \footnotesize
-  \begin{tabular}{rcccccccccccc}
-    \hline
-    & WE & GY& BK & GN & YW & BL & RD & PU & BR & OR & PK & total\\
+  \begin{tabular}{>{\scshape}crrrrrrrrrrrr}
+    \lsptoprule
+    & \multicolumn{1}{c}{WE} & \multicolumn{1}{c}{GY} & \multicolumn{1}{c}{BK} & \multicolumn{1}{c}{GN} & \multicolumn{1}{c}{YW} & \multicolumn{1}{c}{BL} & \multicolumn{1}{c}{RD} & \multicolumn{1}{c}{PU} & \multicolumn{1}{c}{BR} & \multicolumn{1}{c}{OR} & \multicolumn{1}{c}{PK} & \multicolumn{1}{c}{\scshape total}\\
     & 2 & 6 & 3 &22 & 8 & 25 & 4 & 14 & 4 & 6 & 6 & 100 \\
-    \hline
-    S\&W & 2 & 6 & 3 & 17 & 8 & 18 & 4 & 9 & 4 & 6 & 6 & 83\\
-    NAT & 2 & 1 & 3 & 8 & 8 & 11 & 4 & 6 & 2 & 0 & 0 & 45 \\
-    URB & 2 & 4 & 2 & 5 & 8 & 18 & 4 & 2 & 0 & 0 & 3 & 48 \\
-    UNI & 2 & 0 & 3 & 2 & 0 & 5 & 4 & 0 & 0 & 1 & 3 & 20 \\
-    \hline
-    S\&W & 2 & 6 & 3 & 18 & 8 & 18 & 4 & 9 & 4 & 6 & 6 & 84 \\
-    NAT & 2 & 5 & 3 & 15 & 8 & 24 & 4 & 6 & 0 & 0 & 1 & 68 \\
-    URB & 2 & 5 & 3 & 5 & 8 & 24 & 4 & 6 & 2 & 0 & 2 & 61 \\
-    UNI & 2 & 0 & 3 & 13 & 8 & 0 & 4 & 1 & 0 & 4 & 4 & 39 \\
-    \hline
+    \midrule
+    s\&w & 2 & 6 & 3 & 17 & 8 & 18 & 4 & 9 & 4 & 6 & 6 & 83\\
+    nat & 2 & 1 & 3 & 8 & 8 & 11 & 4 & 6 & 2 & 0 & 0 & 45 \\
+    urb & 2 & 4 & 2 & 5 & 8 & 18 & 4 & 2 & 0 & 0 & 3 & 48 \\
+    uni & 2 & 0 & 3 & 2 & 0 & 5 & 4 & 0 & 0 & 1 & 3 & 20 \\
+    \midrule
+    s\&w & 2 & 6 & 3 & 18 & 8 & 18 & 4 & 9 & 4 & 6 & 6 & 84 \\
+    nat & 2 & 5 & 3 & 15 & 8 & 24 & 4 & 6 & 0 & 0 & 1 & 68 \\
+    urb & 2 & 5 & 3 & 5 & 8 & 24 & 4 & 6 & 2 & 0 & 2 & 61 \\
+    uni & 2 & 0 & 3 & 13 & 8 & 0 & 4 & 1 & 0 & 4 & 4 & 39 \\
+    \lspbottomrule
   \end{tabular}
   \normalsize
   \caption[Naming benchmark for cluster centroids]{Number of correctly
@@ -508,13 +506,15 @@ categories.
 
 \begin{table}[htbp]
 \centering
-\begin{tabular}{lc}
-\emph{x} & \emph{H(x, WCS)} \\
-\hline
+\begin{tabular}{ld{3}}
+\lsptoprule
+\emph{x} & \multicolumn{1}{c}{\emph{H(x, WCS)}} \\
+\midrule
 discrimination experiment, uniform data set & 5.39 \\
 discrimination experiment, natural data set & 7.00 \\
 formation experiment, uniform data set & 5.10 \\
-formation experiment, natural data set & 7.00
+formation experiment, natural data set & 7.00\\
+\lspbottomrule
 \end{tabular}
 \caption[Distance between resulting topologies and WCS data]{Hausdorff
   distance between resulting topologies and WCS data. The lower the
@@ -701,18 +701,20 @@ experiences for the same objects in the world across all scenes used
 in our experiment, is shown in Figure \ref{f:perceptual-deviation}.
 
 \begin{figure}[htbp]
-  \centering\small
-  \begin{tabular}{c|ccc|ccc}
-    \multicolumn{1}{c}{}
-    & \multicolumn{3}{c}{\includegraphics[width=0.37\textwidth]{./experiments/figures/grounding-scene-a}}
-    & \multicolumn{3}{c}{\includegraphics[width=0.37\textwidth]{./experiments/figures/grounding-scene-b}} \\
-    & obj-9 & obj-11 & obj-17 & obj-7 & obj-10 & obj-15 \\
-    \hline
-    \emph{L*} & 35.5 & 51.2 & 50.5 & 35.6 & 52.8 & 62.2 \\
-    \emph{a*} & 7.7 & -17.1 & 26.7 & 7.2 & -20.1 & 27.9 \\
-    \emph{b*} & -40.7 & -14.0 & 39.6 & -39.0 & -11.3 & 52.5 \\
-    \hline
-  \end{tabular}
+  \centering%\small
+  \includegraphics[width=0.37\textwidth]{./experiments/figures/grounding-scene-a}
+  \includegraphics[width=0.37\textwidth]{./experiments/figures/grounding-scene-b}
+  \begin{tabularx}{.75\textwidth}{l *{6}{d{2}}}
+%     & \multicolumn{3}{c}{}
+%     & \multicolumn{3}{c}{} \\
+  \lsptoprule
+    & \multicolumn{1}{c}{obj-9} & \multicolumn{1}{c}{obj-11} & \multicolumn{1}{c}{obj-17} & \multicolumn{1}{c}{obj-7} & \multicolumn{1}{c}{obj-15} & \multicolumn{1}{c}{obj-10} \\
+    \midrule
+    \emph{L*} & 35.5 & 51.2 & 50.5 & 35.6 & 62.2 & 52.8  \\
+    \emph{a*} & 7.7 & -17.1 & 26.7 & 7.2 & 27.9 & -20.1   \\
+    \emph{b*} & -40.7 & -14.0 & 39.6 & -39.0 & 52.5 & -11.3  \\
+    \lspbottomrule
+  \end{tabularx}
   \caption[Comparison between the colour perceptions of two robots for
   an example scene]{Comparison between the colour perceptions of two
     robots for an example scene. The robots see the yellow duck
@@ -937,21 +939,23 @@ formation experiment no such guidance is present.
 
 \begin{table}[htbp]
   \centering
-  \begin{tabular}{lccccccccc}
-    & RE & GN & PU & BK & BL & BR & OR & YL & total \\
+  \begin{tabularx}{.85\textwidth}{l *{8}{d{2}}d{4}}
+  \lsptoprule
+    & \multicolumn{1}{X}{\centering RE} & \multicolumn{1}{X}{GN} & \multicolumn{1}{X}{\centering PU} & \multicolumn{1}{X}{\centering BK} & \multicolumn{1}{X}{\centering BL} & \multicolumn{1}{X}{\centering BR} & \multicolumn{1}{X}{\centering OR} & \multicolumn{1}{X}{\centering YL} & \multicolumn{1}{X}{\centering\scshape total} \\
+    \midrule
     & 4 & 22 & 14 & 3 & 25 & 4 & 6 & 8 & 86 \\
-    \hline
+    \midrule
     & 4 & 19 & 14 & 3 & 22 & 4 & 6 & 8 & 80 \\ 
-    \hline
+    \midrule
     I & 4 & 15.7 & 10.3 & 3 & 21.8 & 3.7 & 6 & 8 & 72.5 \\
     II & 4 & 17.5 & 9.6 & 3 & 21.1 & 4 & 6 & 8 & 73.2 \\
     III & 4 & 16.5 & 10.2 & 3 & 21.7 & 4 & 6 & 8 & 73.4 \\
-    \hline
+    \midrule
     I & 1.6 & 3 & 6.7 & 3 & 6.2 & 0 & 2.8 & 7.9 & 31.2 \\
     II & 1.9 & 14.3 & 10.5 & 1.1 & 10.3 & 0.1 & 3.5 & 7.6 & 49.3 \\
     III & 1.7 & 13.4 & 7.7 & 2 & 9.7 & 0.3 & 3.6 & 7.4 & 45.8 \\
-    \hline
-  \end{tabular}
+    \lspbottomrule
+  \end{tabularx}
   \caption[Naming benchmark of formed grounded colour category systems
   for the consensus chips in English]{Results of the naming benchmark,
     broken down by category: red (re), green (gn), purple (pu), black

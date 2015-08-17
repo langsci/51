@@ -391,12 +391,14 @@ incorrectly are shown in Table \ref{t:ams-russian-naming-benchmark}
 
 \begin{table}[htpb]
   \centering
-  \begin{tabular}{ll}
-    expected name & produced name \\
-    \hline
-    ``t\"emno-\v z\"eltij'' & - \\
-    ``t\"emno-goluboj'' & ``svleto-sinij'' \\
-    ``svleto-sinij'' & ``t\"emno-goluboj'' 
+  \begin{tabular}{>{\itshape}l>{\itshape}l}
+  \lsptoprule
+    \normalfont expected name & \normalfont produced name \\
+    \midrule
+    t\"emno-\v z\"eltij & \normalfont -- \\
+    t\"emno-goluboj & svleto-sinij \\
+    svleto-sinij & t\"emno-goluboj\\
+    \lspbottomrule
   \end{tabular}
   \caption[Naming benchmark for Russian lightness modifiers]{Naming benchmark for Russian lightness modifiers. Only the three samples that were named incorrectly are shown.}
   \label{t:ams-russian-naming-benchmark}

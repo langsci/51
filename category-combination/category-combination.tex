@@ -573,17 +573,19 @@ language.
 
 \begin{table}[htpb]
   \centering
-  \begin{tabular}{lll}
-    & expected name & produced name \\
-    \hline
-    (a) & ``\v z\"eltyj'' & ``zeltyj'' \\
-    (b) & ``zelenovato-\v z\"eltyj''  & ``zelenyj'' ``-ato'' ``zeltyj'' \\
-    (c) & ``zel\"eno-\v z\"eltyj'' & ``zelenyj'' ``zeltyj'' \\
-    (d) & ``zelto-zelenyj'' & - \\
-    (e) & ``\v z\"eltovato-zel\"enyj'' & ``zeltyj'' ``-ato'' ``zelenyj'' \\
-    (f) & ``zel\"enyj'' & ``zelenyj'' \\
+  \begin{tabular}{l>{\itshape}l>{\itshape}l}
+  \lsptoprule
+    & \normalfont expected name & \normalfont produced name \\
+    \midrule
+    (a) & \v z\"eltyj & zeltyj \\
+    (b) & zelenovato-\v z\"eltyj  & zelenyj -ato zeltyj \\
+    (c) & zel\"eno-\v z\"eltyj & zelenyj zeltyj \\
+    (d) & zelto-zelenyj & \normalfont -- \\
+    (e) & \v z\"eltovato-zel\"enyj & zeltyj -ato zelenyj \\
+    (f) & zel\"enyj & zelenyj \\
+    \lspbottomrule
   \end{tabular}
-  \caption[Naming benchmark for Russian colour compounds]{Naming benchmark for Russian colour compounds. Five out of six samples are named correctly. The one sample that can not be named is wrongly categorised as ``zeltyj'' during the first categorisation process based on colour.}
+  \caption[Naming benchmark for Russian colour compounds]{Naming benchmark for Russian colour compounds. Five out of six samples are named correctly. The one sample that can not be named is wrongly categorised as \textit{zeltyj} during the first categorisation process based on colour.}
   \label{t:ccs-russian-naming-benchmark}
 \end{table}
 

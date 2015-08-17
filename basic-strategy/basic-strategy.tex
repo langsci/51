@@ -75,14 +75,28 @@ label in a one dimensional conceptual space \citep{puglisi08cultural,
 implementations of the \emph{basic colour strategy} is shown in Table
 \ref{t:language-game-models-comparison}.
 
+\renewcommand{\arraystretch}{1.5}
 \begin{table}[htbp]
-  \centering
-  \includegraphics[width=\textwidth]{./basic-strategy/figures/language-game-models-comparison}
+\resizebox{\textwidth}{!}{
+%\includegraphics[width=\textwidth]{./basic-strategy/figures/language-game-models-comparison}
+  \begin{tabular}{>{\centering\arraybackslash}m{.2\textwidth}>{\centering\arraybackslash}m{.275\textwidth}>{\centering\arraybackslash}m{.275\textwidth}>{\centering\arraybackslash}m{.275\textwidth}>{\centering\arraybackslash}m{.275\textwidth}}
+  \lsptoprule
+  & \citet{steels05coordinating} & \citet{belpaeme05explaining} & \citet{puglisi08cultural} & Bleys (2009);\newline \citet{bleys09linguistic} \\
+  \midrule
+  \textsc{conceptual\-isation} & most similar; winner-takes-all; discriminatory & most similar; winner-takes-all; discriminatory & most similar; winner-takes-all; discriminatory & most similar; winner-takes-all; non-discriminatory \\
+  \textsc{production} & highest associative score & highest associative score & last successful or last created & one-on-one mapping \\
+  \textsc{parsing} & highest associative score & highest associative score & union of all categories that share label & one-on-one mapping \\
+  \textsc{inter\-pretation} & most similar; non-discriminatory & most similar; non-discriminatory & random choice & most similar; non-discriminatory \\
+  \lspbottomrule
+  \end{tabular}
+ }
   \caption[Comparison of the different models for the basic colour
   strategy]{Comparison of the different models for the basic colour
     strategy.}
   \label{t:language-game-models-comparison}
 \end{table}
+\renewcommand{\arraystretch}{1}
+
 
 \section{Semantic template}
 \label{s:bs-semantic-template}
@@ -527,15 +541,17 @@ richness of human colour categories.
 
 \begin{table}[htbp]
   \centering
-  \footnotesize
-  \begin{tabular}{cccccccccccc}
-    \hline
-    WE & GY& BK & GN & YW & BL & RD & PU & BR & OR & PK & total\\
-    2 & 6 & 3 &22 & 8 & 25 & 4 & 14 & 4 & 6 & 6 & 100 \\
-    \hline
+  \resizebox{.85\textwidth}{!}{
+  \begin{tabular}{rrrrrrrrrrrr}
+    \lsptoprule
+    \multicolumn{1}{c}{WE} & \multicolumn{1}{c}{GY} & \multicolumn{1}{c}{BK} & \multicolumn{1}{c}{GN} & \multicolumn{1}{c}{YW} & \multicolumn{1}{c}{BL} & \multicolumn{1}{c}{RD} & \multicolumn{1}{c}{PU} & \multicolumn{1}{c}{BR} & \multicolumn{1}{c}{OR} & \multicolumn{1}{c}{PK} & \scshape total\\
+    \midrule
+    2 & 6 & 3 & 22 & 8 & 25 & 4 & 14 & 4 & 6 & 6 & 100 \\
+    \midrule
     2 & 6 & 3 & 17 & 8 & 18 & 4 & 9 & 4 & 6 & 6 & 83\\
-    \hline
+    \lspbottomrule
   \end{tabular}
+  }
   \normalsize
   \caption[Naming benchmark for English basic colour categories]{Number of correctly
     named consensus samples broken down by category: white (WE), grey
