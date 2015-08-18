@@ -256,7 +256,7 @@
 
 
 
-\setallmainfonts(Digits,Latin)[
+\setallmainfonts(Digits,Latin,Greek)[
 	Ligatures={TeX,Common},
 	Path=\fontpath,
 	PunctuationSpace=0,							

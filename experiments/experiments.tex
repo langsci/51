@@ -243,10 +243,11 @@ broken down by each category, are summarised in Table
 
 \begin{table}[htbp]
   \centering
-  \footnotesize
+  \resizebox{.85\textwidth}{!}{
   \begin{tabular}{>{\scshape}crrrrrrrrrrrr}
     \lsptoprule
-    & \multicolumn{1}{c}{WE} & \multicolumn{1}{c}{GY} & \multicolumn{1}{c}{BK} & \multicolumn{1}{c}{GN} & \multicolumn{1}{c}{YW} & \multicolumn{1}{c}{BL} & \multicolumn{1}{c}{RD} & \multicolumn{1}{c}{PU} & \multicolumn{1}{c}{BR} & \multicolumn{1}{c}{OR} & \multicolumn{1}{c}{PK} & \multicolumn{1}{c}{\scshape total}\\
+    & \multicolumn{1}{c}{\scshape we} & \multicolumn{1}{c}{\scshape gy} & \multicolumn{1}{c}{\scshape bk} & \multicolumn{1}{c}{\scshape gn} & \multicolumn{1}{c}{\scshape yw} & \multicolumn{1}{c}{\scshape bl} & \multicolumn{1}{c}{\scshape rd} & \multicolumn{1}{c}{\scshape pu} & \multicolumn{1}{c}{\scshape br} & \multicolumn{1}{c}{\scshape or} & \multicolumn{1}{c}{\scshape pk} & \multicolumn{1}{c}{\scshape total}\\
+    \midrule
     & 2 & 6 & 3 &22 & 8 & 25 & 4 & 14 & 4 & 6 & 6 & 100 \\
     \midrule
     s\&w & 2 & 6 & 3 & 17 & 8 & 18 & 4 & 9 & 4 & 6 & 6 & 83\\
@@ -260,16 +261,15 @@ broken down by each category, are summarised in Table
     uni & 2 & 0 & 3 & 13 & 8 & 0 & 4 & 1 & 0 & 4 & 4 & 39 \\
     \lspbottomrule
   \end{tabular}
-  \normalsize
+}
   \caption[Naming benchmark for cluster centroids]{Number of correctly
-    named consensus samples broken down by category: white (WE), grey
-    (GY), black (BK), green (GN), yellow (YW), blue (BL), red (RD),
-    purple (PU), brown (BR), orange (OR) and pink (PK). The total
+    named consensus samples broken down by category: white (\textsc{we}), grey
+    (\textsc{gy}), black (\textsc{bk}), green (\textsc{gn}), yellow (\textsc{yw}), blue (\textsc{bl}), red (\textsc{rd}), purple (\textsc{pu}), brown (\textsc{br}), orange (\textsc{or}) and pink (\textsc{pk}). The total
     number of consensus chips is shown on top. The top part represents
     the results in CIE $L^*a^*b^*$, the bottom part in CIE
     $L^*u^*v^*$. The results are shown for the categories found in
-    English (S\&W) and all three datasets: natural (NAT), urban (URB)
-    and uniform (UNI). Only the results for 11 centroids are shown.}
+    English (\textsc{s\&w}) and all three datasets: natural (\textsc{nat}), urban (\textsc{urb})
+    and uniform (\textsc{uni}). Only the results for 11 centroids are shown.}
   \label{t:clustering-benchmark}
 \end{table}
 
@@ -941,7 +941,7 @@ formation experiment no such guidance is present.
   \centering
   \begin{tabularx}{.85\textwidth}{l *{8}{d{2}}d{4}}
   \lsptoprule
-    & \multicolumn{1}{X}{\centering RE} & \multicolumn{1}{X}{GN} & \multicolumn{1}{X}{\centering PU} & \multicolumn{1}{X}{\centering BK} & \multicolumn{1}{X}{\centering BL} & \multicolumn{1}{X}{\centering BR} & \multicolumn{1}{X}{\centering OR} & \multicolumn{1}{X}{\centering YL} & \multicolumn{1}{X}{\centering\scshape total} \\
+    & \multicolumn{1}{X}{\scshape\centering re} & \multicolumn{1}{X}{\scshape\centering gn} & \multicolumn{1}{X}{\scshape\centering pu} & \multicolumn{1}{X}{\scshape\centering bk} & \multicolumn{1}{X}{\scshape\centering bl} & \multicolumn{1}{X}{\scshape\centering br} & \multicolumn{1}{X}{\scshape\centering or} & \multicolumn{1}{X}{\scshape\centering yl} & \multicolumn{1}{X}{\centering\scshape total} \\
     \midrule
     & 4 & 22 & 14 & 3 & 25 & 4 & 6 & 8 & 86 \\
     \midrule
@@ -958,8 +958,8 @@ formation experiment no such guidance is present.
   \end{tabularx}
   \caption[Naming benchmark of formed grounded colour category systems
   for the consensus chips in English]{Results of the naming benchmark,
-    broken down by category: red (re), green (gn), purple (pu), black
-    (bk), blue (bl), brown (br), orange (or) and yellow (yl).  The top
+    broken down by category: red (\textsc{re}), green (\textsc{gn}), purple (\textsc{pu}), black
+    (\textsc{bk}), blue (\textsc{bl}), brown (\textsc{br}), orange (\textsc{or}) and yellow (\textsc{yl}).  The top
     part shows the baseline performance using the centroids of the
     English colour ontology. The middle and bottom part show the
     performance of the acquisition experiment, respectively formation
