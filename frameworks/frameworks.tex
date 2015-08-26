@@ -1,4 +1,4 @@
-\chapter{Formalisms for Language Systems and Language Strategies}
+\chapter{Formalisms for language systems and language strategies}
 \label{s:formalisms}
 
 Modelling a language strategy encompasses defining semantic and
@@ -12,16 +12,16 @@ Standard first-order formalisms in logic that are commonly used in
 artificial language evolution research, such as predicate logic, are
 insufficient to represent the semantic templates of some of the
 strategies outlined in the previous chapter. For example, the meaning
-of a realisation of the graded membership strategy, such as ``very
-red'', cannot be expressed using any first-order logical formalism in
-a satisfactory way as the the adverb ``very'' modifies the meaning of
-the adjective ``red''.
+of a realisation of the graded membership strategy, such as \textit{very
+red}, cannot be expressed using any first-order logical formalism in
+a satisfactory way as the the adverb \textit{very} modifies the meaning of
+the adjective \textit{red}.
 
 The syntactic templates require a grammar formalism, as the word order
 seems to have an impact on the resulting focal colour that is
 intended.  This is for example the case in the compounding strategy in
-Russian, where ``zel\"eno-\v z\"eltyj'' (green-yellow) is different
-from``\v z\"elto-zel\"enyj'' (yellow-green). This difference implies
+Russian, where \textit{zel\"eno-\v z\"eltyj} (`green-yellow') is different
+from\textit{\v z\"elto-zel\"enyj} (`yellow-green'). This difference implies
 that the lexical approach in which the lexicon captures a direct
 association between terms and colour category is no longer sufficient.
 
@@ -53,16 +53,16 @@ combinations of categories \citep{wellens08flexible} or
 predicate-argument expressions \citep{batali02negotiation,
   smith03iterated, debeule08emergence}. Natural languages are clearly
 capable of expressing second order semantics
-\citep{dowty1981introduction}. For example, the adverb ``very'' in
-``very big'' modifies the meaning of the adjective, it is not just a
-simple conjunction of the predicates `very' and `big'. Moreover the
-same predicate (e.g. `big') can often be used in different ways, for
+\citep{dowty1981introduction}. For example, the adverb \textit{very} in
+\textit{very big} modifies the meaning of the adjective, it is not just a
+simple conjunction of the predicates \textit{very} and \textit{big}. Moreover the
+same predicate (e.g. \textit{big}) can often be used in different ways, for
 example to further restrict the set of possible referents of a noun
-(as in ``the big ball''), to state a property of an object (as in
-``the ball is big''), to reify the predicate itself and make a
-statement about it (as in ``big says something about size''), to
-compare the elements of a set (as in ``this ball is bigger than the
-others''), etc. The specific usage of a predicate in a particular
+(as in \textit{the big ball}), to state a property of an object (as in
+\textit{the ball is big}), to reify the predicate itself and make a
+statement about it (as in \textit{big says something about size}), to
+compare the elements of a set (as in \textit{this ball is bigger than the
+others}), etc. The specific usage of a predicate in a particular
 utterance is clearly conveyed by the grammar, so any theory on the
 origins and evolution of grammar must address second order semantics.
 
@@ -135,7 +135,7 @@ constraint. Some variables can be bound to a certain \emph{semantic
   entity}\is{semantic entity} by means of a bind
 statement. Semantic entities are marked by square brackets.
 
-An example network for an utterance like ``the block'' is shown in
+An example network for an utterance like \textit{the block} is shown in
 Figure \ref{f:context-and-network} to identify the block within a
 hypothetical context. The {\sc Equal-to-Context} primitive (primitives
 will always be printed in small capitals) binds all entities in the
@@ -147,7 +147,7 @@ and binds the resulting set to $?s2$. Finally, the {\sc
 checks whether this set contains only one element and binds this
 element to $?t$.
 
-\begin{figure}[htbp]
+\begin{figure}
 \centering
 \subfigure[]{
   \includegraphics[width=0.45\textwidth]{./frameworks/figures/context.pdf}
@@ -157,9 +157,8 @@ element to $?t$.
   \includegraphics[width=\textwidth]{./frameworks/figures/network.pdf}
   \label{f:network}
 }
-\caption[Example semantic constraint network for ``the
-block'']{\subref{f:context} a hypothetical context \subref{f:network}
-  an example of a semantic constraint network for ``the block'' to
+\caption[Example semantic constraint network for \textit{the block}]{\subref{f:context} a hypothetical context \subref{f:network}
+  an example of a semantic constraint network for \textit{the block} to
   identify the topic within (a) (marked in grey for clarity)}
 \label{f:context-and-network}
 \end{figure}
@@ -170,7 +169,7 @@ to achieve this goal (for example extending the previous one with
 another filter operation based on size). An example of such a context
 and such a network is shown in Figure
 \ref{f:more-complex-context-and-network}. This network could represent
-the meaning of an utterance like ``the big block''. The entity-set of
+the meaning of an utterance like \textit{the big block}. The entity-set of
 all blocks in $?s2$ is now further filtered to contain only big blocks
 using the {\sc Filter-Set-Category} primitive, which binds the
 resulting set to $?s3$ which is passed on to the {\sc Select-Element}
@@ -189,10 +188,10 @@ be one at most.
     \includegraphics[width=\textwidth]{./frameworks/figures/more-complex-network.pdf}
   \label{f:more-complex-network}
 }
-\caption[Example semantic constraint network for ``the big
-block'']{\subref{f:more-complex-context} a more complex hypothetical
+\caption[Example semantic constraint network for \textit{the big
+block}]{\subref{f:more-complex-context} a more complex hypothetical
   world \subref{f:more-complex-network} a more complex semantic
-  constraint network to identify ``the big block'' (marked in grey for
+  constraint network to identify \textit{the big block} (marked in grey for
   clarity)}
 \label{f:more-complex-context-and-network}
 \end{figure}
@@ -256,7 +255,7 @@ node 5 in which $?sr1$ is bound to [unique].
   \label{f:network-conceptualisation}
 }
 \subfigure[]{
-    \includegraphics[width=\textwidth]{./frameworks/figures/evaluation.pdf}
+    \includegraphics[width=.8\textwidth]{./frameworks/figures/evaluation.pdf}
   \label{f:evaluation-process}
 }
 \caption[Evaluation process of an example constraint
@@ -277,7 +276,7 @@ network.
 
 An example of such a network is shown in Figure
 \ref{f:network-learning}, which could have been parsed after hearing a
-sentence like ``the wabado ball''. Due to the omni-directionality of
+sentence like \textit{the wabado ball}. Due to the omni-directional\-ity of
 IRL, the first two arguments of the {\sc Filter-Set-Category}
 primitive, $?s3$ and $?s2$ can be completely determined, which allows
 IRL to come up with either a category that is already known or with an
@@ -288,7 +287,7 @@ entirely new category that would perform the correct filtering.
     \includegraphics[width=\textwidth]{./frameworks/figures/network-learning.pdf}
     \caption[Example constraint network during learning]{A partial
       network that could be reconstructed by combining information
-      from parsing ``the wabado ball'' and the communicative goal
+      from parsing \textit{the wabado ball} and the communicative goal
       revealed by the speaker. Due to the omni-directionality of IRL,
       the first two arguments of the {\sc Filter-Set-Category}
       primitive are sufficient to allow IRL to deduce a valid category
@@ -339,9 +338,9 @@ single {\sc Filter-Set-Prototype} (node 5) or {\sc
   Filter-Set-Category} (node 8), conceptualisation has been
 completed. If not, the search process continues.
 
-\begin{figure}[htbp]
+\begin{figure}
   \begin{center}
-    \includegraphics[width=\textwidth]{./frameworks/figures/conceptualisation.pdf}
+    \includegraphics[width=.75\textwidth]{./frameworks/figures/conceptualisation.pdf}
     \caption[Example of the conceptualisation process]{Example search
       tree during conceptualisation, starting from a library of four
       primitives: {\sc Equal-to-Context}, {\sc Filter-Set-Prototype},
@@ -354,7 +353,7 @@ completed. If not, the search process continues.
   \end{center}
 \end{figure}
 
-\subsubsection*{Chunking}
+\subsubsection{Chunking}
 \label{s:irl-chunking}
 \is{IRL!chunking}
 \is{chunking|see{IRL}}
@@ -387,7 +386,7 @@ some patterns can be left unspecified so the primitive will get
 suspended until more slots are bound. An example of a semantic
 primitive is given below for {\sc Filter-Set-Prototype}.
 
-\definition{Semantic Primitive}{Filter-Set-Prototype}
+\definition{Semantic primitive}{Filter-Set-Prototype}
 
 \begin{explanation}{description}
   Filters the entities in a source-set according to their similarity
@@ -478,9 +477,9 @@ structure is satisfactory. Heuristics could be used to favour one
 branch over the other. An example of an application tree is shown in
 Figure \ref{f:fcg-search}.
 
-\begin{figure}[htbp]
+\begin{figure}
   \begin{center}
-    \includegraphics[width=.8\textwidth]{./frameworks/figures/fcg-search.pdf}
+    \includegraphics[width=.75\textwidth]{./frameworks/figures/fcg-search.pdf}
     \caption[Application of a rule-set]{Typical language processing in
       FCG is organised as a search process. A linguistic structure is
       being built up by applying a series of rules to it. When two
@@ -520,7 +519,7 @@ categories, either in the semantic or syntactic domain, that allow
 other rules to specify which units to select for.
 
 An example of a simplified linguistic structure for an utterance like
-``le ballon'' is shown in Figure \ref{f:cfs-le-ballon} and its
+\textit{le ballon} is shown in Figure \ref{f:cfs-le-ballon} and its
 bracketed notation is shown below. The semantic pole is shown on the
 left and the syntactic pole on the right to show the structural
 similarity between both poles.
@@ -548,10 +547,10 @@ similarity between both poles.
 
 \begin{figure}[htbp]
   \begin{center}
-    \includegraphics[width=\textwidth]{./frameworks/figures/cfs-le-ballon.pdf}
-    \caption[Example coupled feature structure for ``le ballon'']{A
-      graphical representation of the linguistic structure for ``le
-      ballon''. The semantic pole is shown on the left, the syntactic
+    \includegraphics[width=.8\textwidth]{./frameworks/figures/cfs-le-ballon.pdf}
+    \caption[Example coupled feature structure for \textit{le ballon}]{A
+      graphical representation of the linguistic structure for \textit{le
+      ballon}. The semantic pole is shown on the left, the syntactic
       pole on the right. Both poles are structurally very similar, but
       only contain features that are relevant in their domain.}
     \label{f:cfs-le-ballon}
@@ -664,11 +663,11 @@ follows:
 Once relations between several entities can be expressed in language,
 hearers face an additional problem in figuring out what these
 relations are. This is typically considered to be conveyed through
-grammar. For example in a sentence like ``Jack hits Jill'' English
+grammar. For example in a sentence like \textit{Jack hits Jill} English
 grammar clearly conveys it is Jack who is the agent and Jill the
-unfortunate recipient of the event, unlike the sentence ``Jill hits
-Jack'' in which the roles are reversed. Another example would be ``the
-big block and the red ball'' in which the hearer would need to figure
+unfortunate recipient of the event, unlike the sentence \textit{Jill hits
+Jack} in which the roles are reversed. Another example would be \textit{the
+big block and the red ball} in which the hearer would need to figure
 out it is the block which is big and the ball which is red. This
 problem has been identified as the linking problem
 \citep{steels05linking}.
@@ -676,14 +675,14 @@ problem has been identified as the linking problem
 In FCG this problem has been solved by first assuming that variables
 introduced by different rules are different, but can be made equal
 during the application of other grammatical rules. Let us consider the
-phrase ``red ball'' and assume the meaning is represented in predicate
+phrase \textit{red ball} and assume the meaning is represented in predicate
 logic. In parsing, the lexical constructions would introduce two
-predicates, `red(?x)' and `ball(?y)', each introducing a different
+predicates, ``red(?x)'' and ``ball(?y)'', each introducing a different
 variable. Another grammatical construction, which specifies that all
 predicates referred to by adjectives and nouns that are part of the
 same noun phrase should share the same variable, will make these
 variables equal. The application of this rule transforms the
-interpreted meaning in `red(?x)' and `ball(?x)' and hence solves the
+interpreted meaning in ``red(?x)'' and ``ball(?x)'' and hence solves the
 linking problem for this small example.
 
 \subsection{Application of an example construction}
@@ -699,7 +698,7 @@ predicates in these two units equal through the referents of their
 units. The coupled feature structure before and after application of
 the construction is shown in Figure \ref{f:nounadj-application}.
 
-\begin{figure}[htbp]
+\begin{figure}
   \begin{center}
     \includegraphics[width=.75\textwidth]{./frameworks/figures/nounadj-application.pdf}
     \caption[Coupled feature structures before and after the
@@ -719,7 +718,7 @@ I'll now step through the rule application of the rule in more
 detail. In interpretation the utterance is de-rendered into a set of
 form constraints: a set of strings, one for each word, and a set of
 meets constraints between each consecutive pair of words. An example
-for ``le ballon rouge'' is given in the initial structure below. Note
+for \textit{le ballon rouge} is given in the initial structure below. Note
 that the semantic pole and syntactic pole are now shown under each
 other and separated by a double arrow.
 
@@ -746,7 +745,8 @@ after application of lexical constructions is shown below in bracketed
 notation and in Figure \ref{f:nounadj-application} (top).
 
 \footnotesize
-\begin{Verbatim}[frame=lines, label=Structure before application of the Noun-Adjective construction]
+\noindent\rule{\textwidth}{.5pt} % label too long for frame=lines to work, so I inserted a \rule.
+\begin{Verbatim}[frame=lines, label=Structure before application of the Noun-Adjective construction] 
 ((top-unit
   (sem-subunits (rouge-unit le-unit ballon-unit)))
  (rouge-unit

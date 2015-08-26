@@ -254,8 +254,6 @@
 % 	BoldSlantedFont = DejaVuSansMono-BoldOblique.ttf 		
 % 	]{DejaVuSansMono.ttf}
 
-
-
 \setallmainfonts(Digits,Latin,Greek)[
 	Ligatures={TeX,Common},
 	Path=\fontpath,

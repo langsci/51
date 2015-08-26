@@ -1,4 +1,4 @@
-\chapter{Basic Colour Strategy}
+\chapter{Basic colour strategy}
 \label{s:basic-strategy}
 \label{s:first-strategy}
 \is{language strategy!for colour!basic colour strategy}
@@ -27,7 +27,7 @@ of a certain category than others. A bluish shade of green is for
 example considered to be a worse example of the category of green than
 the natural colour of grass.
 
-\subsubsection*{Determining location of basic colour categories}
+\subsubsection{Determining location of basic colour categories}
 
 Part of the research in colour cognition aims at locating the typical
 member of each colour category of the category systems in different
@@ -49,7 +49,7 @@ Figure \ref{f:basic-consensus-chips-english}.
 
 \begin{figure}[htbp]
   \begin{center}
-    \includegraphics[width=.85\textwidth]{./basic-strategy/figures/sturges-consensus-chips.pdf}
+    \includegraphics[width=.8\textwidth]{./basic-strategy/figures/sturges-consensus-chips.pdf}
     \caption[Consensus chips for English]{The consensus chips (all
       samples that were consistently named by all participants) for
       English \citep{sturges95location}.}
@@ -83,9 +83,9 @@ implementations of the \emph{basic colour strategy} is shown in Table
   \lsptoprule
   & \citet{steels05coordinating} & \citet{belpaeme05explaining} & \citet{puglisi08cultural} & Bleys (2009);\newline \citet{bleys09linguistic} \\
   \midrule
-  \textsc{conceptual\-isation} & most similar; winner-takes-all; discriminatory & most similar; winner-takes-all; discriminatory & most similar; winner-takes-all; discriminatory & most similar; winner-takes-all; non-discriminatory \\
-  \textsc{production} & highest associative score & highest associative score & last successful or last created & one-on-one mapping \\
-  \textsc{parsing} & highest associative score & highest associative score & union of all categories that share label & one-on-one mapping \\
+  \textsc{conceptual\-isation} & most similar; winner-takes-all; discriminatory & most similar; winner-takes-all; discriminatory & most similar; winner-takes-all; discriminatory & most similar; winner-takes-all; non-discriminatory \\\hline
+  \textsc{production} & highest associative score & highest associative score & last successful or last created & one-on-one mapping \\\hline
+  \textsc{parsing} & highest associative score & highest associative score & union of all categories that share label & one-on-one mapping \\\hline
   \textsc{inter\-pretation} & most similar; non-discriminatory & most similar; non-discriminatory & random choice & most similar; non-discriminatory \\
   \lspbottomrule
   \end{tabular}
@@ -228,9 +228,9 @@ subsets. In interpretation however, the colour category is already
 known and will be used to set the activation of all the entities in
 the context.
 
-\begin{figure}[htbp]
+\begin{figure}
   \begin{center}
-    \includegraphics[width=\textwidth]{./basic-strategy/figures/semantics-interpretation.pdf}
+    \includegraphics[width=.8\textwidth]{./basic-strategy/figures/semantics-interpretation.pdf}
     \caption[The semantic constraint network for the basic colour
     strategy]{The semantic constraint network for the basic colour
       strategy. The {\sc Profile-Colour-Dimensions} primitive profiles
@@ -244,7 +244,7 @@ the context.
 
 \subsection{Semantic primitives}
 
-\definition{Semantic Primitive}{Equal-to-Context}
+\definition{Semantic primitive}{Equal-to-Context}
 
 \begin{explanation}{description}
 Retrieves all entities from in the sensory context and collects them in an entity set.
@@ -258,7 +258,7 @@ Retrieves all entities from in the sensory context and collects them in an entit
 $\emptyset$: collects all entities in the sensory context in an entity set and binds it to \verb+?context+
 \end{explanation}
 
-\definition{Semantic Primitive}{Profile-Colour-Dimensions}
+\definition{Semantic primitive}{Profile-Colour-Dimensions}
 
 \begin{explanation}{description}
 Profiles the colour dimensions of the entities in an entity set.
@@ -283,7 +283,7 @@ Profiles the colour dimensions of the entities in an entity set.
   $L^*$ and $a^*$ dimension.
 \end{explanation}
 
-\definition{Semantic Primitive}{Filter-by-Colour-Lenient}
+\definition{Semantic primitive}{Filter-by-Colour-Lenient}
 
 \begin{explanation}{description}
   Applies a colour category to a set of entities. When the colour
@@ -308,7 +308,7 @@ Profiles the colour dimensions of the entities in an entity set.
   for \verb+?colour-category+ and \verb+?categorised-set+
 \end{explanation}
 
-\definition{Semantic Primitive}{Select-Most-Activated}
+\definition{Semantic primitive}{Select-Most-Activated}
 
 \begin{explanation}{description}
 Selects the entity from an entity-set that has the highest activation.
@@ -342,10 +342,9 @@ semantic entity. This division is illustrated in Figure
 
 \begin{figure}[htbp]
   \begin{center}
-    \includegraphics[width=.45\textwidth]{./basic-strategy/figures/linguistic-structure.pdf}
+    \includegraphics[width=.5\textwidth]{./basic-strategy/figures/linguistic-structure.pdf}
     \caption[Example linguistic structure for basic colour
-    strategy]{Example linguistic structure for \texttt{colour-network
-        1}. The semantic constraint network is divided over three
+    strategy]{Example linguistic structure for \texttt{colour-network 1}. The semantic constraint network is divided over three
       layers of units: one for the semantic entity [yellow], one for
       the functional primitive \textsc{Filter-by-Colour-Lenient} and
       one contextual unit for all other primitives of the semantic
@@ -562,11 +561,11 @@ richness of human colour categories.
 
 \subsection{Measures}
 
-\subsubsection*{Communicative Success}
+\subsubsection{Communicative Success}\todo{Should we re-name the section "measures" into "Measures: Communicative success?"}
 
 \begin{figure}[p]
   \begin{center}
-    \includegraphics[width=\textwidth]{./basic-strategy/figures/baseline.pdf}
+    \includegraphics[width=.8\textwidth]{./basic-strategy/figures/baseline.pdf}
     \caption[The baseline communicative success of three predefined
     language systems]{The baseline communicative success of three
       predefined language systems: one is based on the Spanish foci
@@ -614,7 +613,7 @@ sample to the right in the context shown in Figure
 the middle sample is more similar to the prototype of the green colour
 category.
 
-\begin{figure}[htbp]
+\begin{figure}
   \begin{center}
     \includegraphics{./basic-strategy/figures/baseline-failure-context.pdf}
     \caption[Example context in which the basic colour strategy
