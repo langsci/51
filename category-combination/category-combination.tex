@@ -88,7 +88,7 @@ The colour naming model proposed by
 \citeauthor{lammens94computational} sorts all categories based on the
 similarity to the colour sample that needs to be named and deployed
 some heuristics to include the secondmost similar category using
-diminuatives such as \textit{-ish} andßß \textit{somewhat x-ish}
+diminuatives such as \textit{-ish} and \textit{somewhat x-ish}
 \citep{lammens94computational}. Other colour naming models, store
 different centroids for each compound colour term, including the
 combination of basic colour terms \citep{mojsilovic05computational}.
@@ -98,7 +98,7 @@ combination of basic colour terms \citep{mojsilovic05computational}.
 \is{semantic template!for category combination strategy}
 
 As I am pursuing a compositional approach to semantics, I start from
-the semantic network of the \emph{basic colour strategy} and extend it by
+the semantic network of the basic colour strategy and extend it by
 adding a second categorisation process. As the first categorisation
 process is strict, it would be unproductive to use the same category
 set as it would just return the exact same colour category. In order
@@ -151,14 +151,14 @@ space]{Impact of the transformation of the category set in the
 When this second categorisation process would not be constraining
 enough to single out a particular colour sample in a context, an
 optional categorisation process based on membership can be added.
-This process is similar to the one proposed in the \emph{graded
-  membership strategy} but the membership function is now based on the
+This process is similar to the one proposed in the graded
+  membership strategy but the membership function is now based on the
 combined membership of the two categorisation processes instead of
 one.
 
-The semantics of the \emph{category combination strategy} can be
+The semantics of the \textsc{category combination strategy} can be
 summarised as follows: first all the entities are categorised as in
-the \emph{basic colour strategy}. Next, all categories are drawn
+the basic colour strategy. Next, all categories are drawn
 towards the base category that has been used. This transformed
 category set is used during the second categorisation
 process. Optionally a third categorisation process based on membership
@@ -178,7 +178,7 @@ to the repeated colour category.
 \subsection{Profiling and first categorisation based on colour}
 
 The profiling and the first categorisation process is identical to the
-one of the \emph{graded membership strategy}. It is a strict
+one of the graded membership strategy. It is a strict
 implementation of the categorisation process, as in interpretation
 only the samples that are most similar to the interpreted category are
 considered for further processing. This decision is based on the
@@ -233,7 +233,7 @@ the entity resulting from the complete process.
 
 \subsection{Semantic constraint network}
 
-The semantic network for the \emph{category combination strategy} is
+The semantic network for the category combination strategy is
 shown in Figure \ref{f:ccs-semantic-program}. The
 \textsc{Equal-to-Context} and \textsc{Profile-Colour-Dimensions}
 primitives are the same as the ones before. The
@@ -356,7 +356,7 @@ the \textsc{Draw-Category-Set-to-Category} primitive, which requires
 the colour category that is used in the first categorisation process
 to compute a new colour category set that will be used during the
 second categorisation process. The variables related to colour
-categories will be dealt with in the \emph{colour-link}, of
+categories will be dealt with in the \textsc{colour link}, or
 \emph{c-link} feature for short.
 
 The linguistic structure for \textit{zel\"eno-\v z\"eltyj} (`green-yellow')
@@ -421,7 +421,7 @@ process.
 \subsection{Syntactic template 1.3: Contextual primitives}
 \is{syntactic template!for contextual primitives}
 
-The \emph{basic-colour-strategy} is now redefined 
+The basic colour strategy is now redefined 
 using the \textsc{Filter-by-Colour} primitive as defined in this
 chapter. The contextual rule that is needed for this strategy
 is very similar to the contextual rule in Section
@@ -463,7 +463,7 @@ before, but additionally the rule needs to take care of two
 additional aspects. First it needs to be able to cover some
 meaning. For the current semantic template, this would be the
 \textsc{Draw-Category-Set-to-Category} primitive. And second, it needs
-to provide the correct \emph{colour link} of the new unit.
+to provide the correct colour link of the new unit.
 
 \footnotesize
 \begin{Verbatim}[frame=lines, label=ColourColour rule]
@@ -502,8 +502,8 @@ to provide the correct \emph{colour link} of the new unit.
 In the baseline experiment, I will compare three different language
 systems. All language systems are based on the Russian basic colour
 categories \citep{safuanova07russian}. The first one is based on the
-strict version of the \emph{basic colour strategy}, the second one is
-based on the variant of the \emph{category combination strategy}
+strict version of the basic colour strategy, the second one is
+based on the variant of the category combination strategy
 without the additional categorisation based on membership and the
 third language system is based on the graded variant of this strategy.
 
@@ -519,7 +519,7 @@ blue'). The basic colour categories are shown in Figure
 
 \begin{figure}[htpb]
   \centering
-  \includegraphics[width=.9\textwidth]{./category-combination/figures/russian-basic-categories.pdf}
+  \includegraphics[height=1.25cm]{./category-combination/figures/russian-basic-categories.pdf}
   \caption[The basic chromatic colour categories for Russian]{The
     basic chromatic colour categories for Russian based on the work of
     \citeauthor{safuanova07russian}. From left to right: \textit{krasnij}
@@ -539,7 +539,7 @@ reproduced in Figure \ref{f:ccs-russian-compounds}.
 
 \begin{figure}[htpb]
   \centering
-  \includegraphics[width=.6\textwidth]{./category-combination/figures/russian-compounds.pdf}
+  \includegraphics[height=1.25cm]{./category-combination/figures/russian-compounds.pdf}
   \caption[Example of colour compounds in Russian]{Example of colour
     compounds in Russian \citep{safuanova07russian}. From left to
     right: (a) \textit{\v z\"eltyj} `yellow', (b) \textit{zelenovato-\v z\"eltyj} 
@@ -551,8 +551,8 @@ reproduced in Figure \ref{f:ccs-russian-compounds}.
 
 For this naming benchmark, \is{naming benchmark!for category combination strategy}
 I use an agent that is knowledgeable about
-the \emph{basic colour strategy} and the \emph{category combination
-  strategy} (both the graded and the ungraded variant) and an implementation of the
+the basic colour strategy and the category combination
+  strategy (both the graded and the ungraded variant) and an implementation of the
 basic colour categories of Russian (as shown in Figure
 \ref{f:ccs-russian-basic}). Next, I run the production procedure and
 check what utterances are produced for the chips shown in Figure
@@ -615,8 +615,8 @@ agents are allowed to use, the higher the resulting communicative
 success.
 
 As the number of colour samples in one context increases, the
-performance of each of the strategies decreases. The \emph{basic
-  colour strategy} is most prone to this phenomenon. Being able to
+performance of each of the strategies decreases. The basic
+  colour strategy is most prone to this phenomenon. Being able to
 combine colour categories compensates for most of the loss. An
 additional categorisation process based on membership, results in a
 language system that is quite successful, even in very large contexts.
@@ -633,7 +633,7 @@ of the achromatic colour categories (white, grey and black).
 \section{Conclusion}
 
 In this chapter, I have introduced a compositional semantics for the
-\emph{category combination strategy} and linguistic rules to express
+category combination strategy and linguistic rules to express
 this semantics in language. Using a naming benchmark, I have
 qualitatively compared the resulting names to these reported for the
 Russian language. I have shown the positive impact of combining

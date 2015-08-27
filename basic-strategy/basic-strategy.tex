@@ -4,7 +4,7 @@
 \is{language strategy!for colour!basic colour strategy}
 \is{basic colour strategy|see{language strategy}}
 
-The \emph{basic colour strategy} is by far the most studied language
+The basic colour strategy is by far the most studied language
 strategy for the domain for colour. It stipulates that a colour should
 be described using a single colour term that refers to a single colour
 category. At the semantic level it specifies how the categorisation
@@ -20,7 +20,7 @@ on to the other strategies.
 
 Colour categories\is{colour category} are considered to be
 prototypical in nature \citep{rosch73natural}. One colour sample, the
-\emph{prototype}\is{prototype|see{colour category}}, is considered
+\textsc{prototype}\is{prototype|see{colour category}}, is considered
 to be the best example of a certain category and membership to this
 category is graded: some samples are considered to be better members
 of a certain category than others. A bluish shade of green is for
@@ -36,12 +36,12 @@ natural languages, such as Spanish \citep{lillo07locating}, English
 \citep{safuanova07russian}. These experiments typically involve naming
 a set of individual colour samples.
 
-In colour literature, the distinction is made between the \emph{focus}
-(the colour sample which is named fastest) and the \emph{centroid}
+In colour literature, the distinction is made between the \textsc{focus}
+(the colour sample which is named fastest) and the \textsc{centroid}
 (the colour central to all colours that belong to the category) of a
 colour category. Interestingly, a discrepancy exists between the
 locations of these two \citep{sturges95location}. Some of the
-experiments also reported on \emph{consensus samples}\is{consensus
+experiments also reported on \textsc{consensus samples}\is{consensus
   samples|see{colour category}}, which are samples that were
 consistently named by all participants in the experiment. The
 consensus samples for English \citep{sturges95location} are shown in
@@ -59,7 +59,7 @@ Figure \ref{f:basic-consensus-chips-english}.
 
 \subsection{Models}
 
-The \emph{basic colour strategy} has received quite some attention
+The basic colour strategy has received quite some attention
 within the field of artificial language evolution. Most of these
 studies adhere to the the language game paradigm and use the colour
 naming game (see Section \ref{s:language-games-for-colour}) to study
@@ -72,7 +72,7 @@ a three dimensional conceptual space \citep{belpaeme05explaining,
   belpaeme07language} or a set of points sharing the same linguistic
 label in a one dimensional conceptual space \citep{puglisi08cultural,
   baronchelli10modeling}. A comparison between the different
-implementations of the \emph{basic colour strategy} is shown in Table
+implementations of the basic colour strategy is shown in Table
 \ref{t:language-game-models-comparison}.
 
 \renewcommand{\arraystretch}{1.5}
@@ -96,7 +96,7 @@ implementations of the \emph{basic colour strategy} is shown in Table
   \label{t:language-game-models-comparison}
 \end{table}
 \renewcommand{\arraystretch}{1}
-
+\todo{Bleys 2009 is not in bib}
 
 \section{Semantic template}
 \label{s:bs-semantic-template}
@@ -131,7 +131,7 @@ context contains two green colour samples, the sample that is most
 similar to the green colour category can still be successfully
 named. 
 
-The semantic template of the \emph{basic colour strategy} can be
+The semantic template of the basic colour strategy can be
 summarised in three steps: profiling, categorisation and
 selection. These processes are represented separately in semantics as
 this will enhance possible re-use of these primitives in other
@@ -207,7 +207,7 @@ process.
 
 \subsection{Semantic constraint network}
 
-The semantic constraint network for the \emph{basic colour strategy} is shown
+The semantic constraint network for the basic colour strategy is shown
 in Figure \ref{f:bcs-semantic-structure}. The {\sc
   Equal-to-Context} primitive introduces all entities in the sensory
 context of the agent. The {\sc Profile-Colour-Dimensions} primitive
@@ -426,7 +426,7 @@ for introducing the Yellow-Unit in Figure
 \is{functional primitive|see{primitive constraint}}
 \is{primitive constraint!functional primitive}
 
-\emph{Functional units}, created by \emph{functional rules}, handle
+Functional units, created by functional rules, handle
 the primitives in a semantic network that directly use a semantic
 entity. For each such primitive a separate functional rule is
 created. The template to express such a primitives has a subunit for
@@ -477,8 +477,8 @@ another rule. The resulting rule is shown below.
 \is{primitive constraint!contextual primitive}
 
 The primitives that do not make direct use of semantic entities are
-grouped together in a \emph{contextual unit}. This unit is introduced
-by the application of a \emph{contextual rule}, which contains
+grouped together in a contextual unit. This unit is introduced
+by the application of a contextual rule, which contains
 subunits for each of the functional primitives. It uses the link
 feature of each of its subunits to ensure the primitives will be
 incorporated in the primitives it contains. The unit that is
@@ -499,7 +499,7 @@ Constituent ColourPhrase, and will have as link feature the first
 argument of the \textsc{Select-Most-Activated} primitive.
 
 \footnotesize
-\begin{Verbatim}[frame=lines, label=ColourPhrase rule for Basic Colour Strategy]
+\begin{Verbatim}[frame=lines, label=ColourPhrase rule for basic colour strategy]
 ((?top-unit
   (sem-subunits (?colour-unit))
   (tag ?meaning
@@ -615,7 +615,7 @@ category.
 
 \begin{figure}
   \begin{center}
-    \includegraphics{./basic-strategy/figures/baseline-failure-context.pdf}
+    \includegraphics[height=1.25cm]{./basic-strategy/figures/baseline-failure-context.pdf}
     \caption[Example context in which the basic colour strategy
     fails]{Example context in which the basic colour strategy
       fails. The sample to the right can not be successfully named as
@@ -628,7 +628,7 @@ category.
 \section{Conclusion}
 
 In this chapter I have shown how the semantic and syntactic templates
-of the \emph{basic colour strategy} can be defined. I have proposed
+of the basic colour strategy can be defined. I have proposed
 semantics that builds upon previous research, both in psychology and
 artificial language evolution, and have extended it to accommodate for
 several substrategies in which some dimensions of the colour domain

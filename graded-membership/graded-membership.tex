@@ -79,14 +79,14 @@ value of the membership function is one (when the colour of the entity
 is exactly equal to the prototype of the category) and approaches zero
 when they are very dissimilar.
 
-The \emph{membership categories} are implemented as prototypical
+The \textsc{membership categories} are implemented as prototypical
 categories. Each category has a prototypical value of the membership
 and classification is organised following a standard nearest-neighbour
 algorithm. Each entity is assigned to the membership category that is
 most similar to it. Other approaches, such as discrimination trees
 \citep{steels96perceptually}, could have been chosen, but the
 prototype theory is sufficient to cover the main principles of the
-\emph{graded membership strategy}.
+graded membership strategy.
 
 This approach results in the definition of absolute ranges between a
 colour sample and colour category due to the properties of the
@@ -112,11 +112,11 @@ representation of this approach is provided in Figure
   \label{f:gms-semantics-schematic}
 \end{figure}
 
-The semantics of the \emph{graded membership strategy} can be
+The semantics of the graded membership strategy can be
 summarised as follows: first the entities are categorised as in the
-\emph{basic colour strategy}. This process stores membership
-information in the entities as a side-effect. Unlike the \emph{basic
-  colour strategy}, not just the best member will be selected from
+basic colour strategy. This process stores membership
+information in the entities as a side-effect. Unlike the basic
+  colour strategy, not just the best member will be selected from
 this set, but the resulting set will be categorised again based on the
 membership information stored in the entities. This second
 categorisation process changes the activation stored in the
@@ -125,13 +125,13 @@ entities. Selection will be based on this activation.
 \subsection{Profiling and categorisation based on colour}
 
 The categorisation process is similar to the one introduced for the
-\emph{basic colour strategy}, except that this categorisation process
+basic colour strategy, except that this categorisation process
 is now more strict. Even in interpretation, it assigns each entity to
 the nearest known colour category. This is identical to the
 categorisation during conceptualisation.
 
 This modification is based on the observation that whenever the
-\emph{graded membership strategy} is used, the base category will be
+graded membership strategy is used, the base category will be
 the category that is the most similar to the named sample. For
 example, a sample that is named \textit{greenish} is still more similar to
 the prototype for green than to the prototype of brown.
@@ -161,8 +161,8 @@ activation will be selected as the outcome of the complete process.
 
 \subsection{Semantic constraint network}
 
-The semantic constraint network for the \emph{graded membership
-  strategy} is shown in Figure \ref{f:gms-semantic-program}. The
+The semantic constraint network for the graded membership
+  strategy is shown in Figure \ref{f:gms-semantic-program}. The
 \textsc{Equal-to-Context} and \textsc{Profile-Colour-Dimensions}
 primitives are the same ones as introduced before. The
 \textsc{Filter-by-Colour} primitive is similar to the
@@ -255,7 +255,7 @@ with the highest activation.
 
 Several alternative approaches to the proposed semantics exist. One
 alternative that has been used in previous models is to model basic
-colour categories as one or more multidimensional `normalised'
+colour categories as one or more multidimensional ``normalised''
 Gaussian functions \citep{lammens94computational,
   steels05coordinating}. The similarity measure between a colour
 category and a colour sample is weighted by the inverse of the
@@ -294,15 +294,15 @@ the best members of the fuzzy set.
 \label{s:gms-syntactic-templates}
 
 The templates to express this network in language are in general
-similar to the one used for the \emph{basic colour strategy} in
+similar to the one used for the basic colour strategy in
 Section \ref{s:bcs-syntactic-templates}: the semantic network is
 divided in three layers of units: (a) entity units containing the
 semantic entities, (b) functional units which make direct use of such
 a semantic entity and (c) contextual units which contain any remaining
 operations of the semantic constraint network that do not make direct
 use of any semantic entity. The main difference is that in order to
-express both the \emph{basic colour strategy} and the \emph{graded
-  membership strategy}, an additional template can be used to allow
+express both the basic colour strategy and the graded
+  membership strategy, an additional template can be used to allow
 the re-use of the contextual rule introduced for the basic colour
 strategy.
 
@@ -400,8 +400,8 @@ Re-use also occurs when the agent already knows a construction which
 covers part of the meaning to be conveyed. Such a template fix the
 glitches that prevent other rules to apply. Let us consider the
 situation in which an agent needs to be able to express both the
-\emph{strict basic colour strategy} and the \emph{graded membership
-  strategy}. The strict basic colour strategy is identical to the
+strict basic colour strategy and the graded membership
+  strategy. The strict basic colour strategy is identical to the
 normal basic colour strategy, except that it uses
 \textsc{Filter-by-Colour} primitive instead of a
 \textsc{Filter-by-Colour-Lenient} primitive for categorisation.  The
@@ -411,8 +411,8 @@ order to do so, a new unit needs to be introduced to the structure
 that combines two subunits into one and that also takes care of
 variable equalities between the subunits and contextual rule. An
 example of such a ``glue''-rule is shown below. This rule allows the
-agents to re-use the contextual rule for the \emph{basic colour
-  strategy} to express the \emph{graded membership strategy}.
+agents to re-use the contextual rule for the basic colour
+  strategy to express the graded membership strategy.
 
 \footnotesize
 \begin{Verbatim}[frame=lines, label=ColourMembership rule]
@@ -476,7 +476,7 @@ Figure \ref{f:gms-tarahumara-basic}.
 
 \begin{figure}[htpb]
   \centering
-  \includegraphics[width=.6\textwidth]{./graded-membership/figures/tarahumara-basic-categories.pdf}
+  \includegraphics[height=1.25cm]{./graded-membership/figures/tarahumara-basic-categories.pdf}
   \caption[The basic colour categories for Central Tarahumara]{The
     basic colour categories for Central Tarahumara. These are the
     estimated foci of each category based on data from the World Color
@@ -611,7 +611,7 @@ positive impact on the resulting baseline success.
 \section{Conclusion}
 
 In this chapter, I have introduced a compositional semantics for the
-\emph{graded membership strategy} and linguistic rules to express the
+graded membership strategy and linguistic rules to express the
 membership categories in language. I have qualitatively compared the
 resulting names to those reported for the Tarahumara language using a
 naming benchmark. I have also shown the positive impact of the use of

@@ -37,7 +37,7 @@ should enable the reader to understand the models of language
 strategies that will be presented in future chapters. Readers can
 choose to skip this chapter and return to it when needed.
 
-\section{Embodied Cognitive Semantics using IRL}
+\section{Embodied cognitive semantics using IRL}
 \label{s:irl}
 \is{Incremental Recruitment Language|see{IRL}}
 \is{IRL}
@@ -122,16 +122,16 @@ mapping function is clearly nontrivial.
 \is{semantic constraint network}
 \is{semantic network|see{semantic constraint network}}
 
-The meaning of an utterance will be viewed as a \emph{semantic
-  constraint network}, or \emph{semantic network} for short. The basic
-nodes of these networks are \emph{primitive
+The meaning of an utterance will be viewed as a \textsc{semantic
+  constraint network}, or \textsc{semantic network} for short. The basic
+nodes of these networks are \textsc{primitive
   constraints}\is{primitive constraint} which reflect cognitive
 operations and which are provided by the experimenter.  Each
 constraint has a number of arguments which can be bound to a certain
 variable. Variables are denoted using a question mark prefix. If a
 variable appears as an argument to more than one constraint, it means
 the value for this variable is constrained by more than one
-constraint. Some variables can be bound to a certain \emph{semantic
+constraint. Some variables can be bound to a certain \textsc{semantic
   entity}\is{semantic entity} by means of a bind
 statement. Semantic entities are marked by square brackets.
 
@@ -327,13 +327,13 @@ found. Only one primitive in the library fulfils this requirement:
 for its second argument which is of type entity-set. In the next
 expansion step of the search tree, three primitives are considered:
 {\sc Equal-to-Context}, {\sc Filter-Set-Prototype} and {\sc
-  Filter-Set-Category} (nodes 2-4). Node 2 already contains a complete
+  Filter-Set-Category} (nodes 2--4). Node 2 already contains a complete
 network and can be evaluated. If the context contains only one object
 this network succeeds and the conceptualisation process terminates. If
 this is not the case, nodes 3 and 4 will be further expanded as they
 again have an open variable of type entity-set. Both nodes can be
 expanded with the three primitive constraints that have a compatible
-target argument (nodes 5-10). If the topic can be identified using a
+target argument (nodes 5--10). If the topic can be identified using a
 single {\sc Filter-Set-Prototype} (node 5) or {\sc
   Filter-Set-Category} (node 8), conceptualisation has been
 completed. If not, the search process continues.
@@ -367,7 +367,7 @@ possibly aided by heuristics.
 
 We have followed a similar strategy which stores previous solutions
 (like nodes 2, 5, 8 and 14 in Figure \ref{f:conceptualisation}) as a
-\emph{chunk} which can later be re-used like any other primitive in
+\textsc{chunk} which can later be re-used like any other primitive in
 the library. Some variables will be considered to be internal to the
 chunk but one variable will have the special state of target argument
 and the other external variables will become arguments to this
@@ -461,7 +461,7 @@ certain meaning or how to parse a certain utterance.
 
 \subsection{Language processing}
 
-During language processing, a \emph{linguistic
+During language processing, a \textsc{linguistic
   structure}\is{linguistic structure} is being built up by applying
 a series of rules to it. The application process is organised as a
 search process in which each node consists of the linguistic structure
@@ -494,8 +494,8 @@ Figure \ref{f:fcg-search}.
 \is{coupled feature structure}
 
 The linguistic structure that is being built up is represented as
-\emph{coupled feature structures}. Each coupled feature structure
-consists of two feature structures or \emph{poles}: one is defined in
+\textsc{coupled feature structures}. Each coupled feature structure
+consists of two feature structures or \textsc{poles}: one is defined in
 the semantic domain and the other in the syntactic domain. Each
 feature structure consists of a list of units, which are typically
 reflected in both poles. Each unit consists of a list of feature-value
@@ -569,8 +569,8 @@ be analysed in parsing or built in production. A construction also
 typically contains more variables as it should be applicable to a wide
 range of instantiated linguistic structures.
 
-A construction is applied in three steps: a \emph{matching phase}, a
-\emph{first merging phase} and a \emph{second merging phase}. In
+A construction is applied in three steps: a \textsc{matching phase}, a
+\textsc{first merging phase} and a \textsc{second merging phase}. In
 general, the matching phase checks whether the rule is applicable and
 the two merging phases add new information to the linguistic structure
 that is being built up. Although the matching phase is the most strict
@@ -632,7 +632,7 @@ of these operators is shown below.
 \end{Verbatim}
 \normalsize
 
-Units that are marked by the J-operator, or \emph{J-units} for short,
+Units that are marked by the J-operator, or \textsc{J-units} for short,
 are ignored in the matching phase, but receive special treatment
 during the merging phase. The TAG-operator allows a construction to
 bind a certain variable, \emph{?tag-variable}, to a certain
