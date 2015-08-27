@@ -10,7 +10,7 @@ English and Chinese, the use of ``basic'' modifiers accounts for a high
 number of colour descriptions in unconstrained naming experiments
 \citep{simpson91sex, lin01unconstrained}. The basic modifiers are
 defined as the ones that are the most frequently used, which in
-English correspond to ``bright'', ``dull'', ``light'', ``pale'',
+English correspond to \textit{bright}, \textit{dull}, \textit{light}, \textit{pale},
 etc. In general they specify the lightness or the chromaticity aspect
 of a certain colour.
 
@@ -19,10 +19,8 @@ papers report on the exact transformation that is implied by these
 modifiers. One exception to this rule is a study on the Russian
 language, for which the location of the modified categories has been
 determined. An example of such an analysis is shown in Figure
-\ref{f:ams-russian-diagram}. The modifiers ``t\"emno-'' (dark) and
-``svleto'' (light), modify the focus of the basic category parallel to
-the blackness dimension (W-S). The modifiers ``bledno-'' (pale) and
-``jarko-'' (bright) shift the chromaticity of the basic colour
+\ref{f:ams-russian-diagram}. The modifiers \textit{t\"emno-} (`dark') and
+\textit{svleto} (`light'), modify the focus of the basic category parallel to the blackness dimension (W-S). The modifiers \textit{bledno-} (`pale') and \textit{jarko-} (`bright') shift the chromaticity of the basic colour
 category. This shift is parallel to the W-C dimension for lighter
 colours and parallel to the S-C dimension for darker colours
 \citep{safuanova07russian}.
@@ -32,9 +30,9 @@ colours and parallel to the S-C dimension for darker colours
   \includegraphics[width=.5\textwidth]{./achromatic/figures/russian-diagram.pdf}
   \caption[Location of modified basic colour foci in Russian]{Location
     of modified basic colour foci in Russian projected into the NCS
-    blackness-chromaticity triangle. ``t\"emno-'' \emph{dark} (solid
-    circle), ``jarko-'' \emph{bright} (sun), ``svetlo-'' \emph{light}
-    (open circle) and ``bledno-'' \emph{pale} (dashed circle). Figure
+    blackness-chromaticity triangle. \textit{t\"emno-} `dark' (solid
+    circle), \textit{jarko-} `bright' (sun), \textit{svetlo-} `light'
+    (open circle) and \textit{bledno-} `pale' (dashed circle). Figure
     from \cite{paramei05singing}.}
   \label{f:ams-russian-diagram}
 \end{figure}
@@ -43,9 +41,9 @@ colours and parallel to the S-C dimension for darker colours
 
 The suggestions made in the literature about how to implement the
 combination of a basic modifier and a basic colour category are
-similar to those reported for the \emph{category combination strategy}
-(see Section \ref{s:ccs-related-research}) as the \emph{basic
-  modification strategy} could be thought of as a special case of that
+similar to those reported for the category combination strategy
+(see Section \ref{s:ccs-related-research}) as the basic
+  modification strategy could be thought of as a special case of that
 strategy.
 
 The process of mapping a set of properties to a specific category can
@@ -62,12 +60,12 @@ modifier and a basic colour category could be thought of as a context
 dependent filtering operation. First, all entities that are categorised
 as the basic colour category would be selected from the context. Next,
 the average lightness value of the remaining entities could be used to
-decide which entity should be named ``dark'' and which should be named
-``light''. Although this could be a productive strategy, using  average lightness
+decide which entity should be named \textit{dark} and which should be named
+\textit{light}. Although this could be a productive strategy, using  average lightness
 values of the remaining entities might yield unwanted results. For example, 
 if the contexts would consist for example of
 only two very light green colour samples, it would be unlikely one would
-be called ``light green'' and the other one ``dark green''. Moreover,
+be called \textit{light green} and the other one \textit{dark green}. Moreover,
 human subjects are able to assign prototypical colour samples to each
 description independent of the context in which the colour samples are
 presented \citep{safuanova07russian}.
@@ -79,21 +77,21 @@ I hypothesise that the agents maintain different sets of categories,
 which each specify a mutual exclusivity relation between its
 members. One such set is the set of basic colour categories. For
 example, a colour can not at the same time be red and green. A similar
-relation holds for the lightness modifiers ``light-'' and ``dark-'':
+relation holds for the lightness modifiers \textit{light-} and \textit{dark-}:
 a colour is considered to be either light or dark and can never be
 light and dark at the same time. This relation is represented by
 organising colour categories in different sets. Another set of
 categories could be those that specify the chromaticity of a
-particular colour, like ``pale-'' and ``bright-''.
+particular colour, like \textit{pale-} and \textit{bright-}.
 
 The approach of agents maintaining several category sets, ensures a
 uniform treatment of each of these sets in all of the strategies
 introduced before. This allows for example to only specify some
-dimensions of a colour sample, as in ``bright green'', or to specify
-graded membership, as in ``darkish red''.
+dimensions of a colour sample, as in \textit{bright green}, or to specify
+graded membership, as in \textit{darkish red}.
 
 As I am still pursuing a compositional semantics, I will start from
-the semantics of the \emph{category combination strategy}, as this is
+the semantics of the category combination strategy, as this is
 already quite similar to the semantics needed for the current
 strategy. The transformation proposed for that strategy can not be
 applied anymore, as the modifier category is not a member of the basic
@@ -133,7 +131,7 @@ modifiers]{Schematic representation of the transformation for
 \label{f:ams-semantics-schematic}
 \end{figure}
 
-The semantics of the \emph{basic modification strategy} can be
+The semantics of the basic modification strategy can be
 summarised as follows: first a normal categorisation similar to the
 one in the basic colour strategy is performed. Before the
 basic modifiers are applied, they are transformed corresponding
@@ -145,7 +143,7 @@ process based on activation.
 \subsection{Profiling and first categorisation based on colour}
 
 The profiling and the first categorisation process is identical to the
-one of the \emph{graded membership strategy}. It is a strict
+one of the graded membership strategy. It is a strict
 implementation of the categorisation process, as in interpretation
 only samples that are most similar to the interpreted category are
 considered for further processing. This decision is based on the
@@ -178,10 +176,10 @@ contributes to that dimension.
 \subsection{Second categorisation based on modifiers}
 
 Once the modifier categories are transformed, they are used for a
-second categorisation process. Like in the \emph{category combination
-  strategy} the membership value of the first categorisation process
+second categorisation process. Like in the category combination
+  strategy the membership value of the first categorisation process
 is overwritten by the one resulting from the second categorisation
-process for similar reasons. A ``light-brown'' colour sample could
+process for similar reasons. A \textit{light-brown} colour sample could
 have a low membership for the base category brown, but might be a very
 good member of the light modifier after it is transformed for
 brown. This second categorisation process allows the agent to further
@@ -193,7 +191,7 @@ the base category.
 An optional categorisation process based on membership can be added to
 the process, which allows for a further specification of the subregion
 of the colour space. This additional process allows to describe
-samples as ``darkish green'' or ``very light yellow'' and could be
+samples as \textit{darkish green} or \textit{very light yellow} and could be
 added when the subsequent categorisation process is not sufficient to
 discriminate a particular colour sample in a context.
 
@@ -206,10 +204,10 @@ process.
 
 \subsection{Semantic constraint network}
 
-The complete semantic network for the \emph{basic modification
-  strategy} is shown in Figure \ref{f:ams-semantic-structure}. It is
-very similar to the one for the \emph{category combination
-  strategy}. The first categorisation process based on the basic
+The complete semantic network for the basic modification
+  strategy is shown in Figure \ref{f:ams-semantic-structure}. It is
+very similar to the one for the category combination
+  strategy. The first categorisation process based on the basic
 colour category set is entirely identical. The
 \textsc{Get-Lightness-Category-Set} retrieves the lightness
 modifiers known to the agent. The
@@ -301,8 +299,8 @@ each part of the semantic constraint network in Figure
 \is{syntactic template!re-use of constructions}
 
 The syntactic template 2.2 that was introduced in the previous chapter
-can also be used to express the parts of the \emph{basic
-  modification strategy} that are not yet covered by any of the other
+can also be used to express the parts of the basic
+  modification strategy that are not yet covered by any of the other
 rules. It encapsulates all remaining primitives t and takes care of
 all the needed variable equalities between its subunits and the
 contextual rule of the basic colour strategy. It is responsible for
@@ -349,11 +347,11 @@ The baseline experiment will compare three different predefined language
 systems. Each of them is based on the Russian colour category system
 \citep{safuanova07russian}. The first one is based on the strict
 version of the basic colour strategy. The second one is based
-on the \emph{basic modification strategy} using 2 basic
-modifiers: ``svleto'' (light) and ``t\"emno'' (dark). The modifiers
+on the basic modification strategy using 2 basic
+modifiers: \textit{svleto} (`light') and \textit{t\"emno} (`dark'). The modifiers
 are specified as maximal and minimal lightness values and are only
 specified in the lightness dimension. The third language system is
-based on the \emph{basic modification strategy} which includes a
+based on the basic modification strategy which includes a
 categorisation process based on membership using the same basic
 semantic entities.
 
@@ -365,17 +363,17 @@ have been converted using the method described in Appendix
 
 \begin{figure}[htpb]
   \centering
-  \includegraphics[width=.9\textwidth]{./achromatic/figures/russian-modified-foci.pdf}
+  \includegraphics[height=3.75cm]{./achromatic/figures/russian-modified-foci.pdf}
   \caption[Foci of modified basic colour categories in Russian]{Foci
     of modified basic colour categories in Russian. The basic colour
     categories are shown in the middle. The top row shows these
-    categories modified with ``svleto-'' \emph{light} and the bottom
-    row shows the same categories modified with ``t\"emno-''
-    \emph{dark}.  From left to right: ``krasnij'' \emph{red}, ``oran\v
-    zevyj'' \emph{orange}, ``\v z\"eltij'' \emph{yellow},
-    ``zel\"enyj'' \emph{green}, ``sinij'' \emph{dark blue},
-    ``goluboj'' \emph{light blue}, ``rozovyj'' \emph{rose},
-    ``fioletovyj'' \emph{purple} and ``kori\v cnevyj'' \emph{brown}.}
+    categories modified with \textit{svleto-} `light' and the bottom
+    row shows the same categories modified with \textit{t\"emno-}
+    `dark'.  From left to right: \textit{krasnij} `red', ``oran\v
+    zevyj'' `orange', \textit{\v z\"eltij} `yellow',
+    \textit{zel\"enyj} `green', \textit{sinij} `dark blue',
+    \textit{goluboj} `light blue', \textit{rozovyj} `rose',
+    \textit{fioletovyj} `purple' and \textit{kori\v cnevyj} `brown'.}
   \label{f:ams-russian-basic-modifiers}
 \end{figure}
 
@@ -404,10 +402,10 @@ incorrectly are shown in Table \ref{t:ams-russian-naming-benchmark}
   \label{t:ams-russian-naming-benchmark}
 \end{table}
 
-``t\"emno-\v z\"eltij'' could not be
+\textit{t\"emno-\v z\"eltij} could not be
 named, as it is still considered a light shade of yellow. The names
-for the colours samples for ``t\"emno-goluboj'' (dark 'light blue')
-and ``svleto-sinij'' (light `dark blue') were mixed up, as the former
+for the colours samples for \textit{t\"emno-goluboj} (`dark ``light blue''')
+and \textit{svleto-sinij} (`light ``dark blue''') were mixed up, as the former
 is lighter than the second, which is also reported in literature
 \citep{safuanova07russian}. All other colour samples were named
 correctly.
@@ -423,12 +421,12 @@ resulting membership (compare results of basic modifiers to
 graded basic modifiers). The higher the expressivity of the
 agents, the higher the resulting baseline communicative success.
 
-When compared to the baseline experiment of the \emph{category
-  combination strategy}, the resulting baseline communicative success
+When compared to the baseline experiment of the category
+  combination strategy, the resulting baseline communicative success
 is slightly lower. This is probably due to the lower number of
 categories that can be used to modify the basic categorisation
 process. In the current experiment, only two such categories are
-present, whereas in the \emph{category combination experiment}, all
+present, whereas in the category combination experiment, all
 adjacent colour categories could be used.
 
 \begin{figure}[htpb]
@@ -455,6 +453,6 @@ The proposed semantic template in which the lightness categories are
 represented in a set of colour categories separate from the
 basic colour categories, allows for the re-use of each of the
 previous language strategies using these lightness
-categories. Representing the semantics of descriptions like ``light''
-or ``very light'' requires the simple replacement of the primitive that
+categories. Representing the semantics of descriptions like \textit{light}
+or \textit{very light} requires the simple replacement of the primitive that
 retrieves the colour category set from the ontology of an agent.
