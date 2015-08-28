@@ -1,4 +1,4 @@
-\chapter{Linguistic Selection of Language Strategies}
+\chapter{Linguistic selection of language strategies}
 \label{s:strategy-selection}
 \is{language strategy!linguistic selection of}
 
@@ -12,16 +12,16 @@ became more dominant than the original brightness sense
 \citep{casson97shift}.
 
 This is illustrated in Figure \ref{f:ls-history-yellow} in which the
-history of the term ``yellow'' is shown. In Indo-European its
-syntactic form was ``ghel'' which was primarily used to refer to the
-shining (of yellow metals). In Old English the term ``geolo'' acquired
+history of the term \textit{yellow} is shown. In Indo-European its
+syntactic form was \textit{ghel} which was primarily used to refer to the
+shining (of yellow metals). In Old English the term \textit{geolo} acquired
 a hue sense and could be used for example to refer to the colour of
-some silk cloth. In the transition to Middle English ``yelou'' the hue
+some silk cloth. In the transition to Middle English \textit{yelou} the hue
 sense became the more dominant and the term could also be used to
 refer to for example yolk and ripe corn although it could still be
 used to refer to gold. This same shift happened to all other English
 basic colour terms. Most interestingly all colour terms that were
-introduced to English after this shift, like for example ``orange'',
+introduced to English after this shift, like for example \textit{orange},
 never had a brightness sense but only a hue sense
 \citep{casson97shift}. Similar meaning shifts have been reported in a
 wide range of languages \citep{maclaury92brightness}.
@@ -29,8 +29,8 @@ wide range of languages \citep{maclaury92brightness}.
 \begin{figure}[htbp]
   \begin{center}
     \includegraphics[width=\textwidth]{./selection/figures/history-yellow.pdf}
-   \caption[The evolution of the term ``yellow'' in English]{The
-     evolution of the term ``yellow'' in English. Like almost all
+   \caption[The evolution of the term \textit{yellow} in English]{The
+     evolution of the term \textit{yellow} in English. Like almost all
      other basic colour terms, its meaning shifted from brightness to
      hue around the transition from Old English to Middle
      English \citep{casson97shift}.}
@@ -50,16 +50,16 @@ linguistic selection at the level of language strategies.
 Although in literature the strategies are commonly referred to as
 being brightness based or hue based, the hue based strategy does
 clearly not ignore the brightness dimension. For example, in
-contemporary English the colour category for ``yellow'' clearly refers
-only to light colours whereas ``brown'' refers to darker colours of a
+contemporary English the colour category for \textit{yellow} clearly refers
+only to light colours whereas \textit{brown} refers to darker colours of a
 similar hue. This is commonly attested in literature for a wide range
 of languages, including English \citep{sturges95location,
   boynton97insights} and Spanish \citep{lillo07locating}.
 
 The two strategies described above have already been introduced in
 Chapter \ref{s:basic-strategy} of this book as being substrategies
-of the \emph{basic colour strategy}: the \emph{brightness strategy}
-and the \emph{brightness and hue strategy}. Both language strategies
+of the basic colour strategy: the brightness strategy
+and the brightness and hue strategy. Both language strategies
 have been operationalised and have been proven to be sufficient to
 allow a population of agents to self-organise their own language
 system (see Chapter \ref{s:basic-operators} for more details).
@@ -73,7 +73,7 @@ for a shift from one strategy to another so that I am able to study
 the observed phenomenon?
 
 Starting from the observation that colour terms introduced after the
-meaning shift only had the hue sense (e.g. ``orange'' in English), it
+meaning shift only had the hue sense (e.g. \textit{orange} in English), it
 seems reasonable to hypothesise that agents keep track of the
 \emph{overall success} of a strategy that should be used whenever the
 language system is expanded. These overall success rates can also be
@@ -90,14 +90,14 @@ a few terms without hampering overall communicative success so that
 the system can reach a tipping point. This suggests that agents should
 also keep track of \emph{term-specific success} of a strategy, which
 should be preferred over the overall dominant one. The strategy which
-has the highest term-specific success for a term, is the \emph{default
+has the highest term-specific success for a term, is the \textsc{default
   strategy} which will be used when producing or interpreting a
 specific term. A schematic representation of the term-specific scores
 is shown in Figure \ref{f:ls-strategies-and-scores}.
 
 \begin{figure}[htpb]
   \begin{center}
-    \includegraphics[width=\textwidth]{./selection/figures/strategies-scores.pdf}
+    \includegraphics[width=.8\textwidth]{./selection/figures/strategies-scores.pdf}
     \caption[Strategies and their item-specific success
     scores]{Strategies and their item-specific success scores. Each
       term can be used by both language strategies. Depending on the
@@ -117,20 +117,20 @@ by using the most conventional and successful language strategy.
 
 \subsection{Implementation of language strategies}
 
-The agents keep track of the \emph{overall strategy success} of each
+The agents keep track of the \textsc{overall strategy success} of each
 language strategy, which reflects its success in previous language
 games, regardless of the particular term it was used with.  It is the
 average communicative success of the last 50 interactions in which the
 strategy was used.
 
-At the same time, the agents keep track of the \emph{term-specific
+At the same time, the agents keep track of the \textsc{term-specific
   strategy success} of language strategies. This success will be
 considered to be the default strategy to produce or interpret this
 term. More formally, it is the average communicative success of the
 last 50 interactions in which a strategy is used with this specific
 term.
 
-\subsubsection*{Production and interpretation}
+\subsubsection{Production and interpretation}
 
 The general procedure to produce an utterance is implemented as
 follows. First the speaker tries to use each colour term using the
@@ -148,18 +148,18 @@ fails, it will reinterpret the term with the strategy with the
 highest overall success. If this fails as well, it resorts to the
 other strategies ordered by decreasing overall success.
 
-\subsubsection*{Alignment}
+\subsubsection{Alignment}
 
 The agents store the strategy they deployed to produce or interpret a
 particular term to update both the overall and the term-specific
 strategy success. They also use this strategy to determine which
-alignment operators to apply: when the \emph{brightness strategy} was
+alignment operators to apply: when the brightness strategy was
 deployed only the $L^*$ value of the used category is updated. When
-the \emph{brightness and hue strategy} was deployed, the values of each
+the brightness and hue strategy was deployed, the values of each
 dimension are updated (see Section
 \ref{s:bcs-adoption-alignment-operators}).
 
-\subsubsection*{Invention and adoption}
+\subsubsection{Invention and adoption}
 
 Whenever an agent feels the communicative pressure to invent a new
 colour category, it will use the strategy with the highest overall
@@ -177,9 +177,9 @@ I run an experiment in which the set of basic colour categories is
 fixed. This set is equal to the basic focal colours reported for the
 Spanish language \citep{lillo07locating}. Which language strategies
 the agents should use, is left open. They can choose between either
-the \emph{brightness} or the \emph{brightness and hue strategy} using
+the brightness or the brightness and hue strategy using
 the procedures outlined above. Some terms can be interpreted using
-both strategies. The term ``amarillo'' (yellow) for example, can be
+both strategies. The term \textit{amarillo} (`yellow') for example, can be
 used both to indicate a light colour or a light colour with a yellow
 hue. The contexts consist of three randomly chosen Munsell chips
 that have a minimal interstimulus distance of 50 distance units in the CIE
@@ -188,7 +188,7 @@ Adobe 1998 RGB colour model.
 
 \subsection{Measures}
 
-\subsubsection*{Strategy success}
+\subsubsection{Strategy success}
 \is{measures!strategy success}
 \is{strategy success|see{measures}}
 
@@ -196,7 +196,7 @@ The strategy success is measured at the population level and is
 defined as the average overall strategy success of a particular
 strategy in a population of agents.
 
-\subsubsection*{Strategy usage}
+\subsubsection{Strategy usage}
 \is{measures!strategy usage}
 \is{strategy usage|see{measures}}
 
@@ -205,7 +205,7 @@ strategy usage for an agent is the ratio of the interactions in which
 this strategy has been used in the last 50 interactions the
 agent was involved in.
 
-\subsubsection*{Strategy coherence}
+\subsubsection{Strategy coherence}
 \is{measures!strategy coherence}
 \is{strategy coherence|see{measures}}
 
@@ -246,7 +246,7 @@ SC(f) = \sum_{s = s_i}^{s_n}{\frac{s}{|P|}}{\frac{s-1}{|P|-1}}
 
 The resulting dynamics are shown in Figure \ref{f:ls-dynamics} and are
 rich and complex. In all runs, the communicative success is as high as
-the baseline communicative success (see
+the baseline communicative success (see Figure
 \ref{f:bcs-baseline} for comparison) and the agents reach a
 high coherence on the default strategies to use for each term in their
 repertoire, as indicated by the strategy coherence measure.
@@ -256,29 +256,29 @@ strategy becomes clearly dominant in the population. This could either
 be the brightness or the brightness and hue colour strategy, depending
 on small fluctuations in the early choices of the population (Figure
 \ref{f:ls-one-winner}). But I have also observed situations where one
-strategy becomes dominant first (for example, the \emph{brightness
-  strategy}) to be overtaken later by the other strategy (in this case
-the \emph{brightness and hue strategy}, as seen in the history of
+strategy becomes dominant first (for example, the brightness
+  strategy) to be overtaken later by the other strategy (in this case
+the brightness and hue strategy, as seen in the history of
 English (Figure \ref{f:ls-competition}). In this case, the two
 strategies continue to coexist in this case. Brightness is still used
 in circumstances when there is a word for which the default strategy
-is still the \emph{brightness strategy}.
+is still the brightness strategy.
 
 \begin{figure}[htbp]
 \begin{center}
 \subfigure[]{
-  \includegraphics[width=.85\textwidth]{./selection/figures/strategies-one-winner.pdf}
+  \includegraphics[width=.8\textwidth]{./selection/figures/strategies-one-winner.pdf}
   \label{f:ls-one-winner}
 } 
 \subfigure[]{
-  \includegraphics[width=.85\textwidth]{./selection/figures/strategies-competition.pdf}
+  \includegraphics[width=.8\textwidth]{./selection/figures/strategies-competition.pdf}
   \label{f:ls-competition}
 }
 \end{center}
 \caption[Resulting dynamics of the linguistic selection of
 strategies]{The resulting dynamics of the linguistic selection of
-  strategies. In \subref{f:ls-one-winner} the {\it brightness
-    strategy} becomes entirely dominant and is used significantly
+  strategies. In \subref{f:ls-one-winner} the brightness
+    strategy becomes entirely dominant and is used significantly
   more, whereas in \subref{f:ls-competition} one strategy overtakes
   the dominant one which is reflected in the respective use of each
   strategy.}
@@ -297,10 +297,10 @@ contexts one strategy has a selective advantage over the others.
 
 To study the impact of the linguistic challenges on the expected
 communicative success, I have designed two types of artificially
-constrained linguistic contexts. In the first type, the \emph{constant
+constrained linguistic contexts. In the first type, the \textsc{constant
   brightness contexts}, all samples in the contexts share the same
 lightness value, so they only differ in hue. In the second type, the
-\emph{constant hue contexts}, the samples are all different shades of
+\textsc{constant hue contexts}, the samples are all different shades of
 grey, so they only differ in lightness. By exploring different
 mixtures of these two types of contexts, I can establish environmental
 constraints in which one strategy would become more successful than
@@ -309,10 +309,10 @@ the other.
 \subsection{Experiment}
 \label{s:ls-selective-advantage-experiment}
 
-In this experiment I will compare three \emph{basic language
-  strategies}. In addition to the \emph{brightness} and the
-\emph{brightness and hue strategy}, I will also study the \emph{hue
-  strategy} in which only the two hue dimensions ($a^*$ and $b^*$ in
+In this experiment I will compare three \textsc{basic language
+  strategies}. In addition to the brightness and the
+brightness and hue strategy, I will also study the hue
+  strategy in which only the two hue dimensions ($a^*$ and $b^*$ in
 the CIE $L^*a^*b^*$ colour space) are taken into account. The agents
 start from a predefined lexicon based on Spanish
 \citep{lillo07locating}, the contexts consist of 4 Munsell chips
@@ -322,35 +322,35 @@ that are reproducible in the Adobe 1998 RGB colour model. The ratio
 of constant hue to constant brightness contexts is controlled through
 the hue difference parameter.
 
-\subsubsection*{Results}
+\subsubsection{Results}
 
 The results are shown in Figure \ref{f:ls-selective-advantage} and
 indicate the resulting strategy success after 10k interactions. The
-communicative success of \emph{brightness strategy} is optimal when
+communicative success of brightness strategy is optimal when
 there are no contexts in which the hue is constant, but the success
 drops when more contexts of constant brightness are present in the
-challenges. The opposite is true for the \emph{hue strategy} which has
+challenges. The opposite is true for the hue strategy which has
 its optimal success when the contexts are variable in hue. This
 success decreases as the ratio of contexts which are of constant hue
-increases. The \emph{brightness and hue strategy} becomes more
-successful than the \emph{brightness strategy} when 3 out of 10
+increases. The brightness and hue strategy becomes more
+successful than the brightness strategy when 3 out of 10
 contexts are of constant brightness. This shows the selective
 advantage of one strategy over the other.
 
 \begin{figure}[htbp]
 \begin{center}
-  \includegraphics[width=\textwidth]{./selection/figures/selective-advantage.pdf}
+  \includegraphics[width=.8\textwidth]{./selection/figures/selective-advantage.pdf}
 \end{center}
 \caption[Selective advantage of basic colour strategies]{Selective
-  advantage of the \emph{brightness}, \emph{hue and brightness} and
-  \emph{hue} strategies. The baseline communicative is compared in
+  advantage of the brightness, hue and brightness and
+  hue strategies. The baseline communicative is compared in
   mixtures of two types of contexts. The hue difference reflects the
   ratio of constant hue to constant brightness contexts.}
 \label{f:ls-selective-advantage}
 \end{figure}
 
-It might seem surprising that \emph{brightness strategy} is more
-successful than the \emph{brightness and hue} in black-and-white
+It might seem surprising that brightness strategy is more
+successful than the brightness and hue in black-and-white
 contexts as the latter uses more information. This is due to the
 semantics in production which considers only the category that is the
 most similar to the topic. When all dimensions are relevant, only the

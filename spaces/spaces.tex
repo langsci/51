@@ -1,4 +1,4 @@
-\chapter{Colour Spaces and Systems}
+\chapter{Colour spaces and systems}
 \label{s:spaces}
 
 The colour information used in this book is reported in a wide
@@ -16,11 +16,11 @@ the functions that are used to convert this data from one colour
 system into another, as shown in Figure \ref{f:conversions}. Some
 conversions are impossible to compute in one step and hence require
 some intermediary steps. Most of these functions are based on Bruce
-Lindblooms's website\footnote{http://www.brucelindbloom.com}.
+Lindblooms's website.\footnote{\url{http://www.brucelindbloom.com}}
 
 \begin{figure}[htb]
 \begin{center}
-\includegraphics[width=\textwidth]{./spaces/figures/conversions.pdf}
+\includegraphics[width=.8\textwidth]{./spaces/figures/conversions.pdf}
 \caption[Conversion diagram between different colour models and
 spaces]{A diagram representing the conversions between the different
   colour models and spaces. To convert colour information from the
@@ -39,7 +39,7 @@ spaces]{A diagram representing the conversions between the different
 
 Central to the conversion diagram (Figure \ref{f:conversions}) is the
 XYZ colour space. The XYZ colour space was established by the
-\emph{Commission Internationale de l'Eclairage} (CIE) in 1931. It standardised
+Commission Internationale de l'Eclairage (CIE) in 1931. It standardised
 the colour-matching functions which describe how to combine the
 different amounts of primaries into unique colours and how to establish
 the primaries themselves. It was based on two experiments
@@ -69,7 +69,7 @@ total illumination. Some of them, such as illuminant A, try to model a
 typical domestic lighting, whereas others, such as illuminants C and
 D65, try to reconstruct natural daylight conditions. In all reported
 experiments, D65 is used as standard illuminant. For each illuminant a
-reference white can be defined which represents the colour `white'
+reference white can be defined which represents the colour \textit{white}
 under such illuminant. The reference whites for some illuminants are
 shown in Table \ref{t:reference-whites}.
 
@@ -99,20 +99,22 @@ considered to be the best one.
 
 All steps of this transformation can be compiled into one matrix
 multiplication. To convert from illuminant C to illuminant D65,
-Equation \ref{e:c-to-d65} was used\footnote{More chromatic
+Equation \ref{e:c-to-d65} was used.\footnote{More chromatic
   transformations can be found on Bruce Lindbloom's website:\\
-  \url{http://www.brucelindbloom.com/Eqn_ChromAdapt.html}.}.
+  \url{http://www.brucelindbloom.com/Eqn_ChromAdapt.html}.}
 
 \begin{equation}
 \begin{bmatrix}
   X_{D65} \\ Y_{D65} \\ Z_{D65}
 \end{bmatrix}
-=
-\begin{bmatrix}
+= \left[
+\setlength{\arraycolsep}{5pt} \sisetup{group-digits = false}
+\begin{array}{S[table-format=2.7] S[table-format=2.7] S[table-format=2.7]}
  0.9904476 & -0.0071683 & -0.0116156 \\
 -0.0123712 & 1.0155950 & -0.0029282 \\
 -0.0035635  & 0.0067697 & 0.9181569
-\end{bmatrix}
+\end{array}
+\right]
 \begin{bmatrix}
   X_{C} \\ Y_{C} \\ Z_{C}
 \end{bmatrix}
@@ -302,7 +304,7 @@ are shown in a diagram in Figure \ref{f:munsell-diagram}.
   \includegraphics[height=5cm]{./spaces/figures/Munsell-system-Jacob-Rus.pdf}
   \label{f:munsell-diagram}
 }
-\caption[The Munsell colour system]{\subref{f:munsell-colour-wheel}: a colour wheel representing different hue values in the Munsell colour system; \subref{f:munsell-diagram}: a diagram representing the three dimensions of the Munsell colour system: hue, value and chroma. (CC-BY-SA Jacob Rus)}
+\caption[The Munsell colour system]{\subref{f:munsell-colour-wheel}: a colour wheel representing different hue values in the Munsell colour system; \subref{f:munsell-diagram}: a diagram representing the three dimensions of the Munsell colour system: hue, value and chroma. (CC-BY-SA Jacob Rus)}\todo[inline]{Please provide source information for Figure (a)}
 \end{figure}
 
 \subsection{Development}
@@ -313,7 +315,7 @@ represents the differences between different colours as experienced by
 human subjects, and precisely applicable.
 
 The development of the Munsell hue and chroma scales, which lead to
-publication of the first Book of Color in 1929, is poorly documented
+publication of the first \textit{Book of Color} in 1929, is poorly documented
 \citep{berns82development}. Only the research leading to the scale for
 value has been properly documented but was based on the judgment of a
 low number of human subjects (six to fourteen). A projection of the
@@ -323,8 +325,8 @@ of the CIE \emph{L*a*b*} colour space is shown in Figure
 
 \begin{figure}[htbp]
 \begin{center}
-\includegraphics[width=.85\textwidth]{./spaces/figures/book-of-color-1929.pdf}
-\caption[Colour samples of The Munsell Book of Color of 1929]{A projection of the colour samples that appear in the Munsell Book of Color of 1929 on the \emph{a*b*} plane of the CIE \emph{L*a*b*} colour space.}
+\includegraphics[width=.8\textwidth]{./spaces/figures/book-of-color-1929.pdf}
+\caption[Colour samples of The Munsell Book of Color of 1929]{A projection of the colour samples that appear in the Munsell \textit{Book of Color} of 1929 on the \emph{a*b*} plane of the CIE \emph{L*a*b*} colour space.}
 \label{f:book-of-color-1929}
 \end{center}
 \end{figure}
@@ -344,7 +346,7 @@ possible colours when compared to those of the Book of Color in Figure
 
 \begin{figure}[htbp]
 \begin{center}
-\includegraphics[width=.85\textwidth]{./spaces/figures/real.pdf}
+\includegraphics[width=.8\textwidth]{./spaces/figures/real.pdf}
 \caption[Colour samples resulting from a study by
 \citeauthor{newhall42final}]{A projection of the colour samples
   resulting from the study by \citeauthor{newhall42final} on the
@@ -439,12 +441,14 @@ are not reproducable using this colour profile.
 \begin{bmatrix}
   R_t \\ G_t \\ B_t
 \end{bmatrix}
-=
-\begin{bmatrix}
+= \left[
+\setlength{\arraycolsep}{10pt} \sisetup{group-digits = false}
+\begin{array}{S[table-format=1.7] S[table-format=1.7] S[table-format=1.6]}
  2.04148 & -0.0564977 & -0.344713 \\
 -0.969258 & 1.87599& 0.0415557 \\
 0.0134455  &  -0.118373 & 1.01527
-\end{bmatrix}
+\end{array}
+\right]
 \begin{bmatrix}
   X \\ Y \\ Z
 \end{bmatrix}
@@ -468,7 +472,7 @@ robots that have been used in my experiments deploy the YCbCr colour
 model. In order to utilise this information, it needs to be converted
 to the XYZ colour space, which happens in two steps. First it needs to
 be converted to a RGB colour model using the Equations
-\ref{e:ycbcr-rgb-first}-\ref{e:ycbcr-rgb-last}. Finally, these
+\ref{e:ycbcr-rgb-first}--\ref{e:ycbcr-rgb-last}. Finally, these
 coordinates can be converted to the XYZ using Equations
 \ref{e:secam-rgb-xyz-first} and \ref{e:secam-rgb-xyz-last} which
 assumes the SECAM/PAL colour profile.
@@ -488,12 +492,13 @@ R_t = R^\gamma \quad G_t = G^\gamma \quad B_t = B^\gamma
 \begin{bmatrix}
   X \\ Y \\ Z
 \end{bmatrix}
-=
-\begin{bmatrix}
+= \left[
+\setlength{\arraycolsep}{5pt} \sisetup{group-digits = false}
+\begin{array}{S[table-format=1.7]S[table-format=1.7]S[table-format=1.7]}
  0.4306190 & 0.3415419 & 0.1783091 \\
  0.2220379 & 0.7066384 & 0.0713236 \\
  0.201853  &  0.1295504 & 0.9390944
-\end{bmatrix}
+\end{array}\right]
 \begin{bmatrix}
   R_t \\ G_t \\ B_t
 \end{bmatrix}

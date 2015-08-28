@@ -1,4 +1,4 @@
-\chapter{Discussion and Conclusion}
+\chapter{Discussion and conclusion}
 \label{s:conclusion}
 
 Although languages around the world exhibit a high variation in how
@@ -34,31 +34,31 @@ different language strategies based on the way colours are described
 in unconstrained colour naming studies, anthropological research and
 psychology. This identification allows to establish clear goals and
 defines a clear scope for this book. I have chosen to focus on four
-different language strategies: the \emph{basic colour strategy}, the
-\emph{graded membership strategy}, the \emph{category combination
-  strategy} and the \emph{basic modification strategy}.
+different language strategies: the basic colour strategy, the
+graded membership strategy, the category combination
+  strategy and the basic modification strategy.
 
-The \emph{basic colour strategy} limits language users to use a single
+The basic colour strategy limits language users to use a single
 term to describe a colour sensation. This strategy has received by far
 the most attention in colour research. Examples in English are
-``green'' and ``blue''. In the \emph{graded membership strategy}
+\textit{green} and \textit{blue}. In the graded membership strategy
 language users are able to specify the degree of membership of a
 particular colour sample to a basic colour category, as for example in
-``very green'' or ``greenish''. The \emph{category combination
-  strategy} allows language users to combine more than one category to
-describe a colour in more detail, like in ``blue-green''. This
-strategy can be extended with the \emph{graded membership strategy},
+\textit{very green} or \textit{greenish}. The category combination
+  strategy allows language users to combine more than one category to
+describe a colour in more detail, like in \textit{blue-green}. This
+strategy can be extended with the graded membership strategy,
 which would allow to specify how well the colour sample represents one
-of the constituent categories, as in ``reddish brown''. The final
-language strategy I consider in this book is the \emph{basic
-  modification strategy} which allows a language user to modulate
+of the constituent categories, as in \textit{reddish brown}. The final
+language strategy I consider in this book is the basic
+  modification strategy which allows a language user to modulate
 particular subdimensions of a colour, such as the lightness modifiers
-``light'' and ``dark'' and the chromaticity modifiers ``pale'' and
-``bright''.
+\textit{light} and \textit{dark} and the chromaticity modifiers \textit{pale} and
+\textit{bright}.
 
 \subsection{Operationalisation of language strategies}
 
-The operationalisation of the \emph{basic colour strategy} draws on
+The operationalisation of the basic colour strategy draws on
 the previous models proposed in the field of artificial language
 evolution for the domain of colour \citep{steels05coordinating}. These
 models make use of perceptual colour spaces in which each colour
@@ -71,8 +71,8 @@ is most similar to the perceived colour sample. Naming these samples
 is achieved through an associative network that assigns symbols to
 these categories.
 
-The \emph{graded membership strategy} is implemented using the
-categorisation principles of the \emph{basic colour strategy}, but
+The graded membership strategy is implemented using the
+categorisation principles of the basic colour strategy, but
 additionally the agents can express the distance to the prototype of
 that category. This ability is operationalised through a
 categorisation process based on the similarity between the prototype
@@ -82,8 +82,8 @@ neighbour classification algorithm which uses prototypical similarity
 values as categories. These categories are named using symbols which
 are stored in an associative network.
 
-The \emph{category combination strategy} also builds on the
-categorisation process of the \emph{basic colour strategy}. Before
+The category combination strategy also builds on the
+categorisation process of the basic colour strategy. Before
 applying a second categorisation process based on colour, the set of
 colour categories needs to be transformed. The transformation I have
 implemented is moving each of the categories in the set in the
@@ -94,8 +94,8 @@ basic colour category. This strategy can be extended with a third
 categorisation process based on similarity, similar to the one
 introduced for the previous strategy.
 
-Finally, the \emph{basic modification strategy} is
-operationalised similar to the \emph{category combination}
+Finally, the basic modification strategy is
+operationalised similar to the category combination
 strategy. The main difference is that basic modifiers are only
 specified in some dimensions of the colour domain, so a different
 transformation method is required. I proposed a scaling method which
@@ -117,8 +117,8 @@ operationalisations.
 
 \subsection{Self-organisation of language systems}
 
-I have introduced the learning operators for the \emph{basic colour
-  strategy} and the \emph{graded membership strategy}. The adoption
+I have introduced the learning operators for the basic colour
+  strategy and the graded membership strategy. The adoption
 and alignment operators allow an agent to acquire colour categories and
 membership categories from another agent. The performance of these
 operators have been evaluated in an acquisition experiment in which a
@@ -127,7 +127,7 @@ agent. Additionally, the invention operator allows agents to establish
 their own language system based on these strategies, which has been
 evaluated in a formation experiment.
 
-Furthermore, I have used the \emph{basic colour strategy} to study the
+Furthermore, I have used the basic colour strategy to study the
 impact of statistical distributions of colour in the environment, the
 use of language, and embodiment on the resulting colour category
 systems.
@@ -207,8 +207,8 @@ an issue as the hearer should be able to understand which categories and
 semantic template are used. 
 
 The semantic templates can be implemented in many different ways. It
-is for example possible to implement the \emph{category combination
-  strategy} by generating all possible combinations of two basic
+is for example possible to implement the category combination
+  strategy by generating all possible combinations of two basic
 colour categories and choosing the combination that describes the
 target entity (or set) best. This would however be inefficient as 
 the combinatorial process would generate a huge number of colour
@@ -231,8 +231,8 @@ from simpler languages that can be made more complex in a stepwise
 fashion. In the proposed semantic templates, this is achieved by
 implementing semantic primitives in such a way that they can be re-used in a
 wide range of semantic templates. For example, the \textsc{Filter-by-Colour}
-primitive can be used both in the \emph{basic colour
-  strategy} and in the \emph{category combination strategy} in
+primitive can be used both in the basic colour
+  strategy and in the category combination strategy in
 which it is used twice. This re-use in turn ensures that more complex
 templates can be conceived as minor extensions of simpler ones.
 
@@ -252,12 +252,12 @@ language from simpler languages, the actual expressive power depends
 on the number of ways the semantic primitives can be combined in new semantic templates.
 The proposed semantic primitives
 are designed to reflect a high level of flexibility and re-use. In the
-\emph{basic modification strategy} for example, I propose a
+basic modification strategy for example, I propose a
 transformation of the set of modifiers. But, depending on the contexts
 the agents have to communicate about, this transformation
 might not be needed. Another example would be the use of the modifiers
 in the different language strategies. The proposed templates for the
-\emph{graded membership strategy} could also be used with the set of
+graded membership strategy could also be used with the set of
 lightness modifiers by replacing the primitive that retrieves the set
 of categories from the ontology of the agent.
 
@@ -268,12 +268,12 @@ the domain of colour, they are considered to be general and therefore can be
 applied to examples from other domains. The
 \textsc{Filter-by-Membership} primitive for example, can be used to
 represent the graded membership in any domain, such as time
-(e.g. ``very soon'') or space (e.g. ``very near''). The proposed
+(e.g. \textit{very soon}) or space (e.g. \textit{very near}). The proposed
 transformation \textsc{Scale-Category-Set-to-Category} of the set of
 categories can also be used to represent the transformation required
 to describe the colour of a more specific concept, such as wine. The colour
 categories used to describe wine are different from the their original
-meaning as the colour of ``white wine'' for example, is in fact more
+meaning as the colour of \textit{white wine} for example, is in fact more
 yellowish than white, indicating that a transformation might be required.
 
 The main principles behind the proposed syntactic templates and the repair
@@ -286,7 +286,7 @@ grammatical rules during the parsing of utterances.
 
 \subsection{Related models and approaches}
 
-\subsubsection*{Models of colour naming}
+\subsubsection{Models of colour naming}
 
 Most other computational models for the domain of colour focus on the
 naming of certain colour samples. Some of them store the names and
@@ -305,7 +305,7 @@ lexicon. By enabling the adoption and alignment operators, the
 proposed model could also acquire the meaning of new colour
 descriptions and store them for later use.
 
-\subsubsection*{Fuzzy sets}
+\subsubsection{Fuzzy sets}
 
 Fuzzy set theory is an often pursued approach to the semantics of the
 domain of colour. It stipulates that colour samples are rarely a
@@ -317,23 +317,23 @@ to conceptual spaces with a dimensionality higher than one. One
 solution to this problem might be to artificially divide some
 dimensions in planes \citep{benavente08parametric}.
 
-This approach seems particularly promising for the \emph{category
-  combination approach}, but it is less clear how it could be extended
-to suit the \emph{graded membership approach}. Some suggestions have
+This approach seems particularly promising for the category
+  combination approach, but it is less clear how it could be extended
+to suit the graded membership approach. Some suggestions have
 been made on how to deal with adverbs \citep{hersh76fuzzy}, but these
 seem unsatisfactory in explaining why the use adverbs should be
 preferred in language.
 
-\subsubsection*{Conceptual spaces}
+\subsubsection{Conceptual spaces}
 
 The theory of conceptual spaces probably provides the most similar
 approach to the semantics proposed in this book. The approach for
-the \emph{basic colour strategy} is based on this theory
+the basic colour strategy is based on this theory
 \citep{gardenfors04conceptual}. How concepts should be combined
 however is only loosely defined. The work in this book tries to
 formalise some possible transformations that could fit this bill.
 
-\subsubsection*{Vantage theory}
+\subsubsection{Vantage theory}
 
 Another approach to semantics that resonates with the proposed
 semantics, is the vantage theory. In this theory, the set of colour
@@ -374,12 +374,12 @@ stores all linguistic and conceptual knowledge it has built up. This
 knowledge can later be used to tutor the stored language system to
 another human student.
 
-A prototype of such a tutoring system based on the \emph{basic colour
-  strategy} has been implemented and could be extended to more complex
+A prototype of such a tutoring system based on the basic colour
+  strategy has been implemented and could be extended to more complex
 strategies. This prototype can be used as the starting point for  other tutoring
 systems which focus on aspects of languages that are hard to learn,
-such as aspect in Russian or the use of posture verbs (``staan'', ``zitten'' and
-``liggen'') in Dutch.
+such as aspect in Russian or the use of posture verbs (\textit{staan}, \textit{zitten} and
+\textit{liggen}) in Dutch.
 
 \section{Future work}
 \label{s:future-work}
@@ -397,4 +397,4 @@ Although the scope of this book is limited to the domain of colour,
 it would be interesting to apply the proposed semantic to other
 domains, such as space or time. This could also include naming the
 colour of more general concepts (such as wine) or to use the typical
-colour of a concept to describe a colour (as in ``blood red'').
+colour of a concept to describe a colour (as in \textit{blood red}).

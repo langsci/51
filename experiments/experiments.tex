@@ -16,7 +16,7 @@ simulation \citep{belpaeme05eelc, belpaeme05explaining,
   belpaeme07language}. Both these experiments have been conducted in
 collaboration with Tony Belpaeme. Finally, I will examine the impact
 of embodiment on the performance of the adoption, alignment and
-invention operators of the \emph{basic colour strategy} in Section
+invention operators of the basic colour strategy in Section
 \ref{s:experiments-grounded} \citep{bleys09grounded}.
 
 \section{Impact of environment on similarity to natural systems}
@@ -81,9 +81,9 @@ people and urban activities, both indoor and outdoor; both collections
 contain 300 images.
 
 From both image sets 25k RGB-pixels were randomly selected, one which
-I will call the \emph{natural data set} and the other which I will
-indicate as the \emph{urban data set}. I also added a control dataset,
-called \emph{uniform data set} which consists of 25k random RGB
+I will call the \textsc{natural data set} and the other which I will
+indicate as the \textsc{urban data set}. I also added a control dataset,
+called \textsc{uniform data set} which consists of 25k random RGB
 values, to test the null-hypothesis that categories are not influenced
 by the chromatic distribution in the environment. All RGB values have
 been converted to both the CIE $L^*a^*b^*$ and CIE $L^*u^*v^*$ colour
@@ -243,7 +243,7 @@ broken down by each category, are summarised in Table
 
 \begin{table}[htbp]
   \centering
-  \resizebox{.85\textwidth}{!}{
+  \resizebox{\textwidth}{!}{
   \begin{tabular}{>{\scshape}crrrrrrrrrrrr}
     \lsptoprule
     & \multicolumn{1}{c}{\scshape we} & \multicolumn{1}{c}{\scshape gy} & \multicolumn{1}{c}{\scshape bk} & \multicolumn{1}{c}{\scshape gn} & \multicolumn{1}{c}{\scshape yw} & \multicolumn{1}{c}{\scshape bl} & \multicolumn{1}{c}{\scshape rd} & \multicolumn{1}{c}{\scshape pu} & \multicolumn{1}{c}{\scshape br} & \multicolumn{1}{c}{\scshape or} & \multicolumn{1}{c}{\scshape pk} & \multicolumn{1}{c}{\scshape total}\\
@@ -554,8 +554,8 @@ objects perceived by the agents will never be identical, due to for
 example differences in lighting conditions or appearances when
 perceived from different angles.
 
-To investigate the influence of this \emph{perceptual deviation}, I
-introduce the \emph{ground\-ed colour naming game} in which agents are
+To investigate the influence of this \textsc{perceptual deviation}, I
+introduce the Ground\-ed Colour Naming Game in which agents are
 embodied in humanoid robots (Figure
 \ref{f:grounded-colour-naming-game}) and individually perceive scenes
 through their cameras. The setup is similar to other language game
@@ -567,8 +567,8 @@ humanoid robots which are also used in this experiment
 
 \begin{figure}[htpb]
   \centerline{\includegraphics[width=0.5\textwidth]{./experiments/figures/grounding-cng-small}}
-  \caption[The Grounded Colour Naming Game]{The \emph{Grounded Colour
-      Naming Game}. It is similar to the \emph{Colour Naming Game} but
+  \caption[The Grounded Colour Naming Game]{The Grounded Colour
+      Naming Game. It is similar to the Colour Naming Game but
     involves embodied agents that perceive the world through their own
     vision system.}
 \label{f:grounded-colour-naming-game}
@@ -606,7 +606,7 @@ The main goal of the robot's vision system is to construct persistent
 internal representations of the objects in the robot's
 environment. This system involves three sub-systems. First,
 low-level vision routines process raw camera images to yield basic
-\emph{percepts} (Figures
+\textsc{percepts} (Figures
 \ref{f:perception-a}-\ref{f:perception-d}). Percepts are connected
 regions that differ from the background of the environment. The
 statistics of the environment's background are acquired in a
@@ -659,9 +659,9 @@ calibration phase.
 Second, these foreground regions are tracked in subsequent camera
 images despite changing positions and appearances of the objects. In
 order to do so, the vision system needs to establish a correspondence
-between the internal \emph{object model} and the image regions that
+between the internal \textsc{object model} and the image regions that
 refer to the same physical object, a process known in robotics as
-\emph{anchoring} \citep{coradeschi03anchoring}. Colour histograms of
+\textsc{anchoring} \citep{coradeschi03anchoring}. Colour histograms of
 already established object models are used to classify image regions
 with respect to their similarity to object models (Figure
 \ref{f:perception-d}). Kalman Filters \citep{kalman60new} are used to
@@ -682,7 +682,7 @@ to point to objects, the position of objects is computed in a robot
 egocentric reference system (Figure \ref{f:perception-f}).
 
 The robotic setup, including the vision system and mechanisms to
-establish \emph{joint attention} \citep{tomasello95jointattention}, is
+establish \textsc{joint attention} \citep{tomasello95jointattention}, is
 described in more detail in other background papers
 \citep{spranger08diplomathesis, loetzsch10grounding}.
 
@@ -695,7 +695,7 @@ experiments, it is very unlikely that both speaker and hearer
 experience the colours of a physical object in an identical way as
 lighting conditions and appearances of objects may vary from the
 different perspectives of the robots. This is what I call
-\emph{perceptual deviation}, which is illustrated in Figure
+\textsc{perceptual deviation}, which is illustrated in Figure
 \ref{f:scene-example}. The average difference in perceptual
 experiences for the same objects in the world across all scenes used
 in our experiment, is shown in Figure \ref{f:perceptual-deviation}.

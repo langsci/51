@@ -1,4 +1,4 @@
-\chapter{Origins of Language Strategies}
+\chapter{Origins of language strategies}
 \label{s:composition}
 \is{language strategy!origins of}
 
@@ -42,7 +42,7 @@ variable (for the second argument of \textsc{Select-Most-Activated}),
 so the search process can continue. This time the library is traversed
 to find a primitive that has a first argument of type
 entity-set. Three such primitives seem to be found:
-\textsc{Equal-to-Context} (node 3), \textsc{Filter-by-Colour} (node 4)
+\textsc{Equal-to-Context} (node 3), \textsc{Filter-by-Colour} (node~4)
 and \textsc{Filter-by-Membership} (node 5). Node 3 can be evaluated,
 but does not return any satisfactory results. Moreover this node also does not
 have any open variables any more, so this branch can not be expanded
@@ -96,7 +96,7 @@ extended. Additional variable equalities are required that do not
 involve the first argument of a primitive, like for example between
 the category used in the first categorisation process and the
 transformation operation of the category sets in for example the
-\emph{category combination strategy}. In order to account for these
+category combination strategy. In order to account for these
 networks, I have introduced another expansion operator which makes two
 open variables of compatible type equal.
 
@@ -171,11 +171,11 @@ level, but at all other levels syntactic categories are only invented
 when needed and one cannot easily reconstruct a similar mapping unless
 one takes into account the linguistic development of each agent.
 
-\subsubsection*{Starting from scratch}
+\subsubsection{Starting from scratch}
 
 The first time an agent has to express/interpret a semantic network
 (similar to the one shown in Figure \ref{f:map-network-1}), which
-could represent the semantics of a sentence like ``block'') it has no
+could represent the semantics of a sentence like \textit{block}) it has no
 syntactic categories and hence it needs to invent two new syntactic
 categories. One specifies the syntactic association between the entity
 unit and the functional unit (e.g. Noun), and the other one specifies
@@ -207,14 +207,14 @@ is schematised on the right hand side of Figure
 \ref{f:map-syntactic-categories-1} and typically occurs at the level
 of syntactic categories linking entity units and functional units.
 
-\subsubsection*{Substituting a primitive constraint}
+\subsubsection{Substituting a primitive constraint}
 
 Let us now consider a semantic constraint network in which a primitive
 constraint that does not take a semantic entity as direct argument
 (e.g. \textsc{Unique-Element}) is substituted by one that does so
 (e.g. \textsc{Select-Ele\-ments}) (an example of such a network is shown
 in Figure \ref{f:map-network-2}). Let's suppose this network
-corresponds to the semantics of a sentence like ``a block''. The
+corresponds to the semantics of a sentence like \textit{a block}. The
 contextual rule of the previous example is now useless as it contains
 a primitive constraint, namely \textsc{Unique-Element}, that is not
 even part of the semantic constraint network at hand. The agents have
@@ -237,14 +237,13 @@ of syntactic categories linking functional units and contextual units.
   \end{center}
 \end{figure}
 
-\subsubsection*{Adding a primitive constraint}
+\subsubsection{Adding a primitive constraint}
 
-The final semantic constraint network we have to consider is one that
-is achieved by starting from the previous one and adding an extra
+The final semantic constraint network we have to consider is achieved by starting from the previous one and adding an extra
 primitive constraint, \textsc{Filter-Set-Category}, in between two
 existing ones, namely \textsc{Filter-Set-Prototype} and
 \textsc{Select-Elements}, which could represent the semantics of a
-sentence like ``a big block''. An example of such a network is shown
+sentence like \textit{a big block}. An example of such a network is shown
 in Figure \ref{f:map-network-3}. Using the same repair strategy as
 used in the previous section, the agents could learn a new contextual
 rule which combines three subunits into one new unit as shown in the
@@ -260,7 +259,7 @@ middle of Figure \ref{f:map-syntactic-categories-3}.
       fashion as in the previous section. To the right: another
       solution which additionally is capable of reusing the contextual
       rule introduced in the previous section 4.2 by adding a truly
-      recursive rule (B $\rightarrow$ FB).}
+      recursive rule (B → FB).}
     \label{f:map-syntactic-categories-3}
   \end{center}
 \end{figure}
@@ -326,7 +325,7 @@ repair strategies that create these rules are described below.
   \end{center}
 \end{figure}
 
-\subsubsection*{Repair strategy 1.1: Semantic entities}
+\subsection{Repair strategy 1.1: Semantic entities}
 \is{repair strategy!for semantic entities}
 
 The diagnostic that is used to trigger this repair strategy, is that a
@@ -632,11 +631,11 @@ divided into learning stages. Each learning stage extends the previous
 learning stage by a new challenging constraint network. The first four
 learning stages are similar to the different examples discussed
 before. The fifth one incorporates a different filtering operation
-which modifies the category it uses (similar to an Adverb as in ``a
-very big ball'') and the sixth one extends this by another filtering
+which modifies the category it uses (similar to an Adverb as in \textit{a
+very big ball}) and the sixth one extends this by another filtering
 operation. The next stage introduces another primitive constraint
 which constrains objects based on a relation between them (like for
-instance ``a ball in a box''). The final learning stage extends this
+instance \textit{a ball in a box}). The final learning stage extends this
 by incorporating another filtering operation.
 
 The graph depicting the dynamics of the experiment is shown in Figure
@@ -656,9 +655,9 @@ not inventing new grammatical rules for each level of complexity which
 points to the fact that the agents are truly re-using their
 grammatical knowledge.
 
-\begin{figure}[htbp]
+\begin{figure}
   \begin{center}
-    \includegraphics[width=\textwidth]{./composition/figures/learning-operators-graph.pdf}
+    \includegraphics[width=.8\textwidth]{./composition/figures/learning-operators-graph.pdf}
     \caption[Resulting dynamics of repair strategies for predefined
     conceptualisations]{Dynamics of a multi-agent simulation in which
       the agents deploy the repair strategies introduced in Section
