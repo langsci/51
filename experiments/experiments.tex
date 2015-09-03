@@ -7,17 +7,14 @@ systems based on that language strategy are possible. In this chapter,
 I will study language systems that are based on the basic colour
 strategy. First, I will study the impact of colour distributions in
 the environment of the agents on the similarity between individually
-learned colour systems and human colour systems in Section
-\ref{s:impact-of-environment} \citep{belpaeme09impact}. Next, I will
+learned colour systems and human colour systems in \sectref{s:impact-of-environment} \citep{belpaeme09impact}. Next, I will
 investigate the impact of language on the similarity between universal
-trends that have been reported in literature in Section
-\ref{s:impact-of-language} and colour systems that result from
+trends that have been reported in literature in \sectref{s:impact-of-language} and colour systems that result from
 simulation \citep{belpaeme05eelc, belpaeme05explaining,
   belpaeme07language}. Both these experiments have been conducted in
 collaboration with Tony Belpaeme. Finally, I will examine the impact
 of embodiment on the performance of the adoption, alignment and
-invention operators of the basic colour strategy in Section
-\ref{s:experiments-grounded} \citep{bleys09grounded}.
+invention operators of the basic colour strategy in \sectref{s:experiments-grounded} \citep{bleys09grounded}.
 
 \section{Impact of environment on similarity to natural systems}
 \label{s:impact-of-environment}
@@ -91,8 +88,7 @@ space. A projection of the three data sets on the $a^*b^*$ plane are
 shown in \figref{f:simulated-data-sets}.
 
 A first analysis of the data reveals that natural and urban data sets
-indeed contain a non-random structure. Figure
-\ref{f:data-sets-histogram} shows histograms of the CIE $L^*a^*b^*$
+indeed contain a non-random structure. \figref{f:data-sets-histogram} shows histograms of the CIE $L^*a^*b^*$
 values of the data sets. While the uniform data set has a quasi
 uniform distribution, the natural and urban data sets have a higher
 distribution of lowly saturated colours. This confirms previous
@@ -186,8 +182,7 @@ returns values between $-1$ and 1. A value of 1 indicates that the
 correlation is complete and $-1$ that the correlation is complete, but
 inverse. A value of 0 indicates that no linear correlation could be
 found, while values closer to 1 or $-1$ indicate an increasing
-correlation. The correlation was computed for 11 clusters. Table
-\ref{t:clustering-correlation} reports the correlations between the
+correlation. The correlation was computed for 11 clusters. \tabref{t:clustering-correlation} reports the correlations between the
 centroids extracted from the natural, urban and uniform data sets and
 the English categories, both for CIE $L^*a^*b^*$ and CIE $L^*u^*v^*$.
 
@@ -232,14 +227,12 @@ For the second analysis, I created a benchmark test to compare the
 performance of each resulting set of centroids in more detail. This
 benchmark consists of naming one hundred consensus chips (i.e. chips
 for which there was unanimous agreement in colour naming) of the study
-of \citeauthor{sturges95location} (shown in Figure
-\ref{f:basic-consensus-chips-english}). In order to name these chips,
+of \citeauthor{sturges95location} (shown in \figref{f:basic-consensus-chips-english}). In order to name these chips,
 a matching process is required to associate each centroid to one of
 the English colour categories. Each consensus chip is named using the
 colour term of the associated English colour category, using a
 nearest neighbour algorithm based on the centroids. The results,
-broken down by each category, are summarised in Table
-\ref{t:clustering-benchmark}.
+broken down by each category, are summarised in \tabref{t:clustering-benchmark}.
 
 \begin{table}[htbp]
   \centering
@@ -312,8 +305,7 @@ influence.
 
 In order to discern the impact of language on the coordination of
 colour categories, I compare two experiments. The first one is a
-regular formation experiment (see Section
-\ref{s:formation-experiment}) in which a population of agents needs to
+regular formation experiment (see \sectref{s:formation-experiment}) in which a population of agents needs to
 construct their own category system. In the discrimination experiment
 on the other hand, there is a population of agents which need to learn
 to discriminate different colours in a particular context through a
@@ -439,7 +431,7 @@ integer increment) in the CIE $L^*a^*b^*$ colour space.
 The resulting categories of the different runs are collected and
 presented as a contour plot of the histograms on the Munsell diagram
 in Figures
-\ref{f:contour-natural-no-language}-\ref{f:contour-uniform-language}.
+\ref{f:contour-natural-no-language}--\ref{f:contour-uniform-language}.
 Interestingly, the histograms that are produced by the experiments are
 not flat but contain some structure.
 
@@ -485,7 +477,7 @@ World Color Survey data with the 10 highest peaks of our simulation
 data. This is done by computing the undirected Hausdorff distance
 \citep{rucklidge97efficiently}. The undirected Hausdorff distance
 $H(A, B)$ between two sets of coordinates $A$ and $B$ is computed as
-in Equations \ref{e:hausdorff-1}-\ref{e:hausdorff-2}, with $d(s, t)$
+in Equations \ref{e:hausdorff-1}--\ref{e:hausdorff-2}, with $d(s, t)$
 being the Euclidean distance between coordinates $s$ and $t$.
 
 \begin{align}
@@ -556,8 +548,7 @@ perceived from different angles.
 
 To investigate the influence of this \textsc{perceptual deviation}, I
 introduce the Ground\-ed Colour Naming Game in which agents are
-embodied in humanoid robots (Figure
-\ref{f:grounded-colour-naming-game}) and individually perceive scenes
+embodied in humanoid robots (\figref{f:grounded-colour-naming-game}) and individually perceive scenes
 through their cameras. The setup is similar to other language game
 experiments with robots (e.g. Lego robots \citep{vogt03anchoring},
 pan-tilt cameras \citep{steels98origins}, Sony Aibo robots
@@ -663,8 +654,7 @@ between the internal \textsc{object model} and the image regions that
 refer to the same physical object, a process known in robotics as
 \textsc{anchoring} \citep{coradeschi03anchoring}. Colour histograms of
 already established object models are used to classify image regions
-with respect to their similarity to object models (Figure
-\ref{f:perception-d}). Kalman Filters \citep{kalman60new} are used to
+with respect to their similarity to object models (\figref{f:perception-d}). Kalman Filters \citep{kalman60new} are used to
 associate classified regions to object models based on colour
 similarity and position in the image (\figref{f:perception-e}).
 
@@ -695,8 +685,7 @@ experiments, it is very unlikely that both speaker and hearer
 experience the colours of a physical object in an identical way as
 lighting conditions and appearances of objects may vary from the
 different perspectives of the robots. This is what I call
-\textsc{perceptual deviation}, which is illustrated in Figure
-\ref{f:scene-example}. The average difference in perceptual
+\textsc{perceptual deviation}, which is illustrated in \figref{f:scene-example}. The average difference in perceptual
 experiences for the same objects in the world across all scenes used
 in our experiment, is shown in \figref{f:perceptual-deviation}.
 
@@ -741,8 +730,7 @@ is that the colour stimuli in embodied experiments contain a higher
 level of \emph{structure}. Because the number of used objects is
 typically limited in embodied experiments due to practical constraints
 (in our experiment to 20 objects), some colours do not occur at all
-while other colours will appear more often than others (Figure
-\ref{fig:grounded-world}). Using a one nearest-neighbour
+while other colours will appear more often than others (\figref{fig:grounded-world}). Using a one nearest-neighbour
 classification algorithm, I determine the relative frequency of the
 English colour categories \citep{sturges95location} in the grounded
 data: red (.28), green (.20), purple (.12), black (.11), blue (.10),
@@ -764,12 +752,10 @@ pink, grey and white are not represented in the grounded data.
 
 In contrast, artificially generated contexts usually consist of a
 (constrained) subset of a larger set of stimuli, like for example the
-set of all Munsell chips within the visual spectrum (Figure
-\ref{f:munsell}) which was originally used in anthropological research
+set of all Munsell chips within the visual spectrum (\figref{f:munsell}) which was originally used in anthropological research
 \citep{kay10world, maclaury97color}. Such a set possibly reflects the
 colour distributions of real-world environments based on a series of
-photographs, such as an urban or natural environment (see Section
-\ref{s:impact-of-environment}). If no such distribution is reflected,
+photographs, such as an urban or natural environment (see \sectref{s:impact-of-environment}). If no such distribution is reflected,
 such as for example in the set of Munsell chips, each stimulus will as
 likely be represented in a shared context. Although stimuli sets that
 do reflect real-world colour distributions contain more structure than
@@ -837,8 +823,7 @@ types of experiments]{Resulting communicative success of four
 
 In the acquisition experiment, one agent needs to master the English
 colour lexicon from another agent using the adoption and alignment
-operators introduced in Section
-\ref{s:bcs-adoption-alignment-operators}. These operators result in a
+operators introduced in \sectref{s:bcs-adoption-alignment-operators}. These operators result in a
 level of communicative success that is almost as high as in the
 baseline experiment after 2k games using the 8 colour terms for the
 colour categories that are represented in the grounded data (see
@@ -850,8 +835,7 @@ communicative success in a formation experiment for a population of 10
 agents after 10k games per agent. These agents are more successful
 than the ones in the baseline and acquisition experiment, mainly due
 to the higher number of colour categories (around 20 for conditions II
-and III and 25 for condition I). Figure
-\ref{f:formation-interpretation-variance} shows the interpretation
+and III and 25 for condition I). \figref{f:formation-interpretation-variance} shows the interpretation
 variance (the average distance between the prototypes of the colour
 categories associated with the same form within the population) of the
 population over time. It is significantly lower for conditions II and
@@ -892,8 +876,7 @@ comparison method, I compute the distance between the two ontologies
 in the CIE \emph{L*a*b*} colour space. The lower this distance, the
 more similar the two ontologies are. The naming benchmark consists of
 naming the colour chips that were consistently named by English
-subjects \citep{sturges95location} (shown in Figure
-\ref{f:basic-consensus-chips-english}). The higher the performance on
+subjects \citep{sturges95location} (shown in \figref{f:basic-consensus-chips-english}). The higher the performance on
 this benchmark, the more similar the performance of the agents to
 human performance is. Both methods require a matching procedure in
 which each category of the resulting ontology is paired to a category
@@ -986,8 +969,7 @@ conditions II and III produce ontologies that are more similar to
 English colour categories than condition I. Although in this
 experiment no guiding teacher is present, the structure in the
 grounded data partially takes over the guiding role of the
-teacher. The colours of the objects presented to the robots (Figure
-\ref{f:object-sets}) are better examples of the basic colour
+teacher. The colours of the objects presented to the robots (\figref{f:object-sets}) are better examples of the basic colour
 categories for English than the stimuli in the simulated world in
 which no such structure is present.
 

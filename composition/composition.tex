@@ -90,8 +90,7 @@ shown in \figref{f:composed-network}.
   \end{center}
 \end{figure}
 
-In order to generate the most complicated semantic templates of Part
-\ref{s:language-strats}, the search process outlined above needs to be
+In order to generate the most complicated semantic templates of \partref{s:language-strats}, the search process outlined above needs to be
 extended. Additional variable equalities are required that do not
 involve the first argument of a primitive, like for example between
 the category used in the first categorisation process and the
@@ -113,9 +112,7 @@ divided in three layers of units: (a) entity units containing the
 semantic entities, (b) functional units which make direct use of such
 a semantic entity and (c) contextual units which contain any remaining
 operations of the semantic constraint network that do not make direct
-use of any semantic entity. This division is illustrated in Figure
-\ref{f:map-structure-2} for the semantic networks shown in Figure
-\ref{f:map-network-2}.
+use of any semantic entity. This division is illustrated in \figref{f:map-structure-2} for the semantic networks shown in \figref{f:map-network-2}.
 
 \begin{figure}
 \centering
@@ -203,8 +200,7 @@ if the syntactic category of the entity unit for the pyramid would be
 identical to the one of the entity unit of the block (e.g. Noun), it
 would allow re-use of all the other syntactic categories (and rules) it
 constructed for the previous semantic constraint network. This process
-is schematised on the right hand side of Figure
-\ref{f:map-syntactic-categories-1} and typically occurs at the level
+is schematised on the right hand side of \figref{f:map-syntactic-categories-1} and typically occurs at the level
 of syntactic categories linking entity units and functional units.
 
 \subsubsection{Substituting a primitive constraint}
@@ -222,8 +218,7 @@ to invent a new contextual rule, but not all hope is lost, because
 they can re-use every other previously introduced category (and rule)
 if they incorporate the syntactic category they previously used to
 associate the functional unit with the contextual unit (e.g Noun-
-constituent). This process is shown in Figure
-\ref{f:map-syntactic-categories-2}, and typically occurs at the level
+constituent). This process is shown in \figref{f:map-syntactic-categories-2}, and typically occurs at the level
 of syntactic categories linking functional units and contextual units.
 
 \begin{figure}[htbp]
@@ -266,8 +261,7 @@ middle of \figref{f:map-syntactic-categories-3}.
 
 But an agent can do better by exploiting another repair strategy
 which allows agents to combine any number of units into one unit. In
-the example shown on the right of Figure
-\ref{f:map-syntactic-categories-3}, the agents are able to come up
+the example shown on the right of \figref{f:map-syntactic-categories-3}, the agents are able to come up
 with a rule that allows them to re-use the contextual rule introduced
 in the previous section. This particular rule combines two units, one
 belonging to syntactic category F (e.g. Adjective-constituent) and the
@@ -303,10 +297,8 @@ in \sectref{s:construction-syntactic-category-system}, any of
 these repair strategies tries to re-use the syntactic category system
 that has been built up so far as much as possible.
 
-Let's start again with the semantic network shown in Figure
-\ref{f:map-network-1}. Following the general division in three layers
-of units, the target linguistic structure is shown in Figure
-\ref{f:map-structure-1}. Each unit is introduced by another rule. The
+Let's start again with the semantic network shown in \figref{f:map-network-1}. Following the general division in three layers
+of units, the target linguistic structure is shown in \figref{f:map-structure-1}. Each unit is introduced by another rule. The
 repair strategies that create these rules are described below.
 
 \begin{figure}[htbp]
@@ -467,8 +459,7 @@ captures.
 As outlined above, syntactic categories are re-used as much as
 possible to keep the resulting grammar as small as absolutely
 necessary. One suc example of re-use can be illustrated by considering
-a semantic network similar to the one shown in Figure
-\ref{f:map-network-1}. The only difference to this network would be
+a semantic network similar to the one shown in \figref{f:map-network-1}. The only difference to this network would be
 that instead of a prototype of a block, the prototype of a ball is
 used.
 
@@ -490,7 +481,7 @@ syntactic categories are also re-used at the level of functional and
 contextual units. This becomes apparent when studying the second
 semantic network shown in \figref{f:map-network-2}. Following the
 proposed division in three layers of units, the target linguistic
-structure looks like \ref{f:map-structure-2}. Repair strategy 1.1
+structure looks like \figref{f:map-structure-2}. Repair strategy 1.1
 created a new rule for the semantic entity [random] and, as there is
 no lexical category it can re-use, invented a new one (for example
 Article). Repair strategy 1.2 took care of the
@@ -599,8 +590,7 @@ is now hierarchical.
     \includegraphics[width=\textwidth]{./composition/figures/learning-3.pdf}
     \caption[Third resulting linguistic structure to express semantic
     constraint networks which is hierarchical]{Resulting hierarchical structure
-      to express the semantic network shown in Figure
-      \ref{f:map-network-2}. Repair strategy 2.1 invented an
+      to express the semantic network shown in \figref{f:map-network-2}. Repair strategy 2.1 invented an
       AdjectiveNoun rule that combines the Adjective-Unit and the
       Noun-unit into one unit by introducing the
       AdjectiveNoun-Unit. Throughout the re-use of the syntactic
@@ -623,8 +613,7 @@ recursive.
 \subsection{Experimental results}
 \label{s:irl-fcg-experimental-results}
 
-The repair strategies discussed in Section
-\ref{s:irl-fcg-repair-strategies} have been implemented and explored
+The repair strategies discussed in \sectref{s:irl-fcg-repair-strategies} have been implemented and explored
 in multi-agent simulations. This experiment is scaffolded in the sense
 that the world and the conceptualisation component are bypassed. This
 way, I am able to focus on the development of the repair strategies in
@@ -643,8 +632,7 @@ which constrains objects based on a relation between them (like for
 instance \textit{a ball in a box}). The final learning stage extends this
 by incorporating another filtering operation.
 
-The graph depicting the dynamics of the experiment is shown in Figure
-\ref{f:map-repair-strategies-graph}. The size of the population is
+The graph depicting the dynamics of the experiment is shown in \figref{f:map-repair-strategies-graph}. The size of the population is
 10. Each time the learning stage is increased, the language of the
 agents experiences a period of turbulence after which the communicative
 success of the agents stabilises on perfect communicative success. At
@@ -665,8 +653,7 @@ grammatical knowledge.
     \includegraphics[width=.8\textwidth]{./composition/figures/learning-operators-graph.pdf}
     \caption[Resulting dynamics of repair strategies for predefined
     conceptualisations]{Dynamics of a multi-agent simulation in which
-      the agents deploy the repair strategies introduced in Section
-      \ref{s:irl-fcg-repair-strategies}. The semantic networks they
+      the agents deploy the repair strategies introduced in \sectref{s:irl-fcg-repair-strategies}. The semantic networks they
       need to express increase in complexity over time (as shown by
       the learning stage). At each increase of the learning stage, the
       communicative success of the agents drops because they have to
