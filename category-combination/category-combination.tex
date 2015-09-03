@@ -89,7 +89,7 @@ The colour naming model proposed by
 similarity to the colour sample that needs to be named and deployed
 some heuristics to include the secondmost similar category using
 diminuatives such as \textit{-ish} and \textit{somewhat x-ish}
-\citep{lammens94computational}. Other colour naming models, store
+\citep{lammens94computational}. Other colour naming models store
 different centroids for each compound colour term, including the
 combination of basic colour terms \citep{mojsilovic05computational}.
 
@@ -109,7 +109,7 @@ The most naive way to modify the category set is to remove the
 category that was used during the first categorisation process. This
 would allow the second categorisation process to find the category
 that is secondmost similar to the colour sample that needs to be
-described. This approach would however not be able to account for the
+described. This approach would however not be able to account for 
 the repetitive use of the same colour term to highlight the similarity
 between the colour sample in the colour category, like in Vietnamese.
 
@@ -118,7 +118,7 @@ categories in the colour category set towards the category that has
 been used during the first categorisation process. This will entail
 that the region of the colour space that was first categorised as the
 base category will be repartitioned over its adjacent categories. The
-centre of that region however, will still be classified as the base
+centre of that region, however, will still be classified as the base
 category. An illustration of such a transformation is provided in
 \figref{f:ccs-semantics-transformation}.
 
@@ -299,7 +299,7 @@ two primitives (not shown in figure).
 \begin{explanation}{revision specs}
   \verb+?source-set ?colour-category-set+: categorises each entity of
   the source set and returns pairwise bindings for the remaining
-  slots; categories to which no entities are assigned, are ignored \\
+  slots; categories to which no entities are assigned, are ignored. \\
   \verb+?source-set ?colour-category-set ?category+: computes the
   categorisation of the source set based on all colour categories in
   the category set and when the resulting set for the provided colour
@@ -338,8 +338,8 @@ samples belong with full probability to one fuzzy set representing one
 basic colour category, but others will be members of more than one
 set. If a sample would have a membership of 0.5 to blue and one of 0.5 to
 green, it could be named \textit{blue-green}. The \textit{-ish} suffix could be
-used for samples with a high membership to one category and up to a
-certain membership to another (e.g. samples with memberships 0.7 to
+used for samples with a high membership of one category and up to a
+certain membership of another (e.g. samples with memberships 0.7 to
 green and 0.3 to blue could be named \textit{bluish green}
 \citep{benavente08parametric}).
 
@@ -355,7 +355,7 @@ the \textsc{Draw-Category-Set-to-Category} primitive, which requires
 the colour category that is used in the first categorisation process
 to compute a new colour category set that will be used during the
 second categorisation process. The variables related to colour
-categories will be dealt with in the \textsc{colour link}, or
+categories will be dealt with in the \textsc{colour link},
 \emph{c-link} feature for short.
 
 The linguistic structure for \textit{zel\"eno-\v z\"eltyj} (`green-yellow')
@@ -614,7 +614,7 @@ As the number of colour samples in one context increases, the
 performance of each of the strategies decreases. The basic
   colour strategy is most prone to this phenomenon. Being able to
 combine colour categories compensates for most of the loss. An
-additional categorisation process based on membership, results in a
+additional categorisation process based on membership results in a
 language system that is quite successful, even in very large contexts.
 
 Compared to the English basic colour system (shown in \figref{f:gms-baseline}), the baseline communicative success for Russian

@@ -15,7 +15,7 @@ an experiment.
 \section{Generation of semantic templates}
 \is{semantic template!generation}
 
-In \partref{s:language-strats}, the semantic templates were
+In \partref{s:language-strats} the semantic templates were
 predefined. These templates can also be generated based on a
 combinatorial search process in which the cognitive primitives are
 combined to form a semantic constraint network. When such a network
@@ -129,9 +129,9 @@ use of any semantic entity. This division is illustrated in \figref{f:map-struct
   \label{f:map-network-3}
 }
 \caption[Three example semantic constraint networks]{Three example semantic
-  constraint networks. \subref{f:map-network-1} is the most basic network
+  constraint networks. \subref{f:map-network-1} is the most basic network,
   \subref{f:map-network-2} is a similar network in which the
-  selection process is now based on random selection
+  selection process is now based on random selection and
   \subref{f:map-network-3} is a further extension of this network by
   adding another categorisation process between the first
   categorisation process and the selection process.}
@@ -192,10 +192,10 @@ on the left hand side of \figref{f:map-syntactic-categories-1}.
   \end{center}
 \end{figure}
 
-Let's suppose the agent now has to express/interpret a variation of
+I suppose that the agent now has to express/interpret a variation of
 this semantic constraint network in which the semantic entity is a
 prototype of a pyramid instead of one of a block. This provides a
-first opportunity for the agents to re-use a syntactic category because
+first opportunity for the agents to re-use a syntactic category, because
 if the syntactic category of the entity unit for the pyramid would be
 identical to the one of the entity unit of the block (e.g. Noun), it
 would allow re-use of all the other syntactic categories (and rules) it
@@ -205,11 +205,11 @@ of syntactic categories linking entity units and functional units.
 
 \subsubsection{Substituting a primitive constraint}
 
-Let us now consider a semantic constraint network in which a primitive
+Now I will consider a semantic constraint network in which a primitive
 constraint that does not take a semantic entity as direct argument
 (e.g. \textsc{Unique-Element}) is substituted by one that does so
 (e.g. \textsc{Select-Ele\-ments}) (an example of such a network is shown
-in \figref{f:map-network-2}). Let's suppose this network
+in \figref{f:map-network-2}). I suppose that this network
 corresponds to the semantics of a sentence like \textit{a block}. The
 contextual rule of the previous example is now useless as it contains
 a primitive constraint, namely \textsc{Unique-Element}, that is not
@@ -234,7 +234,7 @@ of syntactic categories linking functional units and contextual units.
 
 \subsubsection{Adding a primitive constraint}
 
-The final semantic constraint network we have to consider is achieved by starting from the previous one and adding an extra
+The final semantic constraint network needing consideration is achieved by starting from the previous one and adding an extra
 primitive constraint, \textsc{Filter-Set-Category}, in between two
 existing ones, namely \textsc{Filter-Set-Prototype} and
 \textsc{Select-Elements}, which could represent the semantics of a
@@ -265,11 +265,11 @@ the example shown on the right of \figref{f:map-syntactic-categories-3}, the age
 with a rule that allows them to re-use the contextual rule introduced
 in the previous section. This particular rule combines two units, one
 belonging to syntactic category F (e.g. Adjective-constituent) and the
-other to B (e.g. Noun-constituent). The syntactic category to which
-this new combination unit should belong, determined by the deduction
-mechanism introduced at the beginning of the current section, is
-syntactic category B (e.g. Noun-constituent), as any other category
-would block the re-use of the contextual rule. As this syntactic
+other to B (e.g. Noun-constituent). As any other category
+would block the re-use of the contextual rule, the syntactic category to which
+this new combination unit should belong, is
+syntactic category B (e.g. Noun-constituent). This is determined by the deduction
+mechanism introduced at the beginning of the current section. As this syntactic
 category is equal to one of the rule's constituents, this new rule is
 truly recursive.
 
@@ -291,13 +291,13 @@ functional units which contain primitives that make direct use of such
 a semantic entity and (c) contextual units which contain any other
 primitives that do not make direct use of semantic entities.
 
-Repair strategy 2.1, tries to optimise this process by trying to invent rules
+Repair strategy 2.1 tries to optimise this process by trying to invent rules
 that re-use as many previously learned rules as possible. As described
 in \sectref{s:construction-syntactic-category-system}, any of
-these repair strategies tries to re-use the syntactic category system
+these repair strategies try to re-use the syntactic category system
 that has been built up so far as much as possible.
 
-Let's start again with the semantic network shown in \figref{f:map-network-1}. Following the general division in three layers
+I start again with the semantic network shown in \figref{f:map-network-1}. Following the general division in three layers
 of units, the target linguistic structure is shown in \figref{f:map-structure-1}. Each unit is introduced by another rule. The
 repair strategies that create these rules are described below.
 
@@ -345,7 +345,7 @@ the template. An example of a resulting rule is shown below.
 \end{lstlisting}
 \normalsize
 
-First, the repair strategy determines which semantic entity needs to
+First the repair strategy determines which semantic entity needs to
 be filled in in the meaning feature. For the speaker this is
 relatively easy, as it conceptualised a meaning that it wanted to
 express. The hearer has to call its conceptualisation mechanism in
@@ -392,7 +392,7 @@ example of such a rule is shown below.
 
 The rule is constructed as follows. The meaning feature contains the
 functional primitive that needs to be covered. For each of the
-semantic entities the primitive uses, a different subunit is
+semantic entities the primitive uses a different subunit is
 created. At the semantic side the links of these units are used to
 introduce variable equalities between the semantic entities and the
 arguments of the functional primitive. At the syntactic side these
@@ -450,17 +450,17 @@ The repair strategy constructs these rules as follows. The meaning
 consists of all the contextual primitives. For each of the functional
 primitives, a subunit is created. At the semantic side, these subunits
 specify the links of the units. On the syntactic side, the syntactic
-categories of the units are specified. The unit that is introduced will
+categories of the units are specified. The introduced unit will
 have as link feature the target entity of the semantic network it
 captures.
 
 \subsection{Re-use of syntactic categories}
 
 As outlined above, syntactic categories are re-used as much as
-possible to keep the resulting grammar as small as absolutely
-necessary. One suc example of re-use can be illustrated by considering
+possible to keep the resulting grammar as small as 
+necessary. One such example of re-use can be illustrated by considering
 a semantic network similar to the one shown in \figref{f:map-network-1}. The only difference to this network would be
-that instead of a prototype of a block, the prototype of a ball is
+that, instead of a prototype of a block, the prototype of a ball is
 used.
 
 Repair strategy 1.1 will be triggered to invent a new rule for
@@ -526,7 +526,7 @@ by repair strategy 1.3 is shown below.
 \is{repair strategy!re-use of constructions}
 
 Re-use also occurs when the agent already knows a construction which
-covers part of the meaning to be conveyed. The operator that handles
+covers part of the conveyed meaning. The operator that handles
 re-use starts from the best matching construction and tries to detect
 what prevented it from being applicable. Next, it tries to construct a
 rule which removes these obstructions. This could be achieved by
@@ -540,13 +540,13 @@ variables, they should also be excluded from the link. This rule also
 contains word-order constraints, which are either invented (in case of
 the speaker) or deducted from the utterance (in case of the
 hearer). The syntactical category is derived from the best matching
-construction. If this operator would fail, the same problem is passed
+construction. If this operator would fail, the same problem would be passed
 on to learning operator 1.3, which will invent a new rule for the
 contextual primitives.
 
 This repair strategy will trigger for example when the semantic
 network in \figref{f:map-network-3} needs to be expressed in
-language. Let's suppose repair strategy 1.1 took care of inventing a
+language. I suppose repair strategy 1.1 took care of inventing a
 new entity rule for the category [big] and repair strategy 1.2
 invented a functional rule for the \textsc{Filter-Set-Category}
 primitive. The ArticleNoun rule described above now almost
@@ -632,12 +632,12 @@ which constrains objects based on a relation between them (like for
 instance \textit{a ball in a box}). The final learning stage extends this
 by incorporating another filtering operation.
 
-The graph depicting the dynamics of the experiment is shown in \figref{f:map-repair-strategies-graph}. The size of the population is
+The graph depicting the dynamics of the experiment is shown in \figref{f:map-repair-strategies-graph}. The population size is
 10. Each time the learning stage is increased, the language of the
 agents experiences a period of turbulence after which the communicative
 success of the agents stabilises on perfect communicative success. At
 each stage in which new semantic entities are used by the semantic
-constraint networks, the lexicon sizes of the agents overshoot before
+constraint networks the lexicon sizes of the agents overshoot before
 settling down on a one-on-one mapping between semantic entities and
 lexical entries. On the level of grammatical rules one can observe a
 similar pattern but this should be interpreted as the agents trying to

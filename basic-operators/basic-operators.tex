@@ -36,10 +36,9 @@ Another mathematical model focusses on a discrimination task for which
 the expected outcome depends on the similarity of the colours that
 need to be discriminated. In this model, a circular conceptual colour
 space is deployed, in which any typology of categories is as likely to
-occur as others. Adding heterogeneity to the model, either in the
+occur as others. Adding heterogeneity to the model breaks this symmetry, either in the
 population or in the likelihood that a particular colour is presented
-to the agents or both, breaks this symmetry
-\citep{komarova08population}.
+to the agents or both\citep{komarova08population}.
 
 \section{Adoption and alignment operators}
 \label{s:bcs-adoption-alignment-operators}
@@ -76,9 +75,9 @@ location of the prototype ($c_{n+1}$) on the line segment between the
 old location of the prototype ($c_n$) and the topic ($t$). The exact
 formula is shown in Equation \ref{eq:alignment_rate}. If the alignment
 rate is 0, the prototype does not shift at all, whereas at a rate of
-1, the new location would be the topic of the last interaction. In all
+1 the new location would be the topic of the last interaction. In all
 experiments reported in this book, the alignment rate is fixed to
-0.05, unless stated otherwise. An illustration of an alignment rate is
+0.05 unless stated otherwise. An illustration of an alignment rate is
 given in \figref{f:alignment-rate}.
 
 \begin{equation}
@@ -90,7 +89,7 @@ c_{n+1} = (1 - r_a) c_n  + r_a t
   \begin{center}
     \includegraphics[width=.55\textwidth]{./basic-operators/figures/alignment-rate.pdf}
     \caption[Illustration of the alignment rate]{Illustration of the
-      alignment rate. Before the game, the prototype of the category
+      alignment rate. Before the game the prototype of the category
       was at (2,3). The colour of the topic sample was located at
       (6,5). Given that the interaction was successful and the
       alignment rate is 0.75, the location of the prototype will
@@ -107,7 +106,7 @@ system known by another agent. This will allow me to assess the
 effectiveness of the acquisition operators. The language system I have
 chosen as target is the one based on English centroids
 \citep{sturges95location}. The contexts will consist of three randomly
-chosen Munsell chips \citep{newhall42final}, without any additional
+chosen Munsell chips \citep{newhall42final} without any additional
 constraints. Other language systems and environmental conditions
 exhibit similar dynamics and are not shown.
 
@@ -119,7 +118,7 @@ exhibit similar dynamics and are not shown.
 
 The number of categories known to one agent ($n_c$) simply counts the
 number of categories known to this agent. At the level of a population
-$P$, it is understood as the number of categories averaged over all
+$P$ it is understood as the number of categories averaged over all
 agents in the population.
 
 \begin{equation}
@@ -134,7 +133,7 @@ n_c(P) = \frac{\displaystyle \sum_{i=1}^{|P|} n_c(a)}{|P|}
 Interpretation variance is a measure for the coherence of a population
 of agents ($P$) when interpreting a form: the lower the variance, the
 higher the coherence. For each unique form ($f$) that exists within
-the population, the interpretation variance is measured within the
+the population the interpretation variance is measured within the
 subset $A_f = \{a_1, a_2, ..., a_n\}$ of agents that know this form,
 as shown in Equation \ref{eq:interpretation-variance-form}. For each
 pair of agents the distance between the categories that are associated
@@ -206,7 +205,7 @@ fact that the prototypes of the learned colour categories never
 completely match the prototypes of the colour categories of the
 teacher. The learner tries to position the prototype of each category
 on the centroid of a term -- the most central colour of all the colours that will
-be named by the teacher using the same term. Hence, the nonzero
+be named by the teacher using the same term. Hence the nonzero
 interpretation variance can be explained if the prototypes used by the
 teacher are not exactly at the centre of all colour samples that
 belong to the same category. One possible explanation could be that
@@ -221,7 +220,7 @@ of the teacher and the prototypes of the learner is to be expected.
 The impact of the alignment rate on the interpretation variance is
 explored in \figref{f:basic-strategy-alignment-rate-vs-variance}. It shows a
 trade-off between accuracy and speed of learning. A learner agent that
-uses a low alignment rate, will align more slowly but will end up
+uses a low alignment rate will align more slowly but will end up
 with a category system that more accurately represents the system of
 the teacher. The variance of agents that do not align their categories
 remains high.
@@ -243,7 +242,7 @@ acquisition process of a colour category system next to the target
 colour system. After 100 interactions, the learning agent has already
 learned the 11 different colour terms, but the prototypes of the
 corresponding categories do not yet fully resemble the target colour
-system. At the end of the acquisition experiment, the alignment of the
+system. At the end of the acquisition experiment the alignment of the
 colour system is better.
 
 \begin{figure}[htbp]
@@ -309,7 +308,7 @@ simplification of previous models.
 \label{s:formation-experiment}
 \is{formation experiment!for basic colour strategy}
 
-In the formation experiment, a population of agents needs to form
+In the formation experiment a population of agents needs to form
 their own colour category system from scratch. One context will
 consist of three randomly chosen Munsell chips \citep{newhall42final},
 but with the additional constraints of a minimal

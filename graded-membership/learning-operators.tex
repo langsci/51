@@ -18,7 +18,7 @@ membership categories they are using.
 \section{Adoption and alignment operators}
 
 The main goal of the adoption and alignment operators of the graded
-membership strategy, is to ensure that an agent can acquire the
+membership strategy is to ensure that an agent can acquire the
 membership categories of another agent. The learner needs to be able
 to figure out how many membership categories are used by the other
 agent, and what the prototypical membership values of these categories
@@ -29,12 +29,12 @@ The adoption operator
 of the graded membership strategy is triggered
 whenever an agent hears an unknown term in combination with a known
 term which is associated with a colour category. The agent determines
-the membership value of the colour of the topic to the interpreted colour
+the membership value of topic's colour to the interpreted colour
 category and learns a new membership category based on this 
 value. The resulting membership category is associated with the
 previously unknown term.
 
-After each interaction in which a membership category is used, the
+After each interaction in which a membership category is used the
 alignment operator
 \is{learning operators!alignment operator!for graded membership strategy}
 for the graded membership strategy is
@@ -47,7 +47,7 @@ alignment happens is based on the \textsc{membership category alignment rate},
 \is{membership category alignment rate|see{alignment rate}}
 which linearly
 determines how much the prototypical value of the membership category
-should be adapted to the current situation. In this chapter, the membership category
+should be adapted to the current situation. In this chapter the membership category
 alignment rate is set to 0.05 unless stated otherwise.
 
 \subsection{Acquisition experiment}
@@ -102,7 +102,7 @@ that are known to agent $a_i$.
 
 \subsection{Results}
 
-The resulting dynamics are shown in \figref{f:gm-acquisition-dynamics}. Initially, the communicative success
+The resulting dynamics are shown in \figref{f:gm-acquisition-dynamics}. Initially the communicative success
 of the learner is lower than the baseline communicative success. This is due to the
 initial guesses made by the learner on the prototypical membership values of the 
 membership categories used by the teacher. After some interactions, the
@@ -162,9 +162,9 @@ topic. Whenever this occurs, the agent can extend the current language
 system with a new membership category based on the membership value
 of the topic of the current interaction. The rate at which an agent
 chooses to do so, is controlled by the \textsc{membership category
-  invention rate}
+  invention rate}.
 \is{invention rate!membership category}
-\is{membership category invention rate|see{invention rate}}.
+\is{membership category invention rate|see{invention rate}}
 The lower this rate, the lower the chance of an agent inventing a new
 membership category.
 
@@ -194,7 +194,7 @@ membership categories). The invention rate is set to 0.005.
 
 The number of membership categories of an agent ($n_{mc}$) simply
 corresponds to the number of membership categories known to this
-agent. At the level of a population $P$, it is understood as the
+agent. At the level of a population $P$ it is understood as the
 average number of known membership categories over all agents in the
 population.
 
@@ -243,14 +243,14 @@ there were only 3). Moreover, this number does not seem to stabilise.
 \end{figure}
 
 The main reason why the agents keep inventing new membership
-categories in an unconstrained environment, is due to the continuous
+categories in an unconstrained environment, is that the continuous
 nature of the membership function. Agents keep on encountering
 situations in which their current repertoire of membership categories
 is insufficient to discriminate the topic based on its membership
 value. 
 
 In order to verify this hypothesis, I have run exactly the same
-model but now in a constrained environment: the difference between the
+model in a constrained environment: the difference between the
 membership values of entities that belong to the same basic colour
 categories is guaranteed to be above a certain threshold, which is set
 to 0.2. As the agents are expected to invent only a limited number of
