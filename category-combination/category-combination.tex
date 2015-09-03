@@ -397,7 +397,8 @@ for transformed colour category sets to be used by the filtering
 process.
 
 \footnotesize
-\begin{Verbatim}[frame=lines, label=Functional rule for Filter-by-Colour]
+\ltitle{Functional rule for Filter-by-Colour}
+\begin{lstlisting}
 ((?top-unit
   (sem-subunits (?colour-category-unit)) 
   (tag ?meaning
@@ -415,7 +416,7 @@ process.
   (syn-cat ((lex-cat colour-category))))
  ((J ?filter-by-colour-unit ?top-unit (?colour-category-unit))
   (syn-cat ((constituent colour-category)))))
-\end{Verbatim}
+\end{lstlisting}
 \normalsize
 
 \subsection{Syntactic template 1.3: Contextual primitives}
@@ -430,7 +431,8 @@ a \textsc{Get-Basic-Colour-Category-Set} primitive of which the argument is part
 the c-link of the subunit.
 
 \footnotesize
-\begin{Verbatim}[frame=lines, label=ColourPhrase rule for Basic Colour Strategy]
+\ltitle{ColourPhrase rule for Basic Colour Strategy}
+\begin{lstlisting}
 ((?top-unit
   (sem-subunits (?colour-unit))
   (tag ?meaning
@@ -451,7 +453,7 @@ the c-link of the subunit.
   (syn-cat ((constituent colour-category))))
  ((J ?colourphrase-unit ?top-unit (?colour-unit))
   (syn-cat ((constituent colourphrase)))))
-\end{Verbatim}
+\end{lstlisting}
 \normalsize
 
 \subsection{Syntactic template 2.2: Re-use of constructions}
@@ -466,7 +468,8 @@ meaning. For the current semantic template, this would be the
 to provide the correct colour link of the new unit.
 
 \footnotesize
-\begin{Verbatim}[frame=lines, label=ColourColour rule]
+\ltitle{ColourColour rule}
+\begin{lstlisting}
 ((?top-unit
   (sem-subunits (?unit-2 ?unit))
   (tag ?meaning
@@ -493,7 +496,7 @@ to provide the correct colour link of the new unit.
  ((J ?colourcolour-unit ?top-unit (?unit-2 ?unit))
   ?form
   (syn-cat ((constituent colour-category)))))
-\end{Verbatim}
+\end{lstlisting}
 \normalsize
 
 \section{Baseline experiment}

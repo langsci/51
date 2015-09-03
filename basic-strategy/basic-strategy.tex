@@ -404,7 +404,8 @@ for introducing the Yellow-Unit in Figure
 \ref{f:bcs-linguistic-structure} both in production and in parsing.
 
 \footnotesize
-\begin{Verbatim}[frame=lines, label=Entity rule for yellow]
+\ltitle{Entity rule for yellow}
+\begin{lstlisting}
 ((?top-unit
   (tag ?meaning 
        (meaning ((bind colour-category ?c [yellow])))))
@@ -418,7 +419,7 @@ for introducing the Yellow-Unit in Figure
  ((J ?yellow-unit ?top-unit)
   ?form
   (syn-cat ((lex-cat colour-category)))))
-\end{Verbatim}
+\end{lstlisting}
 \normalsize
 
 \subsection{Syntactic template 1.2: Functional primitives}
@@ -450,7 +451,8 @@ as these yet need to be covered by
 another rule. The resulting rule is shown below.
 
 \footnotesize
-\begin{Verbatim}[frame=lines, label=Functional rule for Filter-by-Colour-Lenient]
+\ltitle{Functional rule for Filter-by-Colour-Lenient}
+\begin{lstlisting}
 ((?top-unit
   (sem-subunits (?colour-category-unit)) 
   (tag ?meaning
@@ -467,7 +469,7 @@ another rule. The resulting rule is shown below.
   (syn-cat ((lex-cat colour-category))))
  ((J ?filter-by-colour-unit ?top-unit (?colour-category-unit))
   (syn-cat ((constituent colour-category)))))
-\end{Verbatim}
+\end{lstlisting}
 \normalsize
 
 \subsection{Syntactic template 1.3: Contextual primitives}
@@ -499,7 +501,8 @@ Constituent ColourPhrase, and will have as link feature the first
 argument of the \textsc{Select-Most-Activated} primitive.
 
 \footnotesize
-\begin{Verbatim}[frame=lines, label=ColourPhrase rule for basic colour strategy]
+\ltitle{ColourPhrase rule for basic colour strategy}
+\begin{lstlisting}
 ((?top-unit
   (sem-subunits (?colour-unit))
   (tag ?meaning
@@ -518,7 +521,7 @@ argument of the \textsc{Select-Most-Activated} primitive.
   (syn-cat ((constituent colour-category))))
  ((J ?colourphrase-unit ?top-unit (?colour-unit))
   (syn-cat ((constituent colourphrase)))))
-\end{Verbatim}
+\end{lstlisting}
 \normalsize
 
 \section{Baseline experiment}

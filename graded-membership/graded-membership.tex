@@ -345,7 +345,8 @@ other rules to incorporate the membership category in the semantic
 network during parsing.
 
 \footnotesize
-\begin{Verbatim}[frame=lines, label=Entity rule for kame]
+\ltitle{Entity rule for kame}
+\begin{lstlisting}
 ((?top-unit
   (tag ?meaning 
        (meaning ((bind membership-category ?c [kame])))))
@@ -359,7 +360,7 @@ network during parsing.
  ((J ?kame-unit ?top-unit)
   ?form
   (syn-cat ((lex-cat membership-category)))))
-\end{Verbatim}
+\end{lstlisting}
 \normalsize
 
 \subsection{Syntactic template 1.2: Functional primitives}
@@ -371,7 +372,8 @@ The functional rules for \textsc{Filter-by-Colour} and
 of such a rule for \textsc{Filter-by-Membership} is shown below.
 
 \footnotesize
-\begin{Verbatim}[frame=lines, label=Functional rule for Filter-by-Membership]
+\ltitle{Functional rule for Filter-by-Membership}
+\begin{lstlisting}
 ((?top-unit
   (sem-subunits (?membership-category-unit)) 
   (tag ?meaning
@@ -390,7 +392,7 @@ of such a rule for \textsc{Filter-by-Membership} is shown below.
  ((J ?filter-by-membership-unit ?top-unit 
       (?membership-category-unit))
   (syn-cat ((constituent membership-category)))))
-\end{Verbatim}
+\end{lstlisting}
 \normalsize
 
 \subsection{Syntactic template 2.1: Re-use of constructions}
@@ -415,7 +417,8 @@ agents to re-use the contextual rule for the basic colour
   strategy to express the graded membership strategy.
 
 \footnotesize
-\begin{Verbatim}[frame=lines, label=ColourMembership rule]
+\ltitle{ColourMembership rule}
+\begin{lstlisting}
 ((?top-unit 
   (sem-subunits (?membership-unit ?colour-unit)))
  (?membership-unit 
@@ -438,7 +441,7 @@ agents to re-use the contextual rule for the basic colour
        (?membership-unit ?colour-unit))
   ?form
   (syn-cat ((constituent colour-category)))))
-\end{Verbatim}
+\end{lstlisting}
 \normalsize
 
 

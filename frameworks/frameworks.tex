@@ -524,8 +524,9 @@ bracketed notation is shown below. The semantic pole is shown on the
 left and the syntactic pole on the right to show the structural
 similarity between both poles.
 
-\scriptsize
-\begin{Verbatim}[frame=lines, label=Example linguistic structure for "le ballon"]
+\footnotesize
+\ltitle{Example linguistic structure for "le ballon"}
+\begin{lstlisting}
 ((top-unit                          ((top-unit
   (sem-subunits (det-np-unit)))       (syn-subunits (det-np-unit))
  (det-np-unit                        (det-np-unit
@@ -542,7 +543,7 @@ similarity between both poles.
   (referent x)                        (form 
   (meaning ((ball x)))                 ((string ballon-unit "ballon")))           
   (sem-cat (prototype))))             (syn-cat (noun))))
-\end{Verbatim}
+\end{lstlisting}
 \normalsize
 
 \begin{figure}[htbp]
@@ -615,13 +616,16 @@ another. All these operations are achieved through two operators: the
 J-operator \citep{debeule05hierarchy} and the TAG-operator. The syntax
 of these operators is shown below.
 
+
 \footnotesize
-\begin{Verbatim}[frame=lines, label=Syntax of the TAG-operator]
+\ltitle{Syntax of the TAG-Operator}
+\begin{lstlisting}
 (?unit
   (TAG ?tag-variable (feature-name feature-value)))
-\end{Verbatim}
+\end{lstlisting}
 
-\begin{Verbatim}[frame=lines, label=Syntax of the J-operator]
+\ltitle{Syntax of the J-operator}
+\begin{lstlisting}
 ((J ?focus-unit ?parent-unit (?child-unit-1 ... ?child-unit-n))
  ?tag-variable-1 
  ...
@@ -629,7 +633,7 @@ of these operators is shown below.
  (feature-name-1 feature-value-1)
  ...
  (feature-name-n feature-value-n))
-\end{Verbatim}
+\end{lstlisting}
 \normalsize
 
 Units that are marked by the J-operator, or \textsc{J-units} for short,
@@ -723,7 +727,8 @@ that the semantic pole and syntactic pole are now shown under each
 other and separated by a double arrow.
 
 \footnotesize
-\begin{Verbatim}[frame=lines, label=Initial Structure]
+\ltitle{Initial Structure}
+\begin{lstlisting}
 ((top-unit))
 <-->
 ((top-unit
@@ -733,7 +738,7 @@ other and separated by a double arrow.
     (string rouge-unit "rouge")
     (meets le-unit ballon-unit)
     (meets ballon-unit rouge-unit)))))
-\end{Verbatim}
+\end{lstlisting}
 \normalsize
 
 Next the lexical constructions apply, which introduce for each string
@@ -745,8 +750,8 @@ after application of lexical constructions is shown below in bracketed
 notation and in Figure \ref{f:nounadj-application} (top).
 
 \footnotesize
-\noindent\rule{\textwidth}{.5pt} % label too long for frame=lines to work, so I inserted a \rule.
-\begin{Verbatim}[frame=lines, label=Structure before application of the Noun-Adjective construction] 
+\ltitle{Structure before application of the Noun-Adjective construction}
+\begin{lstlisting}
 ((top-unit
   (sem-subunits (rouge-unit le-unit ballon-unit)))
  (rouge-unit
@@ -776,7 +781,7 @@ notation and in Figure \ref{f:nounadj-application} (top).
  (ballon-unit
   (form ((string ballon-unit "ballon")))
   (syn-cat ((pos noun)))))
-\end{Verbatim}
+\end{lstlisting}
 \normalsize
 
 We are now ready to apply the Noun-Adjective construction which is
@@ -803,7 +808,8 @@ moves the meets constraint between the \emph{ballon-unit} and the
 \emph{rouge-unit} from \emph{top-unit} to the newly created unit.
 
 \footnotesize
-\begin{Verbatim}[frame=lines, label=The Noun-Adjective construction]
+\ltitle{The Noun-Adjective construction}
+\begin{lstlisting}
 ((?parent-unit
   (sem-subunits (== ?noun-unit ?adjective-unit)))
  (?noun-unit 
@@ -828,7 +834,7 @@ moves the meets constraint between the \emph{ballon-unit} and the
  ((J ?adj-noun-unit ?parent-unit (?noun-unit ?adjective-unit))
   ?form
   (syn-cat (==1 (pos noun)))))
-\end{Verbatim}
+\end{lstlisting}
 \normalsize
 
 In the final merging phase, the semantic pole of the construction is
@@ -844,7 +850,8 @@ which is shown below and in Figure \ref{f:nounadj-application}
 (bottom).
 
 \footnotesize
-\begin{Verbatim}[frame=lines, label=Structure after application in interpretation]
+\ltitle{Structure after application in interpretation}
+\begin{lstlisting}
 ((top-unit
   (sem-subunits (noun-adj-unit le-unit)))
  (noun-adj-unit
@@ -880,5 +887,5 @@ which is shown below and in Figure \ref{f:nounadj-application}
  (ballon-unit
   (form ((string ballon-unit "ballon")))
   (syn-cat ((pos noun)))))
-\end{Verbatim}
+\end{lstlisting}
 \normalsize
