@@ -13,7 +13,7 @@ colour information of the objects they perceive.
 
 This chapter introduces the different colour spaces and systems and
 the functions that are used to convert this data from one colour
-system into another, as shown in Figure \ref{f:conversions}. Some
+system into another, as shown in \figref{f:conversions}. Some
 conversions are impossible to compute in one step and hence require
 some intermediary steps. Most of these functions are based on Bruce
 Lindblooms's website.\footnote{\url{http://www.brucelindbloom.com}}
@@ -37,7 +37,7 @@ spaces]{A diagram representing the conversions between the different
 \is{colour space!CIE 1931 XYZ}
 \is{CIE 1931 XYZ|see{colour space}}
 
-Central to the conversion diagram (Figure \ref{f:conversions}) is the
+Central to the conversion diagram (\figref{f:conversions}) is the
 XYZ colour space. The XYZ colour space was established by the
 Commission Internationale de l'Eclairage (CIE) in 1931. It standardised
 the colour-matching functions which describe how to combine the
@@ -71,7 +71,7 @@ D65, try to reconstruct natural daylight conditions. In all reported
 experiments, D65 is used as standard illuminant. For each illuminant a
 reference white can be defined which represents the colour \textit{white}
 under such illuminant. The reference whites for some illuminants are
-shown in Table \ref{t:reference-whites}.
+shown in \tabref{t:reference-whites}.
 
 \begin{table}
 \begin{center}
@@ -254,7 +254,7 @@ coordinates are shown in Equations
 \ref{e:luv-to-xyz-first}-\ref{e:kappa}. This conversion requires a
 reference white based on an illuminant $\begin{bmatrix}X_r & Y_r &
   Z_r\end{bmatrix}$ which for my experiments is chosen to be
-illuminant D65 (see Table \ref{t:reference-whites}).
+illuminant D65 (see \tabref{t:reference-whites}).
 
 \begin{align}
 X& = \frac{d - b}{a - c} 
@@ -292,7 +292,7 @@ and purple, and a number of intermediate hues as shown in Figure
 steps ranging from black (value 0) to white (value 10). Chroma
 represents the purity of a colour and the maximal possible chroma is
 dependent on the values of the hue-value pair. The three dimensions
-are shown in a diagram in Figure \ref{f:munsell-diagram}.
+are shown in a diagram in \figref{f:munsell-diagram}.
 
 \begin{figure}[htbp]
 \centering

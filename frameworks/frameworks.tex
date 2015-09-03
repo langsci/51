@@ -136,7 +136,7 @@ constraint. Some variables can be bound to a certain \textsc{semantic
 statement. Semantic entities are marked by square brackets.
 
 An example network for an utterance like \textit{the block} is shown in
-Figure \ref{f:context-and-network} to identify the block within a
+\figref{f:context-and-network} to identify the block within a
 hypothetical context. The {\sc Equal-to-Context} primitive (primitives
 will always be printed in small capitals) binds all entities in the
 context to $?s1$. The {\sc Filter-Set-Proto\-type} primitive takes
@@ -173,7 +173,7 @@ the meaning of an utterance like \textit{the big block}. The entity-set of
 all blocks in $?s2$ is now further filtered to contain only big blocks
 using the {\sc Filter-Set-Category} primitive, which binds the
 resulting set to $?s3$ which is passed on to the {\sc Select-Element}
-primitive. Note that the previous network in Figure \ref{f:network}
+primitive. Note that the previous network in \figref{f:network}
 would fail in this context as the {\sc Select-Element} primitive with
 a [unique] selector constrains the number of blocks in the context to
 be one at most.
@@ -316,7 +316,7 @@ compatible type. More elaborate heuristics, which for example avoid
 duplicate primitive constraints in one network, are also available.
 
 An example of such a search process to identify a single object is
-shown in Figure \ref{f:conceptualisation} which starts from a library
+shown in \figref{f:conceptualisation} which starts from a library
 of four primitive constraints: {\sc Equal-to-Context}, {\sc
   Filter-Set-Prototype}, {\sc Filter-Set-Category} and {\sc
   Select-Element}. The search process starts from a variable bound to
@@ -347,8 +347,8 @@ completed. If not, the search process continues.
       {\sc Filter-Set-Category} and {\sc Select-Element}. The number
       in each node of this tree reflects the order in which they are
       expanding, following a standard breadth-first heuristic. Node 5
-      corresponds to the network shown in Figure \ref{f:network}, node
-      14 to the one in Figure \ref{f:more-complex-network}.}
+      corresponds to the network shown in \figref{f:network}, node
+      14 to the one in \figref{f:more-complex-network}.}
     \label{f:conceptualisation}
   \end{center}
 \end{figure}
@@ -366,7 +366,7 @@ subprograms and templates that are re-used or further extended,
 possibly aided by heuristics.
 
 We have followed a similar strategy which stores previous solutions
-(like nodes 2, 5, 8 and 14 in Figure \ref{f:conceptualisation}) as a
+(like nodes 2, 5, 8 and 14 in \figref{f:conceptualisation}) as a
 \textsc{chunk} which can later be re-used like any other primitive in
 the library. Some variables will be considered to be internal to the
 chunk but one variable will have the special state of target argument
@@ -475,7 +475,7 @@ continues until no rule could be applied to the structure built up so
 far. An additional test might be provided to check whether this
 structure is satisfactory. Heuristics could be used to favour one
 branch over the other. An example of an application tree is shown in
-Figure \ref{f:fcg-search}.
+\figref{f:fcg-search}.
 
 \begin{figure}
   \begin{center}
@@ -519,7 +519,7 @@ categories, either in the semantic or syntactic domain, that allow
 other rules to specify which units to select for.
 
 An example of a simplified linguistic structure for an utterance like
-\textit{le ballon} is shown in Figure \ref{f:cfs-le-ballon} and its
+\textit{le ballon} is shown in \figref{f:cfs-le-ballon} and its
 bracketed notation is shown below. The semantic pole is shown on the
 left and the syntactic pole on the right to show the structural
 similarity between both poles.
@@ -586,7 +586,7 @@ syntactic pole of the current structure; in interpretation it is the
 semantic pole that is matched to the current semantic pole. When the
 matching phase has been successful, both poles of the rule are merged
 into the current structure. The application of a rule is illustrated
-in Figure \ref{f:fcg-rule-application}.
+in \figref{f:fcg-rule-application}.
 
 \begin{figure}[htb]
   \begin{center}
@@ -700,7 +700,7 @@ in the utterance parsed so far. When it has found two such units, it
 introduces an intermediary unit and makes the variables of the
 predicates in these two units equal through the referents of their
 units. The coupled feature structure before and after application of
-the construction is shown in Figure \ref{f:nounadj-application}.
+the construction is shown in \figref{f:nounadj-application}.
 
 \begin{figure}
   \begin{center}
@@ -747,7 +747,7 @@ introduces the corresponding meaning predicate together with their
 referent and semantical category and on the syntactic side introduces
 the appropriate syntactical categories. The coupled feature structure
 after application of lexical constructions is shown below in bracketed
-notation and in Figure \ref{f:nounadj-application} (top).
+notation and in \figref{f:nounadj-application} (top).
 
 \footnotesize
 \ltitle{Structure before application of the Noun-Adjective construction}
@@ -846,7 +846,7 @@ referent of the \emph{ballon-unit} and the \emph{rouge-unit}, which
 are equal in the \emph{?adjective-unit} and the \emph{?noun-unit} of
 the Noun-Adjective construction. The merging phase will ensure that
 these variables are equalised in the resulting feature structure,
-which is shown below and in Figure \ref{f:nounadj-application}
+which is shown below and in \figref{f:nounadj-application}
 (bottom).
 
 \footnotesize

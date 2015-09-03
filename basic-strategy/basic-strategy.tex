@@ -45,7 +45,7 @@ experiments also reported on \textsc{consensus samples}\is{consensus
   samples|see{colour category}}, which are samples that were
 consistently named by all participants in the experiment. The
 consensus samples for English \citep{sturges95location} are shown in
-Figure \ref{f:basic-consensus-chips-english}.
+\figref{f:basic-consensus-chips-english}.
 
 \begin{figure}[htbp]
   \begin{center}
@@ -62,7 +62,7 @@ Figure \ref{f:basic-consensus-chips-english}.
 The basic colour strategy has received quite some attention
 within the field of artificial language evolution. Most of these
 studies adhere to the the language game paradigm and use the colour
-naming game (see Section \ref{s:language-games-for-colour}) to study
+naming game (see \sectref{s:language-games-for-colour}) to study
 how a population of agents could coordinate their own colour category
 system. Although there seems to be a high coherence in the models that
 have been proposed for this game, different implementation choices
@@ -164,7 +164,7 @@ is compared to a particular colour sample to determine the graded
 membership of this sample to this category.
 
 Both colour samples and prototypes of colour categories are
-represented in the CIE $L^*a^*b^*$ (see Section \ref{s:lab}) colour
+represented in the CIE $L^*a^*b^*$ (see \sectref{s:lab}) colour
 space. This colour space turned out to be the best space in a related
 model of colour naming \citep{lammens94computational} and is
 \emph{equidistant}: Euclidean distance between colours represented in
@@ -208,7 +208,7 @@ process.
 \subsection{Semantic constraint network}
 
 The semantic constraint network for the basic colour strategy is shown
-in Figure \ref{f:bcs-semantic-structure}. The {\sc
+in \figref{f:bcs-semantic-structure}. The {\sc
   Equal-to-Context} primitive introduces all entities in the sensory
 context of the agent. The {\sc Profile-Colour-Dimensions} primitive
 sets the focus to each entity in the context based on the dimension
@@ -488,7 +488,7 @@ introduced will have as link feature the target entity of the semantic
 constraint network it captures.
 
 An example of such a rule for the contextual primitives of the
-semantic network shown in Figure \ref{f:bcs-semantic-structure} is
+semantic network shown in \figref{f:bcs-semantic-structure} is
 given below. It encapsulates three primitives,
 \textsc{Equal-To-Context}, \textsc{Profile-Colour-Dimensions} and
 \textsc{Select-Most-Activated}. It requires one subunit to be present
@@ -595,17 +595,17 @@ experiments the value of $cs_n$ is set to 250.
 \subsection{Results}
 
 The communicative success of the baseline experiment is shown in
-Figure \ref{f:bcs-baseline}. The more samples in one
+\figref{f:bcs-baseline}. The more samples in one
 context, the lower the corresponding communicative success. The
 language system based on the English foci seems to perform slightly
 better than the ones based on other language systems.
 
 
 Imposing a minimal interstimulus distance of 50 in the CIE $L^*a^*b^*$
-colour space (3' in Figure \ref{f:bcs-baseline}) does not
+colour space (3' in \figref{f:bcs-baseline}) does not
 appear to have a significant impact on the resulting communicative
 success, but the additional limitation to a particular subset of the
-Munsell chip does (3* in Figure \ref{f:bcs-baseline}).
+Munsell chip does (3* in \figref{f:bcs-baseline}).
 
 The main reason why some interactions still fail is that some samples
 in a context could not be successfully discriminated because another

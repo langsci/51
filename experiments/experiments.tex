@@ -88,7 +88,7 @@ values, to test the null-hypothesis that categories are not influenced
 by the chromatic distribution in the environment. All RGB values have
 been converted to both the CIE $L^*a^*b^*$ and CIE $L^*u^*v^*$ colour
 space. A projection of the three data sets on the $a^*b^*$ plane are
-shown in Figure \ref{f:simulated-data-sets}.
+shown in \figref{f:simulated-data-sets}.
 
 A first analysis of the data reveals that natural and urban data sets
 indeed contain a non-random structure. Figure
@@ -151,7 +151,7 @@ the algorithm might vary. How much the clusters vary depends on the
 structure of the data. To deal with possible variation in the found
 clusters, the colour data was clustered $1000$ times. The variation in
 the outcome of the centroids found by the algorithm for the datasets I
-am using, is illustrated in Figure \ref{f:clustering-first}. The $1000
+am using, is illustrated in \figref{f:clustering-first}. The $1000
 \times k$ centroids are then clustered again using $k$-means
 clustering, but now the initial points are each time chosen to be
 equal to the outcome of one run in the previous phase. From these
@@ -352,13 +352,13 @@ reach the level of discriminatory success indicated by the threshold.
 
 To investigate the impact of language on the coordination of colour
 categories within one population, I used the random data sets from the
-previous experiment (see Section \ref{s:simulated-data-sets}) and
+previous experiment (see \sectref{s:simulated-data-sets}) and
 compared the resulting categories at the end of one formation
 experiment to the categories at the end of one discrimination
 experiment. This comparison confirms the earlier results from
 \cite{steels05coordinating}: cultural acquisition of categories under
 the influence of language results in categories which are coordinated
-among all agents in a population. Figure \ref{f:language-categories}
+among all agents in a population. \figref{f:language-categories}
 shows the prototypes of each category of all agents of one population
 at the end of a simulation projected on the $a^*b^*$-plane. The
 formation experiment results in categories which are clustered; the
@@ -398,7 +398,7 @@ eliciting information only from a very low number of informants. Most
 of these criticisms have been addressed in a follow-up study, which
 studied pre-industrial 110 languages \citep{kay10world}. The resulting
 typology of these 110 languages are shown in a contour plot over the
-histogram of the Munsell chart in Figure \ref{f:contour-wcs}. Some
+histogram of the Munsell chart in \figref{f:contour-wcs}. Some
 regions in the chart are more likely to become the foci that are named
 in a language. These regions are claimed to correspond to the English
 colour foci. Analysis of the resulting data has confirmed the
@@ -431,7 +431,7 @@ and a formation experiment, in which language does apply some pressure
 to the formation process. Each experiment is run 105 times in a
 population of 10 agents in two different environmental conditions: one
 is based on the natural data set and the other one on the uniform data
-set (Section \ref{s:simulated-data-sets}). The context consists of
+set (\sectref{s:simulated-data-sets}). The context consists of
 three colour samples and the minimal distance between the different
 samples in the context varies between 40 and 60 (5 runs for each
 integer increment) in the CIE $L^*a^*b^*$ colour space.
@@ -495,7 +495,7 @@ h(S, T)& = \max_{s \in S} \left(\min_{t \in T} \left(d\left(s, t\right)\right)\r
 \label{e:hausdorff-2}
 \end{align}
 
-Figure \ref{t:comparison-to-wcs} shows the distance between the
+\figref{t:comparison-to-wcs} shows the distance between the
 highest WCS peaks and the highest peaks of the simulation results. The
 best result is obtained when communicative constraints are present but
 the environmental constraints are absent. This suggests that
@@ -587,7 +587,7 @@ environment in which a set of coloured objects are placed. Before each
 interaction, the experimenter modifies the current scene by adding or
 removing an object or by changing the position or orientation of an
 object in the scene. Each scene contains between two and four coloured
-objects from a set of 20 objects (Figure \ref{f:object-sets}). The
+objects from a set of 20 objects (\figref{f:object-sets}). The
 main sensor used for perception is one of the three CCD cameras in the
 head of the robot.
 
@@ -666,7 +666,7 @@ already established object models are used to classify image regions
 with respect to their similarity to object models (Figure
 \ref{f:perception-d}). Kalman Filters \citep{kalman60new} are used to
 associate classified regions to object models based on colour
-similarity and position in the image (Figure \ref{f:perception-e}).
+similarity and position in the image (\figref{f:perception-e}).
 
 Third, when needed in communicative interactions, the vision system
 encodes a set of visual properties about each object model. These
@@ -679,7 +679,7 @@ the object. This average colour is transformed into the perceptually
 equidistant colour space CIE \emph{L*a*b*} (using the equations
 described in Appendix \ref{s:spaces}). Furthermore, in order to be able
 to point to objects, the position of objects is computed in a robot
-egocentric reference system (Figure \ref{f:perception-f}).
+egocentric reference system (\figref{f:perception-f}).
 
 The robotic setup, including the vision system and mechanisms to
 establish \textsc{joint attention} \citep{tomasello95jointattention}, is
@@ -698,7 +698,7 @@ different perspectives of the robots. This is what I call
 \textsc{perceptual deviation}, which is illustrated in Figure
 \ref{f:scene-example}. The average difference in perceptual
 experiences for the same objects in the world across all scenes used
-in our experiment, is shown in Figure \ref{f:perceptual-deviation}.
+in our experiment, is shown in \figref{f:perceptual-deviation}.
 
 \begin{figure}[htbp]
   \centering%\small
@@ -804,12 +804,12 @@ hearer, I compare conditions II and III.
 
 The three environmental conditions are compared across four different
 experiments. The first baseline experiment is similar to the one
-introduced earlier (Section \ref{s:basic-baseline-experiment}) except
+introduced earlier (\sectref{s:basic-baseline-experiment}) except
 that now the predefined language system is based on the English
 category system \citep{sturges95location}. This experiment gives an
 idea about how two English human subjects would perform in the three
 different environmental conditions. The resulting communicative
-success is shown in Figure \ref{f:comparison-communicative-success},
+success is shown in \figref{f:comparison-communicative-success},
 which is roughly around 80\%. The interactions in which the two agents
 fail, are those in which the topic could not be discriminated. The
 presence of structure in the world has a positive impact on
@@ -842,10 +842,10 @@ operators introduced in Section
 level of communicative success that is almost as high as in the
 baseline experiment after 2k games using the 8 colour terms for the
 colour categories that are represented in the grounded data (see
-Section \ref{s:embodied-data}). This indicates that the used operators
+\sectref{s:embodied-data}). This indicates that the used operators
 are adequate to acquire an ontology from another agent.
 
-Figure \ref{f:comparison-communicative-success} shows the
+\figref{f:comparison-communicative-success} shows the
 communicative success in a formation experiment for a population of 10
 agents after 10k games per agent. These agents are more successful
 than the ones in the baseline and acquisition experiment, mainly due
@@ -879,7 +879,7 @@ with a colour lexicon based on the English colour categories but is
 allowed to change these categories to its functional needs using the
 alignment operator. The invention and adoption operators are
 disabled. The communicative success after 10k games per agent is shown
-in Figure \ref{f:comparison-communicative-success}. Compared to the
+in \figref{f:comparison-communicative-success}. Compared to the
 success of the baseline experiment, an overall improvement is observed
 in all three conditions.
 
@@ -907,14 +907,14 @@ comparison, I control the maximum number of colour categories in the
 formation experiment to be the number of categories that are learned
 in the acquisition experiment. As in the acquisition experiment, the
 teacher only uses the colour terms that are present in the embodied
-dataset, which are listed in Section \ref{s:embodied-data}. This
+dataset, which are listed in \sectref{s:embodied-data}. This
 maximum number of colour categories is set to 8. For each experiment
 type, I compare the three environmental conditions as described in the
 previous section.
 
 The results of the direct comparison method and the naming benchmark
-are shown in Figure \ref{f:comparison-distance-to-human-categories}
-and Table \ref{t:benchmark} respectively. Both methods show that in
+are shown in \figref{f:comparison-distance-to-human-categories}
+and \tabref{t:benchmark} respectively. Both methods show that in
 general, the acquisition experiments lead to ontologies that are more
 similar to the colour categories of English than the formation
 experiment. The main reason for this is that in the acquisition

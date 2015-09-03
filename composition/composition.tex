@@ -2,7 +2,7 @@
 \label{s:composition}
 \is{language strategy!origins of}
 
-In Part \ref{s:language-strats}, I have explored the semantic and
+In \partref{s:language-strats}, I have explored the semantic and
 syntactic templates behind some of the language strategies for
 colour. In this chapter I will explore the origins of these
 templates. The semantic templates are considered to be the result of a
@@ -15,7 +15,7 @@ an experiment.
 \section{Generation of semantic templates}
 \is{semantic template!generation}
 
-In Part \ref{s:language-strats}, the semantic templates were
+In \partref{s:language-strats}, the semantic templates were
 predefined. These templates can also be generated based on a
 combinatorial search process in which the cognitive primitives are
 combined to form a semantic constraint network. When such a network
@@ -23,10 +23,10 @@ turns out to be successful, it can be stored by the agent and act as
 a semantic template.
 
 An illustration of such a combinatorial search process is shown in
-Figure \ref{f:composition-colour}. This search process is based on
+\figref{f:composition-colour}. This search process is based on
 four primitives: \textsc{Equal-to-Context}, \textsc{Filter-by-Colour},
 \textsc{Filter-by-Membership} and \textsc{Select-Most-Acti\-vated}
-which have been introduced in Part \ref{s:language-strats}. Initially
+which have been introduced in \partref{s:language-strats}. Initially
 (node 1), the constraint network is empty and contains only an open
 variable for the topic entity which is of type colour-entity. Next,
 the search process traverses the library of primitives to find a
@@ -76,7 +76,7 @@ be insufficient to reach the current communicative goal. Finally, the
 search process finds a solution for the current goal in node 15. This
 network consists of two categorisation processes: one based on colour
 and another based on membership. The resulting semantic network is
-shown in Figure \ref{f:composed-network}.
+shown in \figref{f:composed-network}.
 
 \begin{figure}[htbp]
   \begin{center}
@@ -108,7 +108,7 @@ In this section I will introduce the repair strategies that allow an
 agent to learn the constructions that are needed to express semantic
 templates in language. Currently the main approach adopted to express
 semantic constraint networks in language is identical to the one
-introduced in Chapter \ref{s:basic-strategy}. The semantic network is
+introduced in \chapref{s:basic-strategy}. The semantic network is
 divided in three layers of units: (a) entity units containing the
 semantic entities, (b) functional units which make direct use of such
 a semantic entity and (c) contextual units which contain any remaining
@@ -146,7 +146,7 @@ use of any semantic entity. This division is illustrated in Figure
     \includegraphics[width=.8\textwidth]{./composition/figures/learning-2.pdf}
     \caption[Second linguistic structure to express semantic
     constraint networks]{Linguistic structure to express the semantic
-      constraint network shown in Figure \ref{f:map-network-2},
+      constraint network shown in \figref{f:map-network-2},
       divided over three layers of units: entity units (Block-Unit and
       A-Unit) for the semantic entities, functional units
       (Determiner-Unit and Noun-Unit) for the primitives that directly
@@ -174,14 +174,14 @@ one takes into account the linguistic development of each agent.
 \subsubsection{Starting from scratch}
 
 The first time an agent has to express/interpret a semantic network
-(similar to the one shown in Figure \ref{f:map-network-1}), which
+(similar to the one shown in \figref{f:map-network-1}), which
 could represent the semantics of a sentence like \textit{block}) it has no
 syntactic categories and hence it needs to invent two new syntactic
 categories. One specifies the syntactic association between the entity
 unit and the functional unit (e.g. Noun), and the other one specifies
 the association between the functional unit and the contextual unit
 (e.g. Noun-constituent). This kind of process is schematically shown
-on the left hand side of Figure \ref{f:map-syntactic-categories-1}.
+on the left hand side of \figref{f:map-syntactic-categories-1}.
 
 \begin{figure}[htbp]
   \begin{center}
@@ -213,7 +213,7 @@ Let us now consider a semantic constraint network in which a primitive
 constraint that does not take a semantic entity as direct argument
 (e.g. \textsc{Unique-Element}) is substituted by one that does so
 (e.g. \textsc{Select-Ele\-ments}) (an example of such a network is shown
-in Figure \ref{f:map-network-2}). Let's suppose this network
+in \figref{f:map-network-2}). Let's suppose this network
 corresponds to the semantics of a sentence like \textit{a block}. The
 contextual rule of the previous example is now useless as it contains
 a primitive constraint, namely \textsc{Unique-Element}, that is not
@@ -244,10 +244,10 @@ primitive constraint, \textsc{Filter-Set-Category}, in between two
 existing ones, namely \textsc{Filter-Set-Prototype} and
 \textsc{Select-Elements}, which could represent the semantics of a
 sentence like \textit{a big block}. An example of such a network is shown
-in Figure \ref{f:map-network-3}. Using the same repair strategy as
+in \figref{f:map-network-3}. Using the same repair strategy as
 used in the previous section, the agents could learn a new contextual
 rule which combines three subunits into one new unit as shown in the
-middle of Figure \ref{f:map-syntactic-categories-3}.
+middle of \figref{f:map-syntactic-categories-3}.
 
 \begin{figure}[htbp]
   \begin{center}
@@ -299,7 +299,7 @@ primitives that do not make direct use of semantic entities.
 
 Repair strategy 2.1, tries to optimise this process by trying to invent rules
 that re-use as many previously learned rules as possible. As described
-in Section \ref{s:construction-syntactic-category-system}, any of
+in \sectref{s:construction-syntactic-category-system}, any of
 these repair strategies tries to re-use the syntactic category system
 that has been built up so far as much as possible.
 
@@ -314,7 +314,7 @@ repair strategies that create these rules are described below.
     \includegraphics[width=.4\textwidth]{./composition/figures/learning-1.pdf}
     \caption[First target linguistic structure to express semantic
     constraint network]{Target linguistic structure to express the semantic
-      network shown in Figure \ref{f:map-network-1}, divided over
+      network shown in \figref{f:map-network-1}, divided over
       three units: an entity unit (Block-Unit) for the semantic
       entity, a functional unit (Noun-Unit) for the primitive that
       directly uses that entity and a contextual unit
@@ -420,7 +420,7 @@ grouped together in a \emph{contextual unit}. This unit is introduced
 by the application of a \emph{contextual rule}. 
 
 An example of such a rule for the contextual primitives of the
-semantic network shown in Figure \ref{f:map-network-1} is given
+semantic network shown in \figref{f:map-network-1} is given
 below. It encapsulates two primitives, \textsc{Equal-To-Context} and
 \textsc{Select-Unique-Element}. It requires one subunit to be present
 in the structure which is of syntactic category NounConstituent and
@@ -488,7 +488,7 @@ invented rule for the ball prototype.
 This type of re-use is used by each of the repair strategies, so
 syntactic categories are also re-used at the level of functional and
 contextual units. This becomes apparent when studying the second
-semantic network shown in Figure \ref{f:map-network-2}. Following the
+semantic network shown in \figref{f:map-network-2}. Following the
 proposed division in three layers of units, the target linguistic
 structure looks like \ref{f:map-structure-2}. Repair strategy 1.1
 created a new rule for the semantic entity [random] and, as there is
@@ -554,7 +554,7 @@ on to learning operator 1.3, which will invent a new rule for the
 contextual primitives.
 
 This repair strategy will trigger for example when the semantic
-network in Figure \ref{f:map-network-3} needs to be expressed in
+network in \figref{f:map-network-3} needs to be expressed in
 language. Let's suppose repair strategy 1.1 took care of inventing a
 new entity rule for the category [big] and repair strategy 1.2
 invented a functional rule for the \textsc{Filter-Set-Category}
@@ -565,7 +565,7 @@ instead of three, and that the variable equalities are also wrong. Learning
 operator 2.1 now invents a rule that combines two subunits into one
 and also takes care of the link features. The resulting AdjectiveNoun
 rule is shown below. All other rules remain as they were, but the
-resulting linguistic structure shown in Figure \ref{f:map-structure-3}
+resulting linguistic structure shown in \figref{f:map-structure-3}
 is now hierarchical.
 
 \footnotesize
