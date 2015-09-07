@@ -2,7 +2,7 @@
 \label{s:basic-experiments}
 
 Once all the operators have been provided for a particular language
-strategy, various in-depth studies on various aspects of language
+strategy, several in-depth studies on various aspects of language
 systems based on that language strategy are possible. In this chapter,
 I will study language systems that are based on the basic colour
 strategy. First, I will study the impact of colour distributions in
@@ -57,7 +57,7 @@ categories are mainly due to the colour distributions in the
 environment, it is essential to compare the reported results starting
 from a control dataset in which no such distribution is present
 (i.e. each colour occurs with the same probability). Only if the
-correlations between the centroids found in the latter dataset is
+correlations between the centroids found in the latter dataset are
 significantly lower than those originally reported, one can conclude
 that the high correlation in the original study is due to the colour
 distribution present in the original dataset. In order to measure the
@@ -276,8 +276,8 @@ sets the maximal level of success one might hope to achieve when using
 this particular classification algorithm.
 
 The performance of the centroids resulting from the uniform data set
-is still quite good (from a quarter to a half of the maximal expected
-performance, depending on the used colour space). This can only be
+is still quite good, from a quarter to a half of the maximal expected
+performance, depending on the used colour space. This can only be
 accounted for by the shape of the colour spaces and the clustering
 algorithm that were used but not by any statistical distribution in
 the environment. However, if such a distribution is present in a data
@@ -307,7 +307,7 @@ In order to discern the impact of language on the coordination of
 colour categories, I compare two experiments. The first one is a
 regular formation experiment (see \sectref{s:formation-experiment}) in which a population of agents needs to
 construct their own category system. In the discrimination experiment
-on the other hand, there is a population of agents which need to learn
+on the other hand, there is a population of agents which needs to learn
 to discriminate different colours in a particular context through a
 series of \emph{discrimination games} without using any language
 \citep{steels97constructing, belpaeme98construction}.
@@ -321,7 +321,7 @@ on the formation of a colour category system.
 
 In contrast to a normal naming game, a discrimination game is played
 by a single agent to whom a context consisting of several objects is
-presented. The agent selects a random object for which he needs to
+presented. The agent selects a random object for which it needs to
 find a discriminative category: no other object in the context might
 be categorised as belonging to the same category as the chosen
 object. Whenever it is able to find such a category, the game is
@@ -331,7 +331,7 @@ failure.
 When a discrimination game fails, the decision to either deploy the
 invention operator or the alignment operator, for which the learning
 rate is set to 0.7, depends on a number of conditions. When the agents
-know no categories so far, the invention operator is used. Otherwise,
+do not know any categories so far, the invention operator is used. Otherwise,
 the choice depends on its \emph{discriminative success}, which tracks
 the rate of success by the agent in the game so far. If this rate is
 above a certain threshold (in this experiment it is set to 0.9), the
@@ -388,20 +388,20 @@ term than others which moreover correspond to the 11 basic colour
 terms in English. This study received heavy criticisms, such as
 eliciting information only from a very low number of informants. Most
 of these criticisms have been addressed in a follow-up study, which
-studied pre-industrial 110 languages \citep{kay10world}. The resulting
+studied 110 pre-industrial languages \citep{kay10world}. The resulting
 typology of these 110 languages are shown in a contour plot over the
 histogram of the Munsell chart in \figref{f:contour-wcs}. Some
 regions in the chart are more likely to become the foci that are named
 in a language. These regions are claimed to correspond to the English
 colour foci. Analysis of the resulting data has confirmed the
-existence of universal trends \citep{regier05focal}. These results are
-however still controversial (see for example \cite{roberson02color,
+existence of universal trends \citep{regier05focal}. These results are,
+however, still controversial (see for example \cite{roberson02color,
   roberson05color}).
 
 \begin{figure}[htbp]
 \centering
   \includegraphics[width=.85\textwidth]{./experiments/figures/contour-wcs}
-  \caption[Contour plot of the World Colour Survey]{Contour plot of
+  \caption[Contour plot of the World Color Survey]{Contour plot of
     the histogram of foci over the Munsell diagram for the 110
     languages studied in the World Colour Survey. The lighter the
     contour lines, the higher the histogram. The foci of the colour
@@ -487,7 +487,7 @@ h(S, T)& = \max_{s \in S} \left(\min_{t \in T} \left(d\left(s, t\right)\right)\r
 \label{e:hausdorff-2}
 \end{align}
 
-\figref{t:comparison-to-wcs} shows the distance between the
+\tabref{t:comparison-to-wcs} shows the distance between the
 highest WCS peaks and the highest peaks of the simulation results. The
 best result is obtained when communicative constraints are present but
 the environmental constraints are absent. This suggests that
@@ -801,7 +801,7 @@ fail, are those in which the topic could not be discriminated. The
 presence of structure in the world has a positive impact on
 communicative success and the additional problem posed by perceptual
 deviation seems to have negative impact. This negative impact is
-rather limited, which resonates with a previous analysis of the same
+rather limited and resonates with a previous analysis of the same
 grounded data which indicated that colour is the least variable when
 different perspectives are used, unlike for example the spatial
 positions of the objects \citep{wellens08flexible}.
@@ -856,7 +856,7 @@ slightly lower when both agents share their perception.
 \end{center}
 \end{figure}
 
-Finally, I have studied the impact of having adaptive colour
+Finally, I studied the impact of having adaptive colour
 categories, independent of the ontology size, in an adaptation
 experiment. In this experiment a population of 10 agents starts out
 with a colour lexicon based on the English colour categories but is
