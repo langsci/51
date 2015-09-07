@@ -62,9 +62,7 @@ graded membership strategy for Tarahumara as described in
 agents have to communicate consist of five randomly chosen Munsell
 chips \citep{newhall42final}, without any additional constraints.
 
-\subsection{Measures}
-
-\subsubsection{Membership category variance}
+\subsection{Measures: Membership category variance}
 \is{measures!membership category variance}
 \is{membership category variance|see{measures}}
 
@@ -185,9 +183,7 @@ category system that is shared by all agents at the onset of the
 experiment is based on the Tarahumara language system (but without the
 membership categories). The invention rate is set to 0.005.
 
-\subsection{Measures}
-
-\subsubsection{Number of membership categories}\todo{rename this chapter to: 8.2.2 "Measures of numbers of membership categories" ?}
+\subsection{Measures: Number of membership categories}
 
 \is{measures!number of membership categories}
 \is{number of membership categories|see{measures}}
@@ -203,7 +199,7 @@ n_{mc}(P) = \frac{\displaystyle \sum_{i=1}^{|P|} n_{mc}(a)}{|P|}
 \label{eq:number-of-membership-categories-population}
 \end{equation}
 
-\subsection{Results}
+\subsection{Results}\enlargethispage{\baselineskip}
 
 The resulting dynamics of the experiment in an unconstrained
 environment are shown in \figref{f:gm-formation-dynamics}. The
@@ -211,10 +207,16 @@ agents reach a level of communicative success that is higher than the
 baseline experiment. The variance between the membership values of the
 membership categories between agents is quite low. The higher level of
 communicative success comes at the cost of a higher number of
-membership categories (around 13 where in the baseline experiment
-there were only 3). Moreover, this number does not seem to stabilise.
+membership categories (around 13 where in the baseline experiment there were only 3). Moreover, this number does not seem to stabilise.
 
-\begin{figure}[htpb]
+The main reason why the agents keep inventing new membership
+categories in an unconstrained environment, is that the continuous
+nature of the membership function. Agents keep on encountering
+situations in which their current repertoire of membership categories
+is insufficient to discriminate the topic based on its membership
+value. 
+
+\begin{figure}
   \begin{center}
     \includegraphics[width=.8\textwidth]{./graded-membership/figures/strict-formation.pdf}
     \caption[Dynamics of the formation experiment in an unconstrained
@@ -227,27 +229,6 @@ there were only 3). Moreover, this number does not seem to stabilise.
     \label{f:gm-formation-dynamics}
   \end{center}
 \end{figure}
-
-\begin{figure}[htpb]
-  \begin{center}
-    \includegraphics[width=0.8\textwidth]{./graded-membership/figures/strict-formation-constrained.pdf} % textwidth is set to prevent 2 additional pages for this chapter
-    \caption[Dynamics of the formation experiment in a constrained
-    environment]{Dynamics of the formation experiment in a
-      constrained environment in which the difference in membership
-      values of entities categorised as the same basic colour
-      categories is guaranteed to be more than 0.2. This additional
-      constraint results in a stable number of membership
-      categories. The results are averaged over 10 independent runs.}
-    \label{f:gm-formation-constrained-dynamics}
-  \end{center}
-\end{figure}
-
-The main reason why the agents keep inventing new membership
-categories in an unconstrained environment, is that the continuous
-nature of the membership function. Agents keep on encountering
-situations in which their current repertoire of membership categories
-is insufficient to discriminate the topic based on its membership
-value. 
 
 In order to verify this hypothesis, I have run exactly the same
 model in a constrained environment: the difference between the
@@ -265,7 +246,19 @@ required membership categories, as the membership function ranges from
 zero to unity and a minimal difference of 0.2 in membership value is
 guaranteed.
 
-
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=0.8\textwidth]{./graded-membership/figures/strict-formation-constrained.pdf} % textwidth is set to prevent 2 additional pages for this chapter
+    \caption[Dynamics of the formation experiment in a constrained
+    environment]{Dynamics of the formation experiment in a
+      constrained environment in which the difference in membership
+      values of entities categorised as the same basic colour
+      categories is guaranteed to be more than 0.2. This additional
+      constraint results in a stable number of membership
+      categories. The results are averaged over 10 independent runs.}
+    \label{f:gm-formation-constrained-dynamics}
+  \end{center}
+\end{figure}
 
 \section{Conclusion}
 
