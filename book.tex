@@ -1,15 +1,16 @@
-\documentclass[,output=long   % long|short|inprep              
+\documentclass[output=short   % long|short|inprep              
 			   %,blackandwhite
 			   %,smallfont
 			   ,draftmode   
-%			   ,draft
+			   ,draft
+			   ,biblatex
 			  ]{LSP/langsci}         
 			  
 \usepackage{localmetadata}
 \usepackage{localpackages}
 \usepackage{localcommands}			                   
 \usepackage{localhyphenation}
-
+\bibliography{references} % References file
 \begin{document} 
 \maketitle  
 
@@ -53,7 +54,7 @@
 
 \appendix
 
-\include{spaces/spaces}
+% \include{spaces/spaces}
 
 
 \backmatter
@@ -75,6 +76,5 @@
 \ohead{Subject index} 
 \printindex[sbj]
 \ohead{Bibliography}
-\bibliography{references} % References file
                             
 \end{document}
