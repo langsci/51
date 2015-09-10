@@ -1,28 +1,28 @@
-# specify your main target here:
+# specify your book target here:
 all: book pod cover
 
-# specify thh main file and all the files that you are including
+# specify thh book file and all the files that you are including
 SOURCE= $(wildcard *.tex) $(wildcard chapters/*.tex)\
-localbibliography.bib\
+references.bib\
 LSP/langsci.cls
 	 
-main.pdf: $(SOURCE)
-	xelatex -no-pdf main 
-	bibtex -min-crossrefs=200 main
-	xelatex  -no-pdf main
-	sed -i s/.*\\emph.*// main.adx #remove titles which biblatex puts into the name index
-	makeindex -o main.and main.adx
-	makeindex -o main.lnd main.ldx
-	makeindex -o main.snd main.sdx
-	xelatex -no-pdf main 
-	xelatex main 
+book.pdf: $(SOURCE)
+	xelatex -no-pdf book 
+	bibtex -min-crossrefs=200 book
+	xelatex  -no-pdf book
+	sed -i s/.*\\emph.*// book.adx #remove titles which biblatex puts into the name index
+	makeindex -o book.and book.adx
+	makeindex -o book.lnd book.ldx
+	makeindex -o book.snd book.sdx
+	xelatex -no-pdf book 
+	xelatex book 
 
 #create only the book
-book: main.pdf 
+book: book.pdf 
 
 #create a png of the cover
-cover: main.pdf
-	convert main.pdf\[0\] -quality 100 -background white -alpha remove -bordercolor black -border 2  cover.png
+cover: book.pdf
+	convert book.pdf\[0\] -quality 100 -background white -alpha remove -bordercolor black -border 2  cover.png
 	display cover.png
 	convert -geometry 50x50% cover.png covertwitter.png
  
@@ -31,20 +31,20 @@ pod: bod createspace
  
 
 #prepare for submission to BOD
-bod: main.pdf  
-	sed "s/output=short/output=coverbod/" main.tex >bodcover.tex 
+bod: book.pdf  
+	sed "s/output=short/output=coverbod/" book.tex >bodcover.tex 
 	xelatex bodcover.tex 
 	xelatex bodcover.tex
 	mv bodcover.pdf bod
-	./filluppages 4 main.pdf bod/bodcontent.pdf 
+	./filluppages 4 book.pdf bod/bodcontent.pdf 
 
 # prepare for submission to createspace
-createspace:  main.pdf
-	sed "s/output=short/output=covercreatespace/" main.tex >createspacecover.tex 
+createspace:  book.pdf
+	sed "s/output=short/output=covercreatespace/" book.tex >createspacecover.tex 
 	xelatex createspacecover.tex
 	xelatex createspacecover.tex
 	mv createspacecover.pdf createspace
-	./filluppages 1 main.pdf createspace/createspacecontent.pdf 
+	./filluppages 1 book.pdf createspace/createspacecontent.pdf 
 
 #housekeeping	
 clean:
