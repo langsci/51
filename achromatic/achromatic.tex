@@ -203,6 +203,20 @@ process.
 
 \subsection{Semantic constraint network}
 
+\begin{figure}[b]
+  \centering
+  \includegraphics[width=\textwidth]{./achromatic/figures/semantic-program.pdf}
+  \caption[Semantic constraint network for basic
+  modifiers]{Semantic constraint network for basic modifiers. The
+    network consists of two \textsc{Filter-by-Colour} primitives. The
+    first uses the basic colour category set, the second the
+    lightness modifiers which are transformed into the category used
+    by the first categorisation process. This transformation is
+    computed by the \textsc{Scale-Category-Set-to-Category}
+    primitive.}
+  \label{f:ams-semantic-structure}
+\end{figure}
+
 The complete semantic network for the basic modification
   strategy is shown in \figref{f:ams-semantic-structure}. It is
 very similar to the one for the category combination
@@ -219,19 +233,7 @@ entity from the resulting set. An optional
 \textsc{Filter-by-Membership} primitive can be added between the last
 two primitives.
 
-\begin{figure}[htpb]
-  \centering
-  \includegraphics[width=\textwidth]{./achromatic/figures/semantic-program.pdf}
-  \caption[Semantic constraint network for basic
-  modifiers]{Semantic constraint network for basic modifiers. The
-    network consists of two \textsc{Filter-by-Colour} primitives. The
-    first uses the basic colour category set, the second the
-    lightness modifiers which are transformed into the category used
-    by the first categorisation process. This transformation is
-    computed by the \textsc{Scale-Category-Set-to-Category}
-    primitive.}
-  \label{f:ams-semantic-structure}
-\end{figure}
+
 
 \subsection{Semantic primitives}
 

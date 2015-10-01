@@ -277,9 +277,9 @@ primitive, $?s3$ and $?s2$ can be completely determined, which allows
 IRL to come up with either a category that is already known or with an
 entirely new category that would perform the correct filtering.
 
-\begin{figure}[htbp]
+\begin{figure}[t]
   \begin{center}
-    \includegraphics[width=\textwidth]{./frameworks/figures/network-learning.pdf}
+    \includegraphics[width=.9\textwidth]{./frameworks/figures/network-learning.pdf}
     \caption[Example constraint network during learning]{A partial
       network that could be reconstructed by combining information
       from parsing \textit{the wabado ball} and the communicative goal
@@ -295,6 +295,7 @@ entirely new category that would perform the correct filtering.
 \label{s:irl-conceptualisation}
 \is{conceptualisation}
 \is{semantic constraint network!generation}
+% \largerpage %long distance to get exp
 
 Conceptualisation can now be viewed as a search process in which a
 semantic constraint network that is suitable to achieve the
@@ -333,9 +334,9 @@ single {\sc Filter-Set-Prototype} (node 5) or {\sc
   Filter-Set-Category} (node 8), conceptualisation has been
 completed. If not, the search process continues.
 
-\begin{figure}
+\begin{figure}[t]
   \begin{center}
-    \includegraphics[width=.75\textwidth]{./frameworks/figures/conceptualisation.pdf}
+    \includegraphics[width=.6\textwidth]{./frameworks/figures/conceptualisation.pdf}
     \caption[Example of the conceptualisation process]{Example search
       tree during conceptualisation, starting from a library of four
       primitives: {\sc Equal-to-Context}, {\sc Filter-Set-Prototype},
@@ -554,7 +555,7 @@ similarity between both poles.
 \end{figure}
 
 \subsection{Application of a construction}
-
+\largerpage
 Now that we know how a linguistic structure is represented in FCG, we
 can turn to the application of a construction to build up such a
 structure. Like a linguistic structure, a construction is also
@@ -600,6 +601,7 @@ in \figref{f:fcg-rule-application}.
 \subsection{Structure building}
 \is{FCG!structure building}
 \is{structure building|see{FCG}}
+\largerpage[-1]
 
 The merging phases during the application of a construction can be
 used to add new features to a unit or to add new values to a
@@ -631,6 +633,7 @@ of these operators is shown below.
 \end{lstlisting}
 \normalsize
 
+\newpage
 Units that are marked by the J-operator, or \textsc{J-units} for short,
 are ignored in the matching phase, but receive special treatment
 during the merging phase. The TAG-operator allows a construction to
@@ -699,7 +702,7 @@ the construction is shown in \figref{f:nounadj-application}.
 
 \begin{figure}
   \begin{center}
-    \includegraphics[width=.75\textwidth]{./frameworks/figures/nounadj-application.pdf}
+    \includegraphics[width=.7\textwidth]{./frameworks/figures/nounadj-application.pdf}
     \caption[Coupled feature structures before and after the
     application of an example construction]{Coupled feature structures
       before (top) and after (bottom) the application of the
