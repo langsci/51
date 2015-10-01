@@ -140,7 +140,8 @@
  	\newlength{\spinewidth}
  	\newlength{\totalwidth}
  	\newlength{\totalheight}
- 	\newlength{\bleed}{3.175mm}
+ 	\newlength{\bleed}
+ 	\setlength{\bleed}{3.175mm}
  	\setlength{\seitenbreite}{169.9mm}
  	\setlength{\seitenhoehe}{244.1mm}
  	
