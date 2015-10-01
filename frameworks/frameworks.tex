@@ -21,7 +21,7 @@ The syntactic templates require a grammar formalism, as the word order
 seems to have an impact on the resulting focal colour that is
 intended.  This is for example the case in the compounding strategy in
 Russian, where \textit{zel\"eno-\v z\"eltyj} (`green-yellow') is different
-from\textit{\v z\"elto-zel\"enyj} (`yellow-green'). This difference implies
+from \textit{\v z\"elto-zel\"enyj} (`yellow-green'). This difference implies
 that the lexical approach in which the lexicon captures a direct
 association between terms and colour category is no longer sufficient.
 
@@ -71,7 +71,7 @@ a standard logic, but in an alternative framework, Incremental
 Recruitment Language or IRL \citep{steels00emergence,
   steels05planning, vandenbroeck07constraintbased,
   vandenbroeck08constraintbased}. In this framework the meaning of a
-sentence is a \emph{semantic constraint network} that the speaker
+sentence is a \textsc{semantic constraint network} that the speaker
 wants the hearer to evaluate in order to achieve the communicative
 goal selected by the speaker. This approach resonates with earlier
 work in AI on procedural semantics \citep{winograd72understanding}.
@@ -89,7 +89,7 @@ communication by interpreting its own utterance to detect potential
 ambiguities \citep{steels03reentrance}. The hearer can try to
 reproduce a partially understood meaning together with the
 communicative goal, revealed by the speaker in a failed interaction,
-to infer which parts it misinterpreted or did not know yet. On a
+to infer which parts it misinterpreted or did not know yet. On a\enlargethispage{\baselineskip}
 technical level, this strongly suggests a constraint-propagation
 language \citep{marriott98programming}.
 
@@ -163,7 +163,7 @@ element to $?t$.
 \label{f:context-and-network}
 \end{figure}
 
-The more complex the world (for example by adding a second block), the
+\newpage The more complex the world (for example by adding a second block), the
 more complex the semantic constraint network will need to be in order
 to achieve this goal (for example extending the previous one with
 another filter operation based on size). An example of such a context
@@ -413,7 +413,7 @@ primitive is given below for {\sc Filter-Set-Prototype}.
 The main linguistic theory that we adopt is the one of Construction
 Grammar \citep{goldberg95constructions, goldberg03constructions}. This
 theory assumes that each unit of linguistic knowledge is a
-\emph{construction} which is specified both in the syntactic and the
+\textsc{construction} which is specified both in the syntactic and the
 semantic domain. This contrasts sharply with a generative constituent
 structure grammar which focusses only on syntax, and in which
 semantics is supposed to be defined separately by translation rules
@@ -434,7 +434,7 @@ Structure Grammar (HPSG) frameworks \citep{pollard94hpsg}. FCG is
 designed to support experiments in artificial language evolution and
 hence supports some unique features: reversibility and fluidity.
 
-\emph{Reversibility} refers to the idea that the same set of
+\textsc{reversibility} refers to the idea that the same set of
 constructions can be used for both production and parsing. This
 feature does not only allow the agents to use the same formalism and
 set of constructions in both production and interpretation, but also
@@ -445,7 +445,7 @@ be used as a trigger to add some additional grammar or syntax to the
 language \citep{steels06how}.
 
 Another feature that makes FCG suitable for experiments in artificial
-language evolution is its \emph{fluidity}, which states that agents
+language evolution is its \textsc{fluidity}, which states that agents
 will produce and parse as much information as possible, even if their
 linguistic knowledge is incomplete or conflicting. Incomplete
 knowledge might lead to the invention of a new construction in which
@@ -495,21 +495,21 @@ the semantic domain and the other in the syntactic domain. Each
 feature structure consists of a list of units, which are typically
 reflected in both poles. Each unit consists of a list of feature-value
 pairs which represent linguistic information. Special features,
-\emph{sem-subunits} in the semantic pole and \emph{syn-subunits},
+{\footnotesize\tt sem-subunits} in the semantic pole and {\footnotesize\tt syn-subunits},
 allow to specify hierarchical relations between units to construct
 treelike relations between units.
 
 FCG is open-ended to the features it can handle, but the features that
-are typically used are: \emph{meaning}, \emph{referent} and
-\emph{sem-cat} in the semantic pole and \emph{form} and \emph{syn-cat}
-in the syntactic pole. The \emph{meaning} feature refers to the
+are typically used are: {\footnotesize\tt meaning}, {\footnotesize\tt referent} and
+{\footnotesize\tt sem-cat} in the semantic pole and {\footnotesize\tt form} and {\footnotesize\tt syn-cat}
+in the syntactic pole. The {\footnotesize\tt meaning} feature refers to the
 conceptual meaning of a certain unit, which can be expressed in any
 formalism, including predicate logic or a semantic network in IRL. The
-\emph{referent} is typically represented as a unique variable which is
+{\footnotesize\tt referent} is typically represented as a unique variable which is
 bound to the (physical) entity that a unit (including all its
-subunits) refers to. The \emph{form} feature contains all posible form
+subunits) refers to. The {\footnotesize\tt form} feature contains all possible form
 constraints, such as particular strings or word-order constraints
-between its subunits. The \emph{syn-} and \emph{sem-cat} are
+between its subunits. The {\footnotesize\tt syn-} and {\footnotesize\tt sem-cat} are
 categories, either in the semantic or syntactic domain, that allow
 other rules to specify which units to select for.
 
@@ -634,24 +634,24 @@ of these operators is shown below.
 Units that are marked by the J-operator, or \textsc{J-units} for short,
 are ignored in the matching phase, but receive special treatment
 during the merging phase. The TAG-operator allows a construction to
-bind a certain variable, \emph{?tag-variable}, to a certain
+bind a certain variable, {\footnotesize\tt ?tag-variable}, to a certain
 feature-value pair. Whenever this variable appears inside a J-unit of
 the same rule, the bound feature-value pair will be moved to this
 J-unit. The special treatment of a J-unit in the merging phase is as
 follows:
 
 \begin{enumerate}
-\item If \emph{?focus-unit} is bound to a unit-name in the current
+\item If {\footnotesize\tt ?focus-unit} is bound to a unit-name in the current
   structure, it will consider this unit to be in focus; if this
   variable is unbound, a new unit is created that will be in focus of
   this J-unit.
-\item The focus-unit will become a subunit of \emph{?parent-unit} and
-  the optional \linebreak\emph{?child-units} will become children of the
+\item The focus-unit will become a subunit of {\footnotesize\tt ?parent-unit} and
+  the optional \linebreak{\footnotesize\tt ?child-units} will become children of the
   focus-unit.
 \item The listed feature-value pairs will be merged into to the
   focus-unit.
 \item The feature-value pairs that are bound to the
-  \emph{?tag-variables} will be moved from their original unit to the
+  {\footnotesize\tt ?tag-variables} will be moved from their original unit to the
   focus-unit.
 \end{enumerate}
 
@@ -689,8 +689,8 @@ linking problem for this small example.
 I will now show the application of an example
 Noun-Adjective-construction in interpretation. It illustrates both the
 structure building operators and the linking problem. It will search
-for two units, one of syntactical category \emph{noun} and the other
-of syntactical category \emph{adjective} that occur next to each other
+for two units, one of syntactical category ``noun'' and the other
+of syntactical category ``adjective'' that occur next to each other
 in the utterance parsed so far. When it has found two such units, it
 introduces an intermediary unit and makes the variables of the
 predicates in these two units equal through the referents of their
@@ -785,22 +785,21 @@ interpretation, this means the syntactic pole of the construction will
 be matched against the syntactic pole of the current coupled feature
 structure, which succeeds. There is only one adjective-unit and one
 noun-unit, so this results one set of possible bindings:
-\emph{((?parent-unit . top-unit) (?noun-unit . ballon-unit)
+{\footnotesize\tt ((?parent-unit . top-unit) (?noun-unit . ballon-unit)
   (?adjective-unit . rouge-unit))}.
 
 Matching succeeded, so we can now continue to the first merge phase,
 in which the syntactic pole of the construction is merged into the
 current feature structure. The syntactic pole contains only one J-unit
 which will now be applied. As there is no binding for
-\emph{?adj-noun-unit} yet, it will create a new unit that will be a
-child of \emph{?parent-unit} (which in this application will be
-\emph{top-unit} as can be seen in the bindings of the unification
-phase) and which will have two children: \emph{ballon-unit} and
-\emph{rouge-unit}. The feature-value pairs specified in the J-unit,
+{\footnotesize\tt ?adj-noun-unit} yet, it will create a new unit that will be a
+child of {\footnotesize\tt ?parent-unit} (which in this application will be {\footnotesize\tt top-unit} as can be seen in the bindings of the unification
+phase) and which will have two children: {\footnotesize\tt ballon-unit} and
+{\footnotesize\tt rouge-unit}. The feature-value pairs specified in the J-unit,
 namely the syntactical category noun, will be added to this
-unit. Finally the tag-variable \emph{?form} will be handled, which
-moves the meets constraint between the \emph{ballon-unit} and the
-\emph{rouge-unit} from \emph{top-unit} to the newly created unit.
+unit. Finally the tag-variable {\footnotesize\tt ?form} will be handled, which
+moves the meets constraint between the {\footnotesize\tt ballon-unit} and the
+{\footnotesize\tt rouge-unit} from {\footnotesize\tt top-unit} to the newly created unit.
 
 \footnotesize
 \ltitle{The Noun-Adjective construction}
@@ -837,8 +836,8 @@ merged into the semantic pole of the current feature structure. Next
 to creating a new unit similar to the unit created in the syntactic
 pole, it ensures the variables of the predicates for ball and red will
 be made equal. In the current structure they are available as the
-referent of the \emph{ballon-unit} and the \emph{rouge-unit}, which
-are equal in the \emph{?adjective-unit} and the \emph{?noun-unit} of
+referent of the {\footnotesize\tt ballon-unit} and the {\footnotesize\tt rouge-unit}, which
+are equal in the {\footnotesize\tt ?adjective-unit} and the {\footnotesize\tt ?noun-unit} of
 the Noun-Adjective construction. The merging phase will ensure that
 these variables are equalised in the resulting feature structure,
 which is shown below and in \figref{f:nounadj-application}
