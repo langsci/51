@@ -8,13 +8,13 @@
 \newcommand{\definition}[2]{
   \def\definitionnumber{\ }
   \ifnum\sectionlevel=1\refstepcounter{section}
-  \addcontentsline{toc}{section}{\thesection\  #1 #2}\def\definitionnumber{\thesection}
+%  \addcontentsline{toc}{section}{\thesection\  #1 #2}\def\definitionnumber{\thesection}
   \else
   \ifnum\sectionlevel=13\refstepcounter{subsection}
-  \addcontentsline{toc}{subsection}{\thesubsection\  #1 #2}\def\definitionnumber{\thesubsection}
+%  \addcontentsline{toc}{subsection}{\thesubsection\  #1 #2}\def\definitionnumber{\thesubsection}
   \else
   \ifnum\sectionlevel=135\refstepcounter{subsubsection}
-  \addcontentsline{toc}{subsubsection}{\thesubsubsection\  #1 #2}
+%  \addcontentsline{toc}{subsubsection}{\thesubsubsection\  #1 #2}
   \def\definitionnumber{\thesubsubsection}
   \fi\fi\fi
   \label{s:definition-#2}
@@ -39,7 +39,3 @@
 \let\rm\upshape
 \let\it\itshape  
 \defbibheading{references}{\chapter{References}}
-
-\newcommand{\largerpage}[1][1]{
-\enlargethispage{#1\baselineskip}
-}

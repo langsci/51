@@ -52,29 +52,33 @@
 
 \include{conclusion/conclusion}
 
+\makeatletter\def\toclevel@chapter{-1}\def\toclevel@section{0}\def\toclevel@subsection{1}\makeatother % To control TOC Bookmark level in PDF. Thanks to http://www.latex-community.org/forum/viewtopic.php?p=11584#p11584
 \appendix
 
 \include{spaces/spaces}
 
 \backmatter
 \phantomsection%this allows hyperlink in ToC to work
-\addcontentsline{toc}{chapter}{Indexes} 
+%\addcontentsline{toc}{part}{References}
+\defbibheading{references}{\chapter{References}}
+\printbibliography[heading=references]
 
-\phantomsection%this allows hyperlink in ToC to work
+
+\phantomsection 
+\addcontentsline{toc}{chapter}{Index} 
 \addcontentsline{toc}{section}{Name index}
 \ohead{Name index} 
-\printindex
- 
-% \phantomsection%this allows hyperlink in ToC to work
-% \addcontentsline{toc}{section}{Language index}
-% \ohead{Language index} 
-% \printindex[lan] 
- 
-\phantomsection%this allows hyperlink in ToC to work
+\printindex 
+
+\phantomsection 
+\addcontentsline{toc}{section}{Language index}
+\ohead{Language index} 
+\printindex[lan] 
+
+\phantomsection 
 \addcontentsline{toc}{section}{Subject index}
 \ohead{Subject index} 
 \printindex[sbj]
-\ohead{Bibliography}
-\printbibliography[heading=references]
+
                             
 \end{document}

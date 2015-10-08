@@ -115,7 +115,7 @@ overall success increases the expected level of systematicity in the
 language system when it needs to be extended as the agent will do so
 by using the most conventional and successful language strategy.
 
-\subsection{Implementation of language strategies}
+\subsection*{Implementation of language strategies}
 
 The agents keep track of the \textsc{overall strategy success} of each
 language strategy, which reflects its success in previous language
@@ -130,7 +130,7 @@ term. More formally, it is the average communicative success of the
 last 50 interactions in which a strategy is used with this specific
 term.
 
-\subsubsection{Production and interpretation}
+\subsection*{Production and interpretation}
 
 The general procedure to produce an utterance is implemented as
 follows. First the speaker tries to use each colour term using the
@@ -148,7 +148,7 @@ fails, it will reinterpret the term with the strategy with the
 highest overall success. If this fails as well, it resorts to the
 other strategies ordered by decreasing overall success.
 
-\subsubsection{Alignment}
+\subsection*{Alignment}
 
 The agents store the strategy they deployed to produce or interpret a
 particular term to update both the overall and the term-specific
@@ -158,7 +158,7 @@ deployed only the $L^*$ value of the used category is updated. When
 the brightness and hue strategy was deployed, the values of each
 dimension are updated (see \sectref{s:bcs-adoption-alignment-operators}).
 
-\subsubsection{Invention and adoption}
+\subsection*{Invention and adoption}
 
 Whenever an agent feels the communicative pressure to invent a new
 colour category, it will use the strategy with the highest overall
@@ -319,7 +319,7 @@ that are reproducible in the Adobe 1998 RGB colour model. The ratio
 of constant hue to constant brightness contexts is controlled through
 the hue difference parameter.
 
-\subsubsection{Results}
+\subsection{Results}
 
 The results are shown in \figref{f:ls-selective-advantage} and
 indicate the resulting strategy success after 10k interactions. The
