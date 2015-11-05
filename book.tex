@@ -54,15 +54,16 @@
 
 \makeatletter\def\toclevel@chapter{-1}\def\toclevel@section{0}\def\toclevel@subsection{1}\makeatother % To control TOC Bookmark level in PDF. Thanks to http://www.latex-community.org/forum/viewtopic.php?p=11584#p11584
 \appendix
-
 \include{spaces/spaces}
+\cleardoublepage
 
 \backmatter
 \phantomsection%this allows hyperlink in ToC to work
 %\addcontentsline{toc}{part}{References}
 \defbibheading{references}{\chapter{References}}
+\ohead{References}
 \printbibliography[heading=references]
-
+\cleardoublepage
 
 \phantomsection 
 \addcontentsline{toc}{chapter}{Index} 
